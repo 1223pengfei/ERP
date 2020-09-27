@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.PermissionMapper">
+  <select id="getpermission" resultMap="BaseResultMap">
+    select
+      p1.permissionID ,
+      p1.permissionName ,
+      p1.permissionUrl ,
+      p1.permissionCode ,
+      p1.upPermissionID,
+      p2.permissionID   2permissionID   ,
+      p2.permissionName 2permissionName ,
+      p2.permissionUrl  2permissionUrl  ,
+      p2.permissionCode 2permissionCode ,
+      p2.upPermissionID 2upPermissionID
+    from erp_auth_permission p1 ,erp_auth_permission p2
+    where p2.upPermissionID = p1.permissionID
+    ORDER BY p2.upPermissionID
+  </select>
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.auth.Permission">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="permissionID" jdbcType="INTEGER" property="permissionid" />
+    <result column="permissionName" jdbcType="VARCHAR" property="permissionname" />
+    <result column="permissionUrl" jdbcType="VARCHAR" property="permissionurl" />
+    <result column="permissionCode" jdbcType="VARCHAR" property="permissioncode" />
+    <result column="upPermissionID" jdbcType="INTEGER" property="uppermissionid" />
+    <collection property="permissions" ofType="com.scd.erp.Vo.auth.Permission">
+      <id column="2permissionID" jdbcType="INTEGER" property="permissionid" />
+      <result column="2permissionName" jdbcType="VARCHAR" property="permissionname" />
+      <result column="2permissionUrl" jdbcType="VARCHAR" property="permissionurl" />
+      <result column="2permissionCode" jdbcType="VARCHAR" property="permissioncode" />
+      <result column="2upPermissionID" jdbcType="INTEGER" property="uppermissionid" />
+    </collection>
+  </resultMap>
+
+</mapper>

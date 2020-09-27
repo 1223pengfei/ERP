@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.CraftsMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Crafts">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="craftsID" jdbcType="INTEGER" property="craftsid" />
+    <result column="ReflowCycles" jdbcType="INTEGER" property="reflowcycles" />
+    <result column="Environment" jdbcType="VARCHAR" property="environment" />
+    <result column="baseID" jdbcType="INTEGER" property="baseid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    craftsID, ReflowCycles, Environment, baseID
+  </sql>
+</mapper>

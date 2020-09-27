@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.CycleMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Cycle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="cycleID" jdbcType="INTEGER" property="cycleid" />
+    <result column="ExpireDuration" jdbcType="INTEGER" property="expireduration" />
+    <result column="LifeDuration" jdbcType="INTEGER" property="lifeduration" />
+    <result column="LifeRemaining" jdbcType="INTEGER" property="liferemaining" />
+    <result column="UnitofAccount" jdbcType="VARCHAR" property="unitofaccount" />
+    <result column="baseID" jdbcType="INTEGER" property="baseid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    cycleID, ExpireDuration, LifeDuration, LifeRemaining, UnitofAccount, baseID
+  </sql>
+</mapper>

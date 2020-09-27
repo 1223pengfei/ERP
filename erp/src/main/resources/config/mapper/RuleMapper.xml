@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.RuleMapper">
+
+  <select id="allRule" resultMap="BaseResultMap">
+    SELECT * from erp_auth_rule r
+      LEFT JOIN erp_center_rule_persission c on c.rulID = r.ruleID
+      LEFT JOIN (
+                  SELECT * FROM	erp_auth_permission WHERE upPermissionID != 0
+                )p on p.permissionID = c.persID
+
+  </select>
+
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.auth.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ruleID" jdbcType="INTEGER" property="ruleid" />
+    <result column="ruleName" jdbcType="VARCHAR" property="rulename" />
+    <result column="upRuleID" jdbcType="INTEGER" property="upruleid" />
+    <result column="ruleRemark" jdbcType="VARCHAR" property="ruleremark" />
+    <collection property="permissions" ofType="com.scd.erp.Vo.auth.Permission">
+      <id column="permissionID" jdbcType="INTEGER" property="permissionid" />
+      <result column="permissionName" jdbcType="VARCHAR" property="permissionname" />
+      <result column="permissionUrl" jdbcType="VARCHAR" property="permissionurl" />
+      <result column="permissionCode" jdbcType="VARCHAR" property="permissioncode" />
+    </collection>
+  </resultMap>
+
+</mapper>

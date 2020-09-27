@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.ProjectMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.user.Project">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="pid" jdbcType="INTEGER" property="pid"/>
+        <result column="pname" jdbcType="VARCHAR" property="pname"/>
+        <result column="starttime" jdbcType="TIMESTAMP" property="starttime"/>
+        <result column="endtime" jdbcType="TIMESTAMP" property="endtime"/>
+        <result column="pbudget" jdbcType="VARCHAR" property="pbudget"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="speed" jdbcType="DOUBLE" property="speed"/>
+        <result column="state" jdbcType="INTEGER" property="state"/>
+        <result column="uid" jdbcType="INTEGER" property="uid"/>
+        <collection property="users" ofType="com.scd.erp.Vo.Person.User">
+            <id column="userID" jdbcType="INTEGER" property="userid"/>
+            <association property="person" javaType="com.scd.erp.Vo.Person.Person">
+                <id column="personID" jdbcType="INTEGER" property="personid"/>
+                <result column="personName" jdbcType="VARCHAR" property="personname"/>
+                <result column="IDcard" jdbcType="VARCHAR" property="idcard"/>
+                <result column="fixedMail" jdbcType="VARCHAR" property="fixedmail"/>
+
+            </association>
+        </collection>
+    </resultMap>
+    <insert id="saveProject" parameterType="com.scd.erp.user.Project">
+        insert into project (pname, starttime, endtime, pbudget, description, state, uid)
+        values (#{pname,jdbcType=VARCHAR}, #{starttime,jdbcType=TIMESTAMP},
+                #{endtime,jdbcType=TIMESTAMP}, #{pbudget,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR},
+                #{state,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER})
+    </insert>
+
+    <select id="selectProject" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select *
+        from project p
+            LEFT JOIN erp_person_user u ON p.uid = u.userID
+            left join erp_person_msg per on u.presonID = per.personID
+        ORDER BY p.starttime DESC
+    </select>
+
+    <select id="projectStatistics" resultType="com.scd.erp.user.CountClass">
+        select
+            COUNT(*) as COUNT,
+            state
+        from project
+        GROUP BY state
+    </select>
+
+    <select id="selectProjectByuid" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select *
+        from erp_person_user u
+            left join erp_person_msg per on u.presonID = per.personID
+            LEFT JOIN project p ON u.userID = p.uid
+        WHERE p.uid = #{uid,jdbcType=INTEGER}
+    </select>
+
+    <delete id="deleteProject" parameterType="java.lang.Integer">
+        delete from project
+        where pid = #{pid,jdbcType=INTEGER}
+    </delete>
+    <delete id="deleteProjectPerson" parameterType="java.lang.Integer">
+        delete from project_user
+        where uid = #{uid,jdbcType=INTEGER} and pid = #{pid,jdbcType=INTEGER}
+    </delete>
+
+    <update id="updateProject" parameterType="com.scd.erp.user.Project">
+        update project
+        set pname       = #{pname,jdbcType=VARCHAR},
+            starttime   = #{starttime,jdbcType=TIMESTAMP},
+            endtime     = #{endtime,jdbcType=TIMESTAMP},
+            pbudget     = #{pbudget,jdbcType=VARCHAR},
+            description = #{description,jdbcType=VARCHAR},
+            speed       = #{speed,jdbcType=DOUBLE},
+            state       = #{state,jdbcType=INTEGER}
+        where pid = #{pid,jdbcType=INTEGER}
+    </update>
+
+    <insert id="addProjectPersonTrue">
+        insert into project_user (uid, pid)
+        values (#{pid,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER})
+    </insert>
+
+    <select id="selectUid" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+        select count(*)
+        from project_user ps
+        WHERE ps.uid = #{uid,jdbcType=INTEGER} AND ps.pid = #{uid,jdbcType=INTEGER}
+    </select>
+
+    <insert id="updateProjectPerson">
+        insert into project_role (prname, remarks, uid)
+        values (#{prname,jdbcType=VARCHAR},
+                #{remarks,jdbcType=VARCHAR}, #{uid,jdbcType=INTEGER})
+    </insert>
+
+
+    <resultMap id="BaseResultMapRole" type="com.scd.erp.user.Project">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="pid" jdbcType="INTEGER" property="pid"/>
+        <result column="pname" jdbcType="VARCHAR" property="pname"/>
+        <result column="starttime" jdbcType="TIMESTAMP" property="starttime"/>
+        <result column="endtime" jdbcType="TIMESTAMP" property="endtime"/>
+        <result column="pbudget" jdbcType="VARCHAR" property="pbudget"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="speed" jdbcType="DOUBLE" property="speed"/>
+        <result column="state" jdbcType="INTEGER" property="state"/>
+        <result column="uid" jdbcType="INTEGER" property="uid"/>
+        <collection property="users" ofType="com.scd.erp.Vo.Person.User">
+            <id column="userID" jdbcType="INTEGER" property="userid"/>
+            <result column="presonID" jdbcType="INTEGER" property="presonid"/>
+            <association property="person"  javaType="com.scd.erp.Vo.Person.Person">
+                <id column="personID" jdbcType="INTEGER" property="personid"/>
+                <result column="personName" jdbcType="VARCHAR" property="personname"/>
+                <result column="IDcard" jdbcType="VARCHAR" property="idcard"/>
+                <result column="fixedMail" jdbcType="VARCHAR" property="fixedmail"/>
+            </association>
+            <association property="projectRole" column="GD_GUID" javaType="com.scd.erp.user.ProjectRole">
+                <id column="prid" property="prid"/>
+                <result column="prname" property="prname"/>
+                <result column="remarks" property="remarks"/>
+            </association>
+        </collection>
+    </resultMap>
+    <select id="selectALLProjectMsg" resultMap="BaseResultMapRole" parameterType="java.lang.Integer">
+       select *
+        from project p
+            LEFT JOIN project_user pu ON p.pid = pu.pid
+            LEFT JOIN erp_person_user u ON u.presonID = pu.uid
+            left join erp_person_msg per on u.presonID = per.personID
+            LEFT JOIN project_role pr ON u.userID = pr.uid
+        WHERE p.pid = #{pid,jdbcType=INTEGER}
+    </select>
+
+    <select id="selectProjectByPname" resultMap="BaseResultMapRole" parameterType="java.lang.String">
+        select *
+        from project p
+            LEFT JOIN project_user pu ON p.pid = pu.pid
+            LEFT JOIN erp_person_user u ON u.userID = pu.uid
+            left join erp_person_msg per on u.presonID = per.personID
+            LEFT JOIN project_role pr ON u.userID = pr.uid
+        WHERE p.pname LIKE CONCAT('%', #{pname}, '%')
+
+    </select>
+
+
+    <resultMap id="BaseLikeMap" type="com.scd.erp.user.Project">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="pid" jdbcType="INTEGER" property="pid"/>
+        <result column="pname" jdbcType="VARCHAR" property="pname"/>
+        <result column="starttime" jdbcType="TIMESTAMP" property="starttime"/>
+        <result column="endtime" jdbcType="TIMESTAMP" property="endtime"/>
+        <result column="pbudget" jdbcType="VARCHAR" property="pbudget"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="speed" jdbcType="DOUBLE" property="speed"/>
+        <result column="state" jdbcType="INTEGER" property="state"/>
+        <result column="uid" jdbcType="INTEGER" property="uid"/>
+        <collection property="users" ofType="com.scd.erp.Vo.Person.User">
+            <id column="userID" jdbcType="INTEGER" property="userid"/>
+            <association property="person" javaType="com.scd.erp.Vo.Person.Person">
+                <result column="personName" jdbcType="VARCHAR" property="personname"/>
+                <result column="IDcard" jdbcType="VARCHAR" property="idcard"/>
+                <result column="fixedMail" jdbcType="VARCHAR" property="fixedmail"/>
+
+            </association>
+            <association property="projectRole" column="GD_GUID" javaType="com.scd.erp.user.ProjectRole">
+                <id column="prid" property="prid"/>
+                <result column="prname" property="prname"/>
+                <result column="remarks" property="remarks"/>
+            </association>
+            <collection property="task" ofType="com.scd.erp.user.Task">
+                <id column="tid" jdbcType="INTEGER" property="tid"/>
+                <result column="tcontent" jdbcType="VARCHAR" property="tcontent"/>
+                <result column="starttime" jdbcType="TIMESTAMP" property="starttime"/>
+                <result column="endtime" jdbcType="TIMESTAMP" property="endtime"/>
+                <result column="hours" jdbcType="INTEGER" property="hours"/>
+                <result column="cost" jdbcType="INTEGER" property="cost"/>
+                <result column="leader" jdbcType="VARCHAR" property="leader"/>
+                <result column="ocontent" jdbcType="VARCHAR" property="ocontent"/>
+                <result column="remarks" jdbcType="VARCHAR" property="remarks"/>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="selectProjectByName" resultMap="BaseLikeMap" parameterType="java.lang.String">
+        select *
+        from user_project_task pu
+            LEFT JOIN project p ON p.pid = pu.pid
+            LEFT JOIN erp_person_user u ON u.userID = pu.uid
+            left join erp_person_msg per on u.presonID = per.personID
+            LEFT JOIN project_role pr ON u.userID = pr.uid
+            LEFT JOIN project_task pt ON pt.tid = pu.tid
+        WHERE per.personName LIKE CONCAT('%', #{name}, '%')
+    </select>
+</mapper>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.APQPMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.user.APQP.APQPFmea">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="organization" jdbcType="VARCHAR" property="organization"/>
+        <result column="examine" jdbcType="VARCHAR" property="examine"/>
+        <result column="standardization" jdbcType="VARCHAR" property="standardization"/>
+        <result column="approval" jdbcType="VARCHAR" property="approval"/>
+        <result column="opinion" jdbcType="VARCHAR" property="opinion"/>
+        <result column="reviewer" jdbcType="VARCHAR" property="reviewer"/>
+    </resultMap>
+
+    <insert id="insertAPQPFmea"  useGeneratedKeys="true" keyProperty="id" parameterType="com.scd.erp.user.APQP.APQPFmea">
+    INSERT INTO `erp_apqp_fmea` (organization,examine,standardization,approval,opinion,reviewer) VALUES
+    (#{organization},#{examine},#{standardization},#{approval},#{opinion},#{reviewer})
+    </insert>
+
+    <insert id="saveAPQPFileID"  parameterType="java.lang.Integer">
+    INSERT INTO `erp_apqp_fmea_file` (fmea_id,file_id) VALUES
+    (#{fmeaId},#{fid})
+  </insert>
+
+    <resultMap id="APQPResultMap" type="com.scd.erp.user.APQP.APQPFmea">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="organization" jdbcType="VARCHAR" property="organization"/>
+        <result column="examine" jdbcType="VARCHAR" property="examine"/>
+        <result column="standardization" jdbcType="VARCHAR" property="standardization"/>
+        <result column="approval" jdbcType="VARCHAR" property="approval"/>
+        <result column="opinion" jdbcType="VARCHAR" property="opinion"/>
+        <result column="reviewer" jdbcType="VARCHAR" property="reviewer"/>
+        <collection property="apqpFiles" ofType="com.scd.erp.user.APQP.APQPFile">
+            <id column="fid" jdbcType="INTEGER" property="fid"/>
+            <result column="apqp_file_url" jdbcType="VARCHAR" property="apqp_file_url"/>
+            <result column="apqp_file_name" jdbcType="VARCHAR" property="apqp_file_name"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectAPQPMsg" resultMap="APQPResultMap" parameterType="java.lang.Integer">
+         select * FROM
+          erp_apqp_fmea a
+		  LEFT JOIN erp_apqp_fmea_file b ON a.id=b.fmea_id
+		  LEFT JOIN erp_apqp_file c ON b.file_id=c.fid
+        <if test="id!=null and id!=''">
+            WHERE  a.id = #{id,jdbcType=INTEGER}
+        </if >
+    </select>
+
+</mapper>

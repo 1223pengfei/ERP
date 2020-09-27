@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.TemplateMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.commen.Template">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="templateID" jdbcType="INTEGER" property="templateid" />
+    <result column="tepName" jdbcType="VARCHAR" property="tepname" />
+    <result column="tepPath" jdbcType="VARCHAR" property="teppath" />
+    <result column="tepInfo" jdbcType="VARCHAR" property="tepinfo" />
+    <result column="tepType" jdbcType="INTEGER" property="teptype" />
+    <result column="tepSize" jdbcType="INTEGER" property="tepsize" />
+    <result column="tepSuffix" jdbcType="VARCHAR" property="tepsuffix" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    templateID, tepName, tepPath, tepInfo, tepType, tepSize, tepSuffix
+  </sql>
+</mapper>

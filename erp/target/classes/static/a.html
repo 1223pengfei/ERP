@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type=text/javascript src=static/jquery-1.11.0.min.js></script>
+    <script src="https://cdn.staticfile.org/echarts/4.4.0/echarts.min.js"></script>
+</head>
+<body>
+
+<div>
+    <form action='person/upPerson.do' method='post' enctype="multipart/form-data">
+        <input type="file" name="uploadFile">
+        <input type="submit" value="上传人信息">
+    </form>
+    <form action='person/downModel.do' method='post'>
+        <input type="submit" value="模板下载">
+    </form>
+    <form action='doc/download.do' method='post'>
+        <input name="ids">
+        <input type="submit" value="下载">
+    </form>
+    <form action='count/fast.do' method='post'>
+        <input type="submit" value="快捷方式">
+    </form>
+</div>
+<div>
+    <button onclick="go(0)">主机厂</button>
+    <button onclick="go(1)">生产线</button>
+    <button onclick="go(2)">上报时间</button>
+    <button onclick="go(3)">问题点</button>
+</div>
+
+<div id="main" style="width: 1200px;height:800px;"></div>
+<script>
+    var x = 0;
+    var map, bt;
+    var getDpr = function getDpr() {
+        var windowWidth = $(window).width();
+        if (windowWidth < 1920) {
+            return 12
+        }
+        if (windowWidth >= 1920 && windowWidth <= 3840) {
+            return 18
+        }
+        if (windowWidth > 3840 && windowWidth <= 5760) {
+            return 30
+        }
+
+    };
+
+    function go(m) {
+        console.log(m);
+        x = m;
+        $.ajax({
+            type: 'POST',
+            dataType: 'json',
+            async: false,
+            url: "count/oem.do",
+            data: {
+                where: x
+            },
+            success: function (data) {
+                console.log(data);
+                map = data.map;
+                bt = data.bt;
+            }
+        });
+
+// 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        /*// 指定图表的配置项和数据*/
+        option = {
+            backgroundColor: '#141414',
+
+            title: {
+                text: bt,
+                left: 'center',
+                top: 20,
+                textStyle: {
+                    color: '#ff1f31'
+                }
+            },
+
+            tooltip: {
+                trigger: 'item',
+                formatter: '{a} <br/>{b} : {c} ({d}%)'
+            },
+
+            visualMap: {
+                //show: false,
+                min: 0,
+                max: 15
+
+            },
+            series: [
+                {
+                    name: '访问来源',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['50%', '50%'],
+                    data: map,
+                    roseType: 'radius',
+                    label: {
+                        color: 'rgba(255, 255, 255, 0.3)',
+                        normal: {
+                            textStyle: {
+                                color: '#fff',
+                                fontSize: getDpr()
+                            }
+                        }
+                    },
+                    labelLine: {
+                        lineStyle: {
+                            color: 'rgba(255, 255, 255, 0.3)'
+                        },
+                        smooth: 0.2,
+                        length: 10,
+                        length2: 20
+                    },
+                    itemStyle: {
+                        color: '#ff0105',
+                        shadowBlur: 100,
+                        shadowColor: 'rgba(0,0,0, 0.5)'
+                    },
+
+                    animationType: 'scale',
+                    animationEasing: 'elasticOut',
+                    animationDelay: function (idx) {
+                        return Math.random() * 200;
+                    }
+                }
+            ]
+        };
+        myChart.setOption(option);
+
+    }
+
+
+</script>
+
+</body>
+</html>

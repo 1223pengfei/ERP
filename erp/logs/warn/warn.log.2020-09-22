@@ -1,0 +1,835 @@
+2020-09-22 08:23:46  [ main:599 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-22 08:23:49  [ main:3806 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3806 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3807 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3807 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3807 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3807 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3807 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3808 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3810 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3810 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3810 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3810 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3810 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3811 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3811 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3811 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3811 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3811 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3811 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3812 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3812 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3812 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3813 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3813 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3813 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3813 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3813 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3813 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3814 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3814 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3814 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3814 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3814 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3814 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3814 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3815 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3815 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3815 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3815 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3815 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3815 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3816 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3816 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3816 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3816 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3816 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3817 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3817 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3817 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3817 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3817 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3817 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:3817 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 08:23:49  [ main:4080 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4080 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4086 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4086 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4086 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4088 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4088 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4088 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4090 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4090 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4090 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4090 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4090 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 08:23:49  [ main:4092 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 09:22:13  [ main:728 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-22 09:22:13  [ main:1440 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:13  [ main:1441 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:13  [ main:1441 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:13  [ main:1441 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:13  [ main:1441 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:13  [ main:1441 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:13  [ main:1441 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:13  [ main:1441 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1445 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1445 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1445 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1445 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1445 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1446 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1446 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1446 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1447 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1447 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1447 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1447 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1447 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1447 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1448 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1448 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1448 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1450 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1451 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1451 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1451 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1451 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1451 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1451 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1452 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1452 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1453 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1453 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1453 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1453 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1453 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1453 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1453 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1454 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1454 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1455 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 09:22:14  [ main:1663 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1663 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1663 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1663 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1663 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1663 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1664 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1664 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1664 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1665 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1666 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1667 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1667 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1667 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1667 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1667 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1667 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1667 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1668 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1668 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1669 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1671 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1673 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1673 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1673 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1673 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1673 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1673 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 09:22:14  [ main:1673 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 10:23:11  [ main:527 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-22 10:23:12  [ main:1259 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1299 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1299 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1299 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1300 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1300 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1300 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1301 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1301 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1301 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1301 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1302 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1302 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1302 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1302 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1302 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1303 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1303 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1303 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1303 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1304 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1304 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1304 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1304 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1305 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1305 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1305 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1305 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1306 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1306 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1306 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1306 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1306 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1307 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1307 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1307 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1308 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1308 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1308 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1308 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1308 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1308 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1309 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1309 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1309 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1310 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1310 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1310 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1310 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1310 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1310 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1310 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1518 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1520 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1521 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1523 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1523 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1523 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1523 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1523 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:23:12  [ main:1523 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 10:23:14  [ main:2689 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilterFactoryBean' defined in class path resource [com/scd/erp/shiro/ShiroConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.timeout' in value "${spring.redis.timeout}"
+2020-09-22 10:23:14  [ main:2705 ] - [ ERROR ]  Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilterFactoryBean' defined in class path resource [com/scd/erp/shiro/ShiroConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.timeout' in value "${spring.redis.timeout}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.scd.erp.ErpApplication.main(ErpApplication.java:58)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.timeout' in value "${spring.redis.timeout}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:723)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 15 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.timeout' in value "${spring.redis.timeout}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1503)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1467)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1245)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:715)
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.timeout' in value "${spring.redis.timeout}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 56 more
+2020-09-22 10:25:03  [ main:465 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-22 10:25:04  [ main:1159 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1159 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1159 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1160 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1160 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1160 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1160 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1160 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1161 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1161 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1161 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1162 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1162 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1162 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1162 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1162 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1164 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1164 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1164 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1164 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1164 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1165 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1165 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1165 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1166 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1166 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1166 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1166 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1166 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1167 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1167 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1167 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1167 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1169 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1169 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1171 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1367 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1372 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1372 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1372 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1372 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1372 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1372 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1372 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1373 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1373 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1374 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1376 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1378 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 10:25:04  [ main:1381 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 13:33:02  [ main:532 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-22 13:33:03  [ main:1254 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1254 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1254 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1256 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1256 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1256 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1257 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1257 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1257 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1257 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1257 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1258 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1258 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1258 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1259 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1259 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1259 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1259 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1259 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1259 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1264 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1266 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1302 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 13:33:03  [ main:1508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1545 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1545 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1545 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1546 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1546 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1546 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1546 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1546 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1546 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1548 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1548 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1548 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1548 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1548 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1548 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1548 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1549 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1549 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 13:33:03  [ main:1550 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 14:22:59  [ main:446 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-22 14:23:00  [ main:1130 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1130 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1130 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1130 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1131 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1131 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1131 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1131 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1136 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1136 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1136 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1138 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1138 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1138 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1139 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1139 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1139 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1139 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1139 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1143 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1144 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1145 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1145 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1146 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1146 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1147 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1147 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1149 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1149 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1149 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1150 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1150 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1150 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1150 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1150 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1150 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1150 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1151 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1152 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1152 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1152 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1152 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1152 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1153 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1153 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1153 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1154 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1154 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1154 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1154 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 14:23:00  [ main:1353 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1353 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1353 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1354 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1354 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1354 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1354 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1354 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1354 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1355 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1355 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1355 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1355 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1355 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1355 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1355 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1356 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1356 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1356 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1357 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1357 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1357 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1357 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1357 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1357 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1357 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1358 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1360 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1360 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1396 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1396 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1397 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1397 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1397 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1397 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1397 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1397 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1397 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1398 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1398 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1398 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1398 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1398 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1398 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 14:23:00  [ main:1398 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 15:23:13  [ main:477 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-22 15:23:14  [ main:1169 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1169 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1171 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1171 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1171 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1172 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1172 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1172 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1172 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1172 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1172 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1173 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1173 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1175 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1175 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1175 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1176 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1176 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1176 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1176 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1176 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1176 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1177 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1177 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1178 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1178 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1178 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1178 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1178 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1181 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1181 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1182 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1182 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 15:23:14  [ main:1379 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1379 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1379 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1379 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1379 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1379 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1379 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1380 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1381 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1382 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1384 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1386 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1388 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1388 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1388 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1388 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1388 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1389 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1389 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1389 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-22 15:23:14  [ main:1389 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-22 15:51:48  [ http-nio-8088-exec-5:1714683 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-62BCD25C-944A-4725-A665-2D8026F96AFF
+2020-09-22 15:51:48  [ http-nio-8088-exec-5:1714684 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-3F46C2CB-DAA8-4E36-97D7-8AE761E47DB1
+2020-09-22 15:51:48  [ http-nio-8088-exec-5:1714684 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-5E3ABCCC-3C61-45C0-9BD4-8D17C153F46A
+2020-09-22 15:51:48  [ http-nio-8088-exec-5:1714684 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-6FE454DF-1333-4F4C-9B46-2297A589324D
+2020-09-22 15:51:48  [ http-nio-8088-exec-5:1715037 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-CC530359-D61D-4AD5-80D9-ED88C521063E
+2020-09-22 15:51:48  [ http-nio-8088-exec-5:1715038 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-17C8A397-A381-4DFC-B27A-FDBD6A642446
+2020-09-22 15:51:48  [ http-nio-8088-exec-5:1715038 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-1ED6B0CC-23AB-4E3F-A580-09E383E609C4

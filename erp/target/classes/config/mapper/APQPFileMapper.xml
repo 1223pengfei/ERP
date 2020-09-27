@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.APQPFileMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.user.APQP.APQPFile">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="fid" jdbcType="INTEGER" property="fid"/>
+        <result column="apqp_file_url" jdbcType="VARCHAR" property="apqp_file_url"/>
+        <result column="apqp_file_name" jdbcType="VARCHAR" property="apqp_file_name"/>
+    </resultMap>
+
+    <insert id="saveFileMsg"  useGeneratedKeys="true" keyProperty="fid" parameterType="com.scd.erp.user.APQP.APQPFile">
+    INSERT INTO `erp_apqp_file` (apqp_file_url,apqp_file_name) VALUES
+    (#{apqp_file_url},#{apqp_file_name})
+  </insert>
+
+    <select id="selectByID" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select * FROM erp_apqp_file
+            WHERE  fid = #{ID,jdbcType=INTEGER}
+    </select>
+
+</mapper>

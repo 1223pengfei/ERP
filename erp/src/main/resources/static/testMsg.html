@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试用虚构人员信息</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="static/css/layui.css"  media="all">
+</head>
+
+<body>
+
+<table class="layui-hide" id="test" lay-filter="cl"></table>
+<div class="layui-row">
+    <div class="layui-col-md1 layui-col-md-offset10">
+
+            <button type="button" class="layui-btn layui-btn-normal" onclick="next()">换一批</button>
+
+    </div>
+</div>
+
+
+<script src="static/layui.all.js" charset="utf-8"></script>
+<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
+
+<script>
+    layui.use('table', function(){
+        var table = layui.table;
+
+        table.render({
+            elem: '#test'
+            , url: '/test/randomMSG.do'
+            , cellMinWidth: 80 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , method: 'get'
+            , parseData: function (res) {
+                console.log(res);
+                return {
+                    "code": 0
+                    , "msg": ""
+                    , "count": 1000
+                    , "data": res
+                }
+            }
+            , cols: [[
+                {field: 'name', width: 120, title: '姓名'}
+                , {field: 'idcode', width: 280, title: '身份证号', sort: true}
+                , {field: 'addr', width: 280, title: '地址'}
+                , {field: 'tel_m', title: '主电话', Width: 100} //minWidth：局部定义当前单元格的最小宽度，layui 2.2.1 新增
+                , {field: 'tel_s', title: '副电话'}
+                , {field: 'S_email', title: '短邮箱'}
+                , {field: 'L_email', title: '长邮箱'}
+            ]]
+        })
+    })
+
+
+
+    function next() {
+        location.reload();
+    };
+
+</script>
+
+</body>
+</html>

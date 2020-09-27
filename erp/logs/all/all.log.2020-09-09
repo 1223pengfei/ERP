@@ -1,0 +1,1105 @@
+2020-09-09 08:14:22  [ main:0 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-09-09 08:14:22  [ main:0 ] - [ INFO ]  初始化Log4j。。。。
+2020-09-09 08:14:22  [ main:0 ] - [ INFO ]  path is /E:/Demo/erp/target/classes/log4j.properties
+2020-09-09 08:14:22  [ main:0 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-09-09 08:14:22  [ background-preinit:234 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-09-09 08:14:23  [ main:984 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-09 08:14:23  [ main:1047 ] - [ INFO ]  Starting ErpApplication on DESKTOP-CNS77KB with PID 10132 (E:\Demo\erp\target\classes started by R in E:\Demo\erp)
+2020-09-09 08:14:23  [ main:1047 ] - [ INFO ]  The following profiles are active: dev
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3757 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3773 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3789 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3804 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:25  [ main:3820 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:3835 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:3835 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:3835 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:3835 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-09 08:14:26  [ main:3898 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-09 08:14:26  [ main:3898 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-09-09 08:14:26  [ main:3929 ] - [ INFO ]  Finished Spring Data repository scanning in 38ms. Found 0 JDBC repository interfaces.
+2020-09-09 08:14:26  [ main:3945 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-09 08:14:26  [ main:3945 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-09 08:14:26  [ main:3976 ] - [ INFO ]  Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4132 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4148 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4179 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4195 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4210 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4210 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4210 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 08:14:26  [ main:4210 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-09 08:14:26  [ main:4335 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$391c511b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:26  [ main:4793 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:26  [ main:4793 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$6911a12b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:26  [ main:4809 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:26  [ main:4809 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:27  [ main:4824 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6249 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6265 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6312 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6312 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6312 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6343 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6343 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6374 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6374 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6374 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6391 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6407 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$57b8be91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6422 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-09-09 08:14:28  [ main:6422 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$71db483a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6422 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 08:14:28  [ main:6688 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-09-09 08:14:29  [ main:6860 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 5767 ms
+2020-09-09 08:14:29  [ main:6932 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-09-09 08:14:29  [ main:7010 ] - [ INFO ]  =============================ProcessEngineBegin=============================
+2020-09-09 08:14:29  [ main:7025 ] - [ INFO ]  Found 1 Engine Configurators in total:
+2020-09-09 08:14:29  [ main:7025 ] - [ INFO ]  class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 08:14:29  [ main:7025 ] - [ INFO ]  Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 08:14:29  [ main:7088 ] - [ INFO ]  Configuring Datasource with following properties (omitted password for security)
+2020-09-09 08:14:29  [ main:7088 ] - [ INFO ]  datasource driver : com.mysql.cj.jdbc.Driver
+2020-09-09 08:14:29  [ main:7088 ] - [ INFO ]  datasource url : jdbc:mysql://localhost/erp?useSSL=false&serverTimezone=GMT&useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+2020-09-09 08:14:29  [ main:7088 ] - [ INFO ]  datasource user name : root
+2020-09-09 08:14:30  [ main:7840 ] - [ INFO ]  Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 08:14:30  [ main:7934 ] - [ INFO ]  IdmEngine default created
+2020-09-09 08:14:30  [ main:7965 ] - [ INFO ]  ProcessEngine default created
+2020-09-09 08:14:30  [ main:8012 ] - [ INFO ]  Total of v5 deployments found: 0
+2020-09-09 08:14:30  [ main:8012 ] - [ INFO ]  =============================ProcessEngineEnd=============================
+2020-09-09 08:14:32  [ main:9959 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 08:14:32  [ main:10022 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-09-09 08:14:32  [ main:10084 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 08:14:32  [ main:10493 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 08:14:32  [ main:10587 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 08:14:32  [ main:10618 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  Found 6 Engine Configurators in total:
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  Executing beforeInit() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 08:14:32  [ main:10649 ] - [ INFO ]  Executing beforeInit() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 08:14:32  [ main:10665 ] - [ INFO ]  Executing beforeInit() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 08:14:32  [ main:10665 ] - [ INFO ]  Executing beforeInit() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 08:14:32  [ main:10665 ] - [ INFO ]  Executing beforeInit() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 08:14:32  [ main:10665 ] - [ INFO ]  Executing beforeInit() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 08:14:32  [ main:10665 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-09-09 08:14:32  [ main:10681 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-09-09 08:14:33  [ main:11102 ] - [ INFO ]  Executing configure() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 08:14:33  [ main:11134 ] - [ INFO ]  ProcessEngine default created
+2020-09-09 08:14:33  [ main:11134 ] - [ INFO ]  Total of v5 deployments found: 0
+2020-09-09 08:14:33  [ main:11134 ] - [ INFO ]  Executing configure() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 08:14:33  [ main:11149 ] - [ INFO ]  IdmEngine default created
+2020-09-09 08:14:33  [ main:11149 ] - [ INFO ]  Executing configure() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 08:14:35  [ main:12899 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 08:14:35  [ main:12917 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 08:14:35  [ main:12917 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_DMN_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 08:14:35  [ main:12932 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 08:14:36  [ main:13936 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_DMN_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 08:14:36  [ main:13936 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 08:14:36  [ main:13951 ] - [ INFO ]  Reading from erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 08:14:36  [ main:13951 ] - [ INFO ]  SELECT * FROM erp.ACT_DMN_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 08:14:36  [ main:13967 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 08:14:36  [ main:13967 ] - [ INFO ]  DmnEngine default created
+2020-09-09 08:14:36  [ main:13967 ] - [ INFO ]  Executing configure() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 08:14:36  [ main:14061 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 08:14:36  [ main:14076 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 08:14:36  [ main:14076 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_FO_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 08:14:36  [ main:14076 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 08:14:36  [ main:14107 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_FO_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 08:14:36  [ main:14107 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 08:14:36  [ main:14107 ] - [ INFO ]  Reading from erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 08:14:36  [ main:14107 ] - [ INFO ]  SELECT * FROM erp.ACT_FO_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 08:14:36  [ main:14123 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 08:14:36  [ main:14123 ] - [ INFO ]  FormEngine default created
+2020-09-09 08:14:36  [ main:14123 ] - [ INFO ]  Executing configure() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 08:14:36  [ main:14123 ] - [ INFO ]  Content file system root : C:\Users\R\content
+2020-09-09 08:14:36  [ main:14592 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 08:14:36  [ main:14607 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 08:14:36  [ main:14607 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_CO_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 08:14:36  [ main:14607 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 08:14:36  [ main:14639 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_CO_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 08:14:36  [ main:14639 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 08:14:36  [ main:14639 ] - [ INFO ]  Reading from erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 08:14:36  [ main:14639 ] - [ INFO ]  SELECT * FROM erp.ACT_CO_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 08:14:36  [ main:14654 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 08:14:36  [ main:14654 ] - [ INFO ]  ContentEngine default created
+2020-09-09 08:14:36  [ main:14654 ] - [ INFO ]  Executing configure() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 08:14:36  [ main:14810 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 08:14:37  [ main:14826 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 08:14:37  [ main:14826 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 08:14:37  [ main:14826 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 08:14:37  [ main:14857 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_CMMN_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 08:14:37  [ main:14873 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 08:14:37  [ main:14873 ] - [ INFO ]  Reading from erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 08:14:37  [ main:14873 ] - [ INFO ]  SELECT * FROM erp.ACT_CMMN_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 08:14:37  [ main:14888 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 08:14:37  [ main:14888 ] - [ INFO ]  CmmnEngine default created
+2020-09-09 08:14:37  [ main:15092 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 08:14:37  [ main:15123 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 08:14:37  [ main:15123 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_APP_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 08:14:37  [ main:15123 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 08:14:37  [ main:15154 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_APP_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 08:14:37  [ main:15154 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 08:14:37  [ main:15154 ] - [ INFO ]  Reading from erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 08:14:37  [ main:15154 ] - [ INFO ]  SELECT * FROM erp.ACT_APP_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 08:14:37  [ main:15170 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 08:14:37  [ main:15170 ] - [ INFO ]  AppEngine default created
+2020-09-09 08:14:37  [ main:15607 ] - [ INFO ]  Starting without optional epoll library
+2020-09-09 08:14:37  [ main:15607 ] - [ INFO ]  Starting without optional kqueue library
+2020-09-09 08:14:38  [ main:16695 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-09-09 08:14:38  [ main:16695 ] - [ INFO ]  Started ErpApplication in 16.586 seconds (JVM running for 18.267)
+2020-09-09 08:14:38  [ main:16758 ] - [ INFO ]  develop is：false
+2020-09-09 08:14:38  [ main:16758 ] - [ INFO ]  oops: 线下开发测试
+2020-09-09 08:17:16  [ http-nio-8088-exec-1:173936 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-09-09 08:17:16  [ http-nio-8088-exec-1:173941 ] - [ INFO ]  Completed initialization in 5 ms
+2020-09-09 08:46:59  [ http-nio-8088-exec-2:1957463 ] - [ INFO ]  condition:[{"mainClass":"material_namecn","value":"五","type":null}]
+2020-09-09 08:46:59  [ http-nio-8088-exec-2:1957477 ] - [ INFO ]  material:namecn>>五
+2020-09-09 14:33:53  [ http-nio-8088-exec-10:22771254 ] - [ INFO ]  condition:[{"mainClass":"material_namecn","value":"五","type":null}]
+2020-09-09 14:33:53  [ http-nio-8088-exec-10:22771261 ] - [ INFO ]  material:namecn>>五
+2020-09-09 15:26:53  [ main:0 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-09-09 15:26:53  [ main:3 ] - [ INFO ]  初始化Log4j。。。。
+2020-09-09 15:26:53  [ main:3 ] - [ INFO ]  path is /E:/Demo/erp/target/classes/log4j.properties
+2020-09-09 15:26:53  [ main:10 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-09-09 15:26:53  [ background-preinit:202 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-09-09 15:26:54  [ main:876 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-09 15:26:54  [ main:935 ] - [ INFO ]  Starting ErpApplication on DESKTOP-CNS77KB with PID 12640 (E:\Demo\erp\target\classes started by R in E:\Demo\erp)
+2020-09-09 15:26:54  [ main:936 ] - [ INFO ]  The following profiles are active: dev
+2020-09-09 15:26:56  [ main:3254 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3254 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3255 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3256 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3260 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3263 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3264 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3264 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3264 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3264 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3264 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3266 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3266 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3267 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3267 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3267 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3267 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3267 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3267 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3267 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3268 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3268 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3269 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3269 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3269 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:56  [ main:3269 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-09 15:26:56  [ main:3320 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-09 15:26:56  [ main:3321 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-09-09 15:26:56  [ main:3360 ] - [ INFO ]  Finished Spring Data repository scanning in 36ms. Found 0 JDBC repository interfaces.
+2020-09-09 15:26:56  [ main:3371 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-09 15:26:56  [ main:3372 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-09 15:26:56  [ main:3400 ] - [ INFO ]  Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-09-09 15:26:57  [ main:3508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3508 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3509 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3510 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3511 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3512 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3512 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3512 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3512 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3513 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3513 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3513 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3513 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3514 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3515 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3516 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3517 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3519 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:26:57  [ main:3519 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-09 15:26:57  [ main:3632 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$9be490a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:57  [ main:4054 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:57  [ main:4058 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$39b3991a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:57  [ main:4059 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:57  [ main:4065 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:57  [ main:4077 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:58  [ main:5418 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:58  [ main:5423 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5474 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5476 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5476 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5511 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5512 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5540 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5541 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5542 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5545 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5562 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$285ab680] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5572 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-09-09 15:26:59  [ main:5581 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$427d4029] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5587 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:26:59  [ main:5828 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-09-09 15:26:59  [ main:6002 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 5031 ms
+2020-09-09 15:26:59  [ main:6069 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-09-09 15:26:59  [ main:6157 ] - [ INFO ]  =============================ProcessEngineBegin=============================
+2020-09-09 15:26:59  [ main:6170 ] - [ INFO ]  Found 1 Engine Configurators in total:
+2020-09-09 15:26:59  [ main:6170 ] - [ INFO ]  class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 15:26:59  [ main:6170 ] - [ INFO ]  Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 15:26:59  [ main:6229 ] - [ INFO ]  Configuring Datasource with following properties (omitted password for security)
+2020-09-09 15:26:59  [ main:6229 ] - [ INFO ]  datasource driver : com.mysql.cj.jdbc.Driver
+2020-09-09 15:26:59  [ main:6229 ] - [ INFO ]  datasource url : jdbc:mysql://localhost/erp?useSSL=false&serverTimezone=GMT&useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+2020-09-09 15:26:59  [ main:6229 ] - [ INFO ]  datasource user name : root
+2020-09-09 15:27:00  [ main:6911 ] - [ INFO ]  Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 15:27:00  [ main:6964 ] - [ INFO ]  IdmEngine default created
+2020-09-09 15:27:00  [ main:6993 ] - [ INFO ]  ProcessEngine default created
+2020-09-09 15:27:00  [ main:7014 ] - [ INFO ]  Total of v5 deployments found: 0
+2020-09-09 15:27:00  [ main:7017 ] - [ INFO ]  =============================ProcessEngineEnd=============================
+2020-09-09 15:27:02  [ main:8967 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 15:27:02  [ main:9031 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-09-09 15:27:02  [ main:9089 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:27:03  [ main:9505 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:27:03  [ main:9591 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:27:03  [ main:9630 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:27:03  [ main:9659 ] - [ INFO ]  Found 6 Engine Configurators in total:
+2020-09-09 15:27:03  [ main:9659 ] - [ INFO ]  class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 15:27:03  [ main:9659 ] - [ INFO ]  class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 15:27:03  [ main:9659 ] - [ INFO ]  class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 15:27:03  [ main:9659 ] - [ INFO ]  class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 15:27:03  [ main:9659 ] - [ INFO ]  class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 15:27:03  [ main:9659 ] - [ INFO ]  class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 15:27:03  [ main:9660 ] - [ INFO ]  Executing beforeInit() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 15:27:03  [ main:9661 ] - [ INFO ]  Executing beforeInit() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 15:27:03  [ main:9662 ] - [ INFO ]  Executing beforeInit() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 15:27:03  [ main:9664 ] - [ INFO ]  Executing beforeInit() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 15:27:03  [ main:9666 ] - [ INFO ]  Executing beforeInit() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 15:27:03  [ main:9667 ] - [ INFO ]  Executing beforeInit() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 15:27:03  [ main:9673 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-09-09 15:27:03  [ main:9680 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-09-09 15:27:03  [ main:10131 ] - [ INFO ]  Executing configure() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 15:27:03  [ main:10162 ] - [ INFO ]  ProcessEngine default created
+2020-09-09 15:27:03  [ main:10164 ] - [ INFO ]  Total of v5 deployments found: 0
+2020-09-09 15:27:03  [ main:10166 ] - [ INFO ]  Executing configure() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 15:27:03  [ main:10170 ] - [ INFO ]  IdmEngine default created
+2020-09-09 15:27:03  [ main:10170 ] - [ INFO ]  Executing configure() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 15:27:05  [ main:11892 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 15:27:05  [ main:11897 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 15:27:05  [ main:11899 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_DMN_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:27:05  [ main:11910 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:27:06  [ main:12960 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_DMN_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 15:27:06  [ main:12963 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 15:27:06  [ main:12964 ] - [ INFO ]  Reading from erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 15:27:06  [ main:12964 ] - [ INFO ]  SELECT * FROM erp.ACT_DMN_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:27:06  [ main:12981 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:27:06  [ main:12982 ] - [ INFO ]  DmnEngine default created
+2020-09-09 15:27:06  [ main:12983 ] - [ INFO ]  Executing configure() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 15:27:06  [ main:13074 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 15:27:06  [ main:13077 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 15:27:06  [ main:13078 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_FO_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:27:06  [ main:13082 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:27:06  [ main:13113 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_FO_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 15:27:06  [ main:13115 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 15:27:06  [ main:13116 ] - [ INFO ]  Reading from erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 15:27:06  [ main:13116 ] - [ INFO ]  SELECT * FROM erp.ACT_FO_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:27:06  [ main:13124 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:27:06  [ main:13126 ] - [ INFO ]  FormEngine default created
+2020-09-09 15:27:06  [ main:13129 ] - [ INFO ]  Executing configure() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 15:27:06  [ main:13136 ] - [ INFO ]  Content file system root : C:\Users\R\content
+2020-09-09 15:27:07  [ main:13610 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 15:27:07  [ main:13613 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 15:27:07  [ main:13614 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_CO_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:27:07  [ main:13618 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:27:07  [ main:13644 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_CO_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 15:27:07  [ main:13646 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 15:27:07  [ main:13647 ] - [ INFO ]  Reading from erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 15:27:07  [ main:13647 ] - [ INFO ]  SELECT * FROM erp.ACT_CO_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:27:07  [ main:13653 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:27:07  [ main:13654 ] - [ INFO ]  ContentEngine default created
+2020-09-09 15:27:07  [ main:13655 ] - [ INFO ]  Executing configure() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 15:27:07  [ main:13806 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 15:27:07  [ main:13811 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 15:27:07  [ main:13813 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:27:07  [ main:13819 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:27:07  [ main:13860 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_CMMN_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 15:27:07  [ main:13862 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 15:27:07  [ main:13863 ] - [ INFO ]  Reading from erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 15:27:07  [ main:13863 ] - [ INFO ]  SELECT * FROM erp.ACT_CMMN_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:27:07  [ main:13885 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:27:07  [ main:13886 ] - [ INFO ]  CmmnEngine default created
+2020-09-09 15:27:07  [ main:14089 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 15:27:07  [ main:14092 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 15:27:07  [ main:14093 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_APP_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:27:07  [ main:14097 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:27:07  [ main:14127 ] - [ INFO ]  SELECT MD5SUM FROM erp.ACT_APP_DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-09-09 15:27:07  [ main:14130 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 15:27:07  [ main:14131 ] - [ INFO ]  Reading from erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 15:27:07  [ main:14131 ] - [ INFO ]  SELECT * FROM erp.ACT_APP_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:27:07  [ main:14138 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:27:07  [ main:14138 ] - [ INFO ]  AppEngine default created
+2020-09-09 15:27:08  [ main:14525 ] - [ WARN ]  Following warnings encountered during process validation: [Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-62BCD25C-944A-4725-A665-2D8026F96AFF - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-3F46C2CB-DAA8-4E36-97D7-8AE761E47DB1 - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-5E3ABCCC-3C61-45C0-9BD4-8D17C153F46A - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-6FE454DF-1333-4F4C-9B46-2297A589324D - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-CC530359-D61D-4AD5-80D9-ED88C521063E - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-17C8A397-A381-4DFC-B27A-FDBD6A642446 - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-1ED6B0CC-23AB-4E3F-A580-09E383E609C4 - [Extra info : ]
+
+2020-09-09 15:27:08  [ main:14548 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-62BCD25C-944A-4725-A665-2D8026F96AFF
+2020-09-09 15:27:08  [ main:14548 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-3F46C2CB-DAA8-4E36-97D7-8AE761E47DB1
+2020-09-09 15:27:08  [ main:14548 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-5E3ABCCC-3C61-45C0-9BD4-8D17C153F46A
+2020-09-09 15:27:08  [ main:14548 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-6FE454DF-1333-4F4C-9B46-2297A589324D
+2020-09-09 15:27:08  [ main:14548 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-CC530359-D61D-4AD5-80D9-ED88C521063E
+2020-09-09 15:27:08  [ main:14549 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-17C8A397-A381-4DFC-B27A-FDBD6A642446
+2020-09-09 15:27:08  [ main:14549 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-1ED6B0CC-23AB-4E3F-A580-09E383E609C4
+2020-09-09 15:27:08  [ main:14886 ] - [ INFO ]  Starting without optional epoll library
+2020-09-09 15:27:08  [ main:14888 ] - [ INFO ]  Starting without optional kqueue library
+2020-09-09 15:27:09  [ main:15987 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-09-09 15:27:09  [ main:15988 ] - [ INFO ]  Started ErpApplication in 15.883 seconds (JVM running for 17.131)
+2020-09-09 15:27:09  [ main:16002 ] - [ INFO ]  develop is：false
+2020-09-09 15:27:09  [ main:16002 ] - [ INFO ]  oops: 线下开发测试
+2020-09-09 15:27:55  [ main:0 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-09-09 15:27:55  [ main:3 ] - [ INFO ]  初始化Log4j。。。。
+2020-09-09 15:27:55  [ main:3 ] - [ INFO ]  path is /E:/Demo/erp/target/classes/log4j.properties
+2020-09-09 15:27:55  [ main:12 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-09-09 15:27:55  [ background-preinit:198 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-09-09 15:27:56  [ main:832 ] - [ WARN ]  Liquibase has not been explicitly enabled or disabled. Overriding default from Spring Boot from `true` to `false`. Flowable pulls in Liquibase, but does not use the Spring Boot configuration for it. If you are using it you would need to set `spring.liquibase.enabled` to `true` by yourself
+2020-09-09 15:27:56  [ main:888 ] - [ INFO ]  Starting ErpApplication on DESKTOP-CNS77KB with PID 13260 (E:\Demo\erp\target\classes started by R in E:\Demo\erp)
+2020-09-09 15:27:56  [ main:888 ] - [ INFO ]  The following profiles are active: dev
+2020-09-09 15:27:56  [ main:1587 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1588 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1588 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1588 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1588 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1589 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1589 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1589 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1590 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1590 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1590 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1590 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1591 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1591 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1591 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1591 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1592 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1592 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1592 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1592 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1592 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1592 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1593 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1593 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1593 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1594 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1594 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1594 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1594 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1594 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1595 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1595 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1595 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1596 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1596 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1596 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1596 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1596 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1596 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1596 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1597 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1598 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1598 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1598 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1598 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1598 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1598 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1598 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1599 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1599 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1600 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1600 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:56  [ main:1600 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-09 15:27:56  [ main:1650 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-09 15:27:56  [ main:1651 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-09-09 15:27:56  [ main:1689 ] - [ INFO ]  Finished Spring Data repository scanning in 36ms. Found 0 JDBC repository interfaces.
+2020-09-09 15:27:56  [ main:1700 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-09 15:27:56  [ main:1702 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-09 15:27:56  [ main:1729 ] - [ INFO ]  Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-09-09 15:27:57  [ main:1837 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPFileMapper' and 'com.scd.erp.mapper.APQPFileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1837 ] - [ WARN ]  Skipping MapperFactoryBean with name 'APQPMapper' and 'com.scd.erp.mapper.APQPMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1837 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1837 ] - [ WARN ]  Skipping MapperFactoryBean with name 'baseMaterialMapper' and 'com.scd.erp.mapper.BaseMaterialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1837 ] - [ WARN ]  Skipping MapperFactoryBean with name 'basePackageMapper' and 'com.scd.erp.mapper.BasePackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1838 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1838 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1838 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1838 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1841 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1841 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1842 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1842 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1842 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1843 ] - [ WARN ]  Skipping MapperFactoryBean with name 'craftsMapper' and 'com.scd.erp.mapper.CraftsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1843 ] - [ WARN ]  Skipping MapperFactoryBean with name 'cycleMapper' and 'com.scd.erp.mapper.CycleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1844 ] - [ WARN ]  Skipping MapperFactoryBean with name 'delMsgMapper' and 'com.scd.erp.mapper.DelMsgMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1844 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1844 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1845 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentMapper' and 'com.scd.erp.mapper.DocumentMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1845 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1845 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1845 ] - [ WARN ]  Skipping MapperFactoryBean with name 'groupMapper' and 'com.scd.erp.mapper.GroupMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1846 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1846 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1846 ] - [ WARN ]  Skipping MapperFactoryBean with name 'layoutMapper' and 'com.scd.erp.mapper.LayoutMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1847 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1847 ] - [ WARN ]  Skipping MapperFactoryBean with name 'logisticMapper' and 'com.scd.erp.mapper.LogisticMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1847 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1847 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materialLinkMapper' and 'com.scd.erp.mapper.MaterialLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1847 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1848 ] - [ WARN ]  Skipping MapperFactoryBean with name 'noteMapper' and 'com.scd.erp.mapper.NoteMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1848 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1848 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1848 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1849 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1849 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1849 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1849 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1849 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1850 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1850 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1850 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1850 ] - [ WARN ]  Skipping MapperFactoryBean with name 'renewMapper' and 'com.scd.erp.mapper.RenewMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1850 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1850 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1851 ] - [ WARN ]  Skipping MapperFactoryBean with name 'stockMapper' and 'com.scd.erp.mapper.StockMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1851 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1851 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1851 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1852 ] - [ WARN ]  Skipping MapperFactoryBean with name 'wareroomMapper' and 'com.scd.erp.mapper.WareroomMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1852 ] - [ WARN ]  Skipping MapperFactoryBean with name 'documentLinkMapper' and 'com.scd.erp.mapper.documentLinkMapper' mapperInterface. Bean already defined with the same name!
+2020-09-09 15:27:57  [ main:1853 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-09-09 15:27:57  [ main:1967 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$3d599e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:57  [ main:2385 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:57  [ main:2389 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$3032a9ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:57  [ main:2391 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:57  [ main:2396 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:57  [ main:2409 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:2955 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:2958 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3010 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3011 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3012 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3047 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3048 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3078 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3079 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3079 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3083 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3101 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1ed9c714] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3110 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-09-09 15:27:58  [ main:3119 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$38fc50bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3125 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:27:58  [ main:3348 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-09-09 15:27:58  [ main:3513 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2590 ms
+2020-09-09 15:27:58  [ main:3580 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-09-09 15:27:58  [ main:3669 ] - [ INFO ]  =============================ProcessEngineBegin=============================
+2020-09-09 15:27:58  [ main:3681 ] - [ INFO ]  Found 1 Engine Configurators in total:
+2020-09-09 15:27:58  [ main:3681 ] - [ INFO ]  class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 15:27:58  [ main:3681 ] - [ INFO ]  Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 15:27:58  [ main:3740 ] - [ INFO ]  Configuring Datasource with following properties (omitted password for security)
+2020-09-09 15:27:58  [ main:3740 ] - [ INFO ]  datasource driver : com.mysql.cj.jdbc.Driver
+2020-09-09 15:27:58  [ main:3741 ] - [ INFO ]  datasource url : jdbc:mysql://localhost/erp?useSSL=false&serverTimezone=GMT&useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+2020-09-09 15:27:58  [ main:3741 ] - [ INFO ]  datasource user name : root
+2020-09-09 15:27:59  [ main:4476 ] - [ INFO ]  Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2020-09-09 15:27:59  [ main:4529 ] - [ INFO ]  performing create on identity with resource org/flowable/idm/db/create/flowable.mysql.create.identity.sql
+2020-09-09 15:27:59  [ main:4529 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:00  [ main:5199 ] - [ INFO ]  IdmEngine default created
+2020-09-09 15:28:00  [ main:5212 ] - [ INFO ]  performing create on common with resource org/flowable/common/db/create/flowable.mysql.create.common.sql
+2020-09-09 15:28:00  [ main:5212 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:00  [ main:5291 ] - [ INFO ]  performing create on identitylink with resource org/flowable/identitylink/service/db/create/flowable.mysql.create.identitylink.sql
+2020-09-09 15:28:00  [ main:5292 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:00  [ main:5396 ] - [ INFO ]  performing create on identitylink.history with resource org/flowable/identitylink/service/db/create/flowable.mysql.create.identitylink.history.sql
+2020-09-09 15:28:00  [ main:5396 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:00  [ main:5490 ] - [ INFO ]  performing create on entitylink with resource org/flowable/entitylink/service/db/create/flowable.mysql.create.entitylink.sql
+2020-09-09 15:28:00  [ main:5491 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:00  [ main:5557 ] - [ INFO ]  performing create on entitylink.history with resource org/flowable/entitylink/service/db/create/flowable.mysql.create.entitylink.history.sql
+2020-09-09 15:28:00  [ main:5558 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:00  [ main:5630 ] - [ INFO ]  performing create on task with resource org/flowable/task/service/db/create/flowable.mysql.create.task.sql
+2020-09-09 15:28:00  [ main:5631 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:00  [ main:5771 ] - [ INFO ]  performing create on task.history with resource org/flowable/task/service/db/create/flowable.mysql.create.task.history.sql
+2020-09-09 15:28:00  [ main:5772 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:01  [ main:5965 ] - [ INFO ]  performing create on variable with resource org/flowable/variable/service/db/create/flowable.mysql.create.variable.sql
+2020-09-09 15:28:01  [ main:5966 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:01  [ main:6115 ] - [ INFO ]  performing create on variable.history with resource org/flowable/variable/service/db/create/flowable.mysql.create.variable.history.sql
+2020-09-09 15:28:01  [ main:6115 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:01  [ main:6258 ] - [ INFO ]  performing create on job with resource org/flowable/job/service/db/create/flowable.mysql.create.job.sql
+2020-09-09 15:28:01  [ main:6258 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:03  [ main:8471 ] - [ INFO ]  performing create on engine with resource org/flowable/db/create/flowable.mysql.create.engine.sql
+2020-09-09 15:28:03  [ main:8472 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:15  [ main:19976 ] - [ INFO ]  performing create on history with resource org/flowable/db/create/flowable.mysql.create.history.sql
+2020-09-09 15:28:15  [ main:19976 ] - [ INFO ]  Found MySQL: majorVersion=8 minorVersion=0
+2020-09-09 15:28:16  [ main:21326 ] - [ INFO ]  ProcessEngine default created
+2020-09-09 15:28:16  [ main:21366 ] - [ INFO ]  Total of v5 deployments found: 0
+2020-09-09 15:28:16  [ main:21394 ] - [ INFO ]  =============================ProcessEngineEnd=============================
+2020-09-09 15:28:18  [ main:23368 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 15:28:18  [ main:23432 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-09-09 15:28:18  [ main:23490 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:28:19  [ main:23920 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:28:19  [ main:24013 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:28:19  [ main:24057 ] - [ INFO ]  No deployment resources were found for autodeployment
+2020-09-09 15:28:19  [ main:24093 ] - [ INFO ]  Found 6 Engine Configurators in total:
+2020-09-09 15:28:19  [ main:24093 ] - [ INFO ]  class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 15:28:19  [ main:24093 ] - [ INFO ]  class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 15:28:19  [ main:24093 ] - [ INFO ]  class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 15:28:19  [ main:24094 ] - [ INFO ]  class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 15:28:19  [ main:24094 ] - [ INFO ]  class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 15:28:19  [ main:24094 ] - [ INFO ]  class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 15:28:19  [ main:24094 ] - [ INFO ]  Executing beforeInit() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 15:28:19  [ main:24096 ] - [ INFO ]  Executing beforeInit() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 15:28:19  [ main:24097 ] - [ INFO ]  Executing beforeInit() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 15:28:19  [ main:24098 ] - [ INFO ]  Executing beforeInit() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 15:28:19  [ main:24100 ] - [ INFO ]  Executing beforeInit() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 15:28:19  [ main:24101 ] - [ INFO ]  Executing beforeInit() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 15:28:19  [ main:24107 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-09-09 15:28:19  [ main:24114 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-09-09 15:28:19  [ main:24533 ] - [ INFO ]  Executing configure() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2020-09-09 15:28:19  [ main:24581 ] - [ INFO ]  ProcessEngine default created
+2020-09-09 15:28:19  [ main:24584 ] - [ INFO ]  Total of v5 deployments found: 0
+2020-09-09 15:28:19  [ main:24585 ] - [ INFO ]  Executing configure() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2020-09-09 15:28:19  [ main:24590 ] - [ INFO ]  IdmEngine default created
+2020-09-09 15:28:19  [ main:24590 ] - [ INFO ]  Executing configure() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2020-09-09 15:28:21  [ main:26305 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:21  [ main:26324 ] - [ INFO ]  CREATE TABLE erp.ACT_DMN_DATABASECHANGELOGLOCK (ID INT NOT NULL, `LOCKED` BIT(1) NOT NULL, LOCKGRANTED datetime NULL, LOCKEDBY VARCHAR(255) NULL, CONSTRAINT PK_ACT_DMN_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+2020-09-09 15:28:21  [ main:26414 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:21  [ main:26420 ] - [ INFO ]  DELETE FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:21  [ main:26423 ] - [ INFO ]  INSERT INTO erp.ACT_DMN_DATABASECHANGELOGLOCK (ID, `LOCKED`) VALUES (1, 0)
+2020-09-09 15:28:21  [ main:26433 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_DMN_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:28:21  [ main:26447 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:28:22  [ main:27484 ] - [ INFO ]  Creating database history table with name: erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 15:28:22  [ main:27485 ] - [ INFO ]  CREATE TABLE erp.ACT_DMN_DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED datetime NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35) NULL, `DESCRIPTION` VARCHAR(255) NULL, COMMENTS VARCHAR(255) NULL, TAG VARCHAR(255) NULL, LIQUIBASE VARCHAR(20) NULL, CONTEXTS VARCHAR(255) NULL, LABELS VARCHAR(255) NULL, DEPLOYMENT_ID VARCHAR(10) NULL)
+2020-09-09 15:28:22  [ main:27554 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 15:28:22  [ main:27556 ] - [ INFO ]  Reading from erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 15:28:22  [ main:27557 ] - [ INFO ]  SELECT * FROM erp.ACT_DMN_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:28:22  [ main:27558 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_DMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:22  [ main:27576 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:22  [ main:27576 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:22  [ main:27576 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:22  [ main:27577 ] - [ INFO ]  CREATE TABLE erp.ACT_DMN_DEPLOYMENT (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOY_TIME_ datetime NULL, TENANT_ID_ VARCHAR(255) NULL, PARENT_DEPLOYMENT_ID_ VARCHAR(255) NULL, CONSTRAINT PK_ACT_DMN_DEPLOYMENT PRIMARY KEY (ID_))
+2020-09-09 15:28:22  [ main:27634 ] - [ INFO ]  Table ACT_DMN_DEPLOYMENT created
+2020-09-09 15:28:22  [ main:27637 ] - [ INFO ]  CREATE TABLE erp.ACT_DMN_DEPLOYMENT_RESOURCE (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, RESOURCE_BYTES_ LONGBLOB NULL, CONSTRAINT PK_ACT_DMN_DEPLOYMENT_RESOURCE PRIMARY KEY (ID_))
+2020-09-09 15:28:22  [ main:27710 ] - [ INFO ]  Table ACT_DMN_DEPLOYMENT_RESOURCE created
+2020-09-09 15:28:22  [ main:27712 ] - [ INFO ]  CREATE TABLE erp.ACT_DMN_DECISION_TABLE (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, VERSION_ INT NULL, KEY_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, PARENT_DEPLOYMENT_ID_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) NULL, RESOURCE_NAME_ VARCHAR(255) NULL, DESCRIPTION_ VARCHAR(255) NULL, CONSTRAINT PK_ACT_DMN_DECISION_TABLE PRIMARY KEY (ID_))
+2020-09-09 15:28:22  [ main:27773 ] - [ INFO ]  Table ACT_DMN_DECISION_TABLE created
+2020-09-09 15:28:22  [ main:27773 ] - [ INFO ]  ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::1::activiti ran successfully in 197ms
+2020-09-09 15:28:22  [ main:27774 ] - [ INFO ]  SELECT MAX(ORDEREXECUTED) FROM erp.ACT_DMN_DATABASECHANGELOG
+2020-09-09 15:28:22  [ main:27775 ] - [ INFO ]  INSERT INTO erp.ACT_DMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1', 'activiti', 'org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml', NOW(), 1, '8:c8701f1c71018b55029f450b2e9a10a1', 'createTable tableName=ACT_DMN_DEPLOYMENT; createTable tableName=ACT_DMN_DEPLOYMENT_RESOURCE; createTable tableName=ACT_DMN_DECISION_TABLE', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636502764')
+2020-09-09 15:28:23  [ main:27798 ] - [ INFO ]  CREATE TABLE erp.ACT_DMN_HI_DECISION_EXECUTION (ID_ VARCHAR(255) NOT NULL, DECISION_DEFINITION_ID_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, START_TIME_ datetime NULL, END_TIME_ datetime NULL, INSTANCE_ID_ VARCHAR(255) NULL, EXECUTION_ID_ VARCHAR(255) NULL, ACTIVITY_ID_ VARCHAR(255) NULL, FAILED_ BIT(1) DEFAULT 0 NULL, TENANT_ID_ VARCHAR(255) NULL, EXECUTION_JSON_ LONGTEXT NULL, CONSTRAINT PK_ACT_DMN_HI_DECISION_EXECUTION PRIMARY KEY (ID_))
+2020-09-09 15:28:23  [ main:27878 ] - [ INFO ]  Table ACT_DMN_HI_DECISION_EXECUTION created
+2020-09-09 15:28:23  [ main:27879 ] - [ INFO ]  ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::2::flowable ran successfully in 82ms
+2020-09-09 15:28:23  [ main:27881 ] - [ INFO ]  INSERT INTO erp.ACT_DMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('2', 'flowable', 'org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml', NOW(), 2, '8:47f94b27feb7df8a30d4e338c7bd5fb8', 'createTable tableName=ACT_DMN_HI_DECISION_EXECUTION', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636502764')
+2020-09-09 15:28:23  [ main:27898 ] - [ INFO ]  ALTER TABLE erp.ACT_DMN_HI_DECISION_EXECUTION ADD SCOPE_TYPE_ VARCHAR(255) NULL
+2020-09-09 15:28:23  [ main:27945 ] - [ INFO ]  Columns SCOPE_TYPE_(varchar(255)) added to ACT_DMN_HI_DECISION_EXECUTION
+2020-09-09 15:28:23  [ main:27945 ] - [ INFO ]  ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::3::flowable ran successfully in 48ms
+2020-09-09 15:28:23  [ main:27946 ] - [ INFO ]  INSERT INTO erp.ACT_DMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('3', 'flowable', 'org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml', NOW(), 3, '8:ac17eae89fbdccb6e08daf3c7797b579', 'addColumn tableName=ACT_DMN_HI_DECISION_EXECUTION', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636502764')
+2020-09-09 15:28:23  [ main:27957 ] - [ INFO ]  ALTER TABLE erp.ACT_DMN_DECISION_TABLE DROP COLUMN PARENT_DEPLOYMENT_ID_
+2020-09-09 15:28:23  [ main:28068 ] - [ INFO ]  Column ACT_DMN_DECISION_TABLE.PARENT_DEPLOYMENT_ID_ dropped
+2020-09-09 15:28:23  [ main:28069 ] - [ INFO ]  ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::4::flowable ran successfully in 113ms
+2020-09-09 15:28:23  [ main:28070 ] - [ INFO ]  INSERT INTO erp.ACT_DMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('4', 'flowable', 'org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml', NOW(), 4, '8:f73aabc4529e7292c2942073d1cff6f9', 'dropColumn columnName=PARENT_DEPLOYMENT_ID_, tableName=ACT_DMN_DECISION_TABLE', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636502764')
+2020-09-09 15:28:23  [ main:28080 ] - [ INFO ]  ALTER TABLE erp.ACT_DMN_DEPLOYMENT MODIFY DEPLOY_TIME_ datetime(3)
+2020-09-09 15:28:23  [ main:28206 ] - [ INFO ]  ACT_DMN_DEPLOYMENT.DEPLOY_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:23  [ main:28206 ] - [ INFO ]  ALTER TABLE erp.ACT_DMN_HI_DECISION_EXECUTION MODIFY START_TIME_ datetime(3)
+2020-09-09 15:28:23  [ main:28367 ] - [ INFO ]  ACT_DMN_HI_DECISION_EXECUTION.START_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:23  [ main:28369 ] - [ INFO ]  ALTER TABLE erp.ACT_DMN_HI_DECISION_EXECUTION MODIFY END_TIME_ datetime(3)
+2020-09-09 15:28:23  [ main:28509 ] - [ INFO ]  ACT_DMN_HI_DECISION_EXECUTION.END_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:23  [ main:28509 ] - [ INFO ]  ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::5::flowable ran successfully in 430ms
+2020-09-09 15:28:23  [ main:28510 ] - [ INFO ]  INSERT INTO erp.ACT_DMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('5', 'flowable', 'org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml', NOW(), 5, '8:3e03528582dd4eeb4eb41f9b9539140d', 'modifyDataType columnName=DEPLOY_TIME_, tableName=ACT_DMN_DEPLOYMENT; modifyDataType columnName=START_TIME_, tableName=ACT_DMN_HI_DECISION_EXECUTION; modifyDataType columnName=END_TIME_, tableName=ACT_DMN_HI_DECISION_EXECUTION', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636502764')
+2020-09-09 15:28:23  [ main:28520 ] - [ INFO ]  CREATE UNIQUE INDEX ACT_IDX_DEC_TBL_UNIQ ON erp.ACT_DMN_DECISION_TABLE(KEY_, VERSION_, TENANT_ID_)
+2020-09-09 15:28:23  [ main:28560 ] - [ INFO ]  Index ACT_IDX_DEC_TBL_UNIQ created
+2020-09-09 15:28:23  [ main:28560 ] - [ INFO ]  ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::6::flowable ran successfully in 41ms
+2020-09-09 15:28:23  [ main:28561 ] - [ INFO ]  INSERT INTO erp.ACT_DMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('6', 'flowable', 'org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml', NOW(), 6, '8:646c6a061e0b6e8a62e69844ff96abb0', 'createIndex indexName=ACT_IDX_DEC_TBL_UNIQ, tableName=ACT_DMN_DECISION_TABLE', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636502764')
+2020-09-09 15:28:23  [ main:28584 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:28:23  [ main:28586 ] - [ INFO ]  DmnEngine default created
+2020-09-09 15:28:23  [ main:28590 ] - [ INFO ]  Executing configure() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2020-09-09 15:28:23  [ main:28692 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:23  [ main:28693 ] - [ INFO ]  CREATE TABLE erp.ACT_FO_DATABASECHANGELOGLOCK (ID INT NOT NULL, `LOCKED` BIT(1) NOT NULL, LOCKGRANTED datetime NULL, LOCKEDBY VARCHAR(255) NULL, CONSTRAINT PK_ACT_FO_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+2020-09-09 15:28:23  [ main:28754 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:23  [ main:28756 ] - [ INFO ]  DELETE FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:23  [ main:28756 ] - [ INFO ]  INSERT INTO erp.ACT_FO_DATABASECHANGELOGLOCK (ID, `LOCKED`) VALUES (1, 0)
+2020-09-09 15:28:23  [ main:28767 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_FO_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:28:23  [ main:28794 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:28:24  [ main:28837 ] - [ INFO ]  Creating database history table with name: erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 15:28:24  [ main:28837 ] - [ INFO ]  CREATE TABLE erp.ACT_FO_DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED datetime NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35) NULL, `DESCRIPTION` VARCHAR(255) NULL, COMMENTS VARCHAR(255) NULL, TAG VARCHAR(255) NULL, LIQUIBASE VARCHAR(20) NULL, CONTEXTS VARCHAR(255) NULL, LABELS VARCHAR(255) NULL, DEPLOYMENT_ID VARCHAR(10) NULL)
+2020-09-09 15:28:24  [ main:29032 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 15:28:24  [ main:29037 ] - [ INFO ]  Reading from erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 15:28:24  [ main:29037 ] - [ INFO ]  SELECT * FROM erp.ACT_FO_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:28:24  [ main:29038 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_FO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:24  [ main:29046 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:24  [ main:29047 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:24  [ main:29047 ] - [ INFO ]  CREATE TABLE erp.ACT_FO_FORM_DEPLOYMENT (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOY_TIME_ datetime NULL, TENANT_ID_ VARCHAR(255) NULL, PARENT_DEPLOYMENT_ID_ VARCHAR(255) NULL, CONSTRAINT PK_ACT_FO_FORM_DEPLOYMENT PRIMARY KEY (ID_))
+2020-09-09 15:28:24  [ main:29098 ] - [ INFO ]  Table ACT_FO_FORM_DEPLOYMENT created
+2020-09-09 15:28:24  [ main:29099 ] - [ INFO ]  CREATE TABLE erp.ACT_FO_FORM_RESOURCE (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, RESOURCE_BYTES_ LONGBLOB NULL, CONSTRAINT PK_ACT_FO_FORM_RESOURCE PRIMARY KEY (ID_))
+2020-09-09 15:28:24  [ main:29167 ] - [ INFO ]  Table ACT_FO_FORM_RESOURCE created
+2020-09-09 15:28:24  [ main:29169 ] - [ INFO ]  CREATE TABLE erp.ACT_FO_FORM_DEFINITION (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, VERSION_ INT NULL, KEY_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, PARENT_DEPLOYMENT_ID_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) NULL, RESOURCE_NAME_ VARCHAR(255) NULL, DESCRIPTION_ VARCHAR(255) NULL, CONSTRAINT PK_ACT_FO_FORM_DEFINITION PRIMARY KEY (ID_))
+2020-09-09 15:28:24  [ main:29266 ] - [ INFO ]  Table ACT_FO_FORM_DEFINITION created
+2020-09-09 15:28:24  [ main:29267 ] - [ INFO ]  CREATE TABLE erp.ACT_FO_FORM_INSTANCE (ID_ VARCHAR(255) NOT NULL, FORM_DEFINITION_ID_ VARCHAR(255) NOT NULL, TASK_ID_ VARCHAR(255) NULL, PROC_INST_ID_ VARCHAR(255) NULL, PROC_DEF_ID_ VARCHAR(255) NULL, SUBMITTED_DATE_ datetime NULL, SUBMITTED_BY_ VARCHAR(255) NULL, FORM_VALUES_ID_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) NULL, CONSTRAINT PK_ACT_FO_FORM_INSTANCE PRIMARY KEY (ID_))
+2020-09-09 15:28:24  [ main:29349 ] - [ INFO ]  Table ACT_FO_FORM_INSTANCE created
+2020-09-09 15:28:24  [ main:29349 ] - [ INFO ]  ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::1::activiti ran successfully in 302ms
+2020-09-09 15:28:24  [ main:29349 ] - [ INFO ]  SELECT MAX(ORDEREXECUTED) FROM erp.ACT_FO_DATABASECHANGELOG
+2020-09-09 15:28:24  [ main:29350 ] - [ INFO ]  INSERT INTO erp.ACT_FO_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1', 'activiti', 'org/flowable/form/db/liquibase/flowable-form-db-changelog.xml', NOW(), 1, '8:033ebf9380889aed7c453927ecc3250d', 'createTable tableName=ACT_FO_FORM_DEPLOYMENT; createTable tableName=ACT_FO_FORM_RESOURCE; createTable tableName=ACT_FO_FORM_DEFINITION; createTable tableName=ACT_FO_FORM_INSTANCE', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636504244')
+2020-09-09 15:28:24  [ main:29367 ] - [ INFO ]  ALTER TABLE erp.ACT_FO_FORM_INSTANCE ADD SCOPE_ID_ VARCHAR(255) NULL, ADD SCOPE_TYPE_ VARCHAR(255) NULL, ADD SCOPE_DEFINITION_ID_ VARCHAR(255) NULL
+2020-09-09 15:28:24  [ main:29406 ] - [ INFO ]  Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)),SCOPE_DEFINITION_ID_(varchar(255)) added to ACT_FO_FORM_INSTANCE
+2020-09-09 15:28:24  [ main:29407 ] - [ INFO ]  ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::2::flowable ran successfully in 41ms
+2020-09-09 15:28:24  [ main:29407 ] - [ INFO ]  INSERT INTO erp.ACT_FO_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('2', 'flowable', 'org/flowable/form/db/liquibase/flowable-form-db-changelog.xml', NOW(), 2, '8:986365ceb40445ce3b27a8e6b40f159b', 'addColumn tableName=ACT_FO_FORM_INSTANCE', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636504244')
+2020-09-09 15:28:24  [ main:29420 ] - [ INFO ]  ALTER TABLE erp.ACT_FO_FORM_DEFINITION DROP COLUMN PARENT_DEPLOYMENT_ID_
+2020-09-09 15:28:24  [ main:29594 ] - [ INFO ]  Column ACT_FO_FORM_DEFINITION.PARENT_DEPLOYMENT_ID_ dropped
+2020-09-09 15:28:24  [ main:29595 ] - [ INFO ]  ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::3::flowable ran successfully in 176ms
+2020-09-09 15:28:24  [ main:29596 ] - [ INFO ]  INSERT INTO erp.ACT_FO_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('3', 'flowable', 'org/flowable/form/db/liquibase/flowable-form-db-changelog.xml', NOW(), 3, '8:abf482518ceb09830ef674e52c06bf15', 'dropColumn columnName=PARENT_DEPLOYMENT_ID_, tableName=ACT_FO_FORM_DEFINITION', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636504244')
+2020-09-09 15:28:24  [ main:29607 ] - [ INFO ]  ALTER TABLE erp.ACT_FO_FORM_DEPLOYMENT MODIFY DEPLOY_TIME_ datetime(3)
+2020-09-09 15:28:25  [ main:29901 ] - [ INFO ]  ACT_FO_FORM_DEPLOYMENT.DEPLOY_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:25  [ main:29901 ] - [ INFO ]  ALTER TABLE erp.ACT_FO_FORM_INSTANCE MODIFY SUBMITTED_DATE_ datetime(3)
+2020-09-09 15:28:25  [ main:30193 ] - [ INFO ]  ACT_FO_FORM_INSTANCE.SUBMITTED_DATE_ datatype was changed to datetime(3)
+2020-09-09 15:28:25  [ main:30194 ] - [ INFO ]  ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::4::flowable ran successfully in 588ms
+2020-09-09 15:28:25  [ main:30194 ] - [ INFO ]  INSERT INTO erp.ACT_FO_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('4', 'flowable', 'org/flowable/form/db/liquibase/flowable-form-db-changelog.xml', NOW(), 4, '8:2087829f22a4b2298dbf530681c74854', 'modifyDataType columnName=DEPLOY_TIME_, tableName=ACT_FO_FORM_DEPLOYMENT; modifyDataType columnName=SUBMITTED_DATE_, tableName=ACT_FO_FORM_INSTANCE', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636504244')
+2020-09-09 15:28:25  [ main:30204 ] - [ INFO ]  CREATE UNIQUE INDEX ACT_IDX_FORM_DEF_UNIQ ON erp.ACT_FO_FORM_DEFINITION(KEY_, VERSION_, TENANT_ID_)
+2020-09-09 15:28:25  [ main:30283 ] - [ INFO ]  Index ACT_IDX_FORM_DEF_UNIQ created
+2020-09-09 15:28:25  [ main:30284 ] - [ INFO ]  ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::5::flowable ran successfully in 81ms
+2020-09-09 15:28:25  [ main:30285 ] - [ INFO ]  INSERT INTO erp.ACT_FO_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('5', 'flowable', 'org/flowable/form/db/liquibase/flowable-form-db-changelog.xml', NOW(), 5, '8:b4be732b89e5ca028bdd520c6ad4d446', 'createIndex indexName=ACT_IDX_FORM_DEF_UNIQ, tableName=ACT_FO_FORM_DEFINITION', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636504244')
+2020-09-09 15:28:25  [ main:30297 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:28:25  [ main:30298 ] - [ INFO ]  FormEngine default created
+2020-09-09 15:28:25  [ main:30301 ] - [ INFO ]  Executing configure() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2020-09-09 15:28:25  [ main:30311 ] - [ INFO ]  Content file system root : C:\Users\R\content
+2020-09-09 15:28:25  [ main:30760 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:25  [ main:30761 ] - [ INFO ]  CREATE TABLE erp.ACT_CO_DATABASECHANGELOGLOCK (ID INT NOT NULL, `LOCKED` BIT(1) NOT NULL, LOCKGRANTED datetime NULL, LOCKEDBY VARCHAR(255) NULL, CONSTRAINT PK_ACT_CO_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+2020-09-09 15:28:26  [ main:30798 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:26  [ main:30799 ] - [ INFO ]  DELETE FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:26  [ main:30800 ] - [ INFO ]  INSERT INTO erp.ACT_CO_DATABASECHANGELOGLOCK (ID, `LOCKED`) VALUES (1, 0)
+2020-09-09 15:28:26  [ main:30803 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_CO_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:28:26  [ main:30807 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:28:26  [ main:30818 ] - [ INFO ]  Creating database history table with name: erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 15:28:26  [ main:30819 ] - [ INFO ]  CREATE TABLE erp.ACT_CO_DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED datetime NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35) NULL, `DESCRIPTION` VARCHAR(255) NULL, COMMENTS VARCHAR(255) NULL, TAG VARCHAR(255) NULL, LIQUIBASE VARCHAR(20) NULL, CONTEXTS VARCHAR(255) NULL, LABELS VARCHAR(255) NULL, DEPLOYMENT_ID VARCHAR(10) NULL)
+2020-09-09 15:28:26  [ main:30846 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 15:28:26  [ main:30848 ] - [ INFO ]  Reading from erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 15:28:26  [ main:30848 ] - [ INFO ]  SELECT * FROM erp.ACT_CO_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:28:26  [ main:30849 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CO_DATABASECHANGELOGLOCK
+2020-09-09 15:28:26  [ main:30855 ] - [ INFO ]  CREATE TABLE erp.ACT_CO_CONTENT_ITEM (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NOT NULL, MIME_TYPE_ VARCHAR(255) NULL, TASK_ID_ VARCHAR(255) NULL, PROC_INST_ID_ VARCHAR(255) NULL, CONTENT_STORE_ID_ VARCHAR(255) NULL, CONTENT_STORE_NAME_ VARCHAR(255) NULL, FIELD_ VARCHAR(400) NULL, CONTENT_AVAILABLE_ BIT(1) DEFAULT 0 NULL, CREATED_ timestamp(6) NULL, CREATED_BY_ VARCHAR(255) NULL, LAST_MODIFIED_ timestamp(6) NULL, LAST_MODIFIED_BY_ VARCHAR(255) NULL, CONTENT_SIZE_ BIGINT DEFAULT 0 NULL, TENANT_ID_ VARCHAR(255) NULL, CONSTRAINT PK_ACT_CO_CONTENT_ITEM PRIMARY KEY (ID_))
+2020-09-09 15:28:26  [ main:30882 ] - [ INFO ]  Table ACT_CO_CONTENT_ITEM created
+2020-09-09 15:28:26  [ main:30883 ] - [ INFO ]  CREATE INDEX idx_contitem_taskid ON erp.ACT_CO_CONTENT_ITEM(TASK_ID_)
+2020-09-09 15:28:26  [ main:30909 ] - [ INFO ]  Index idx_contitem_taskid created
+2020-09-09 15:28:26  [ main:30910 ] - [ INFO ]  CREATE INDEX idx_contitem_procid ON erp.ACT_CO_CONTENT_ITEM(PROC_INST_ID_)
+2020-09-09 15:28:26  [ main:30950 ] - [ INFO ]  Index idx_contitem_procid created
+2020-09-09 15:28:26  [ main:30951 ] - [ INFO ]  ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::1::activiti ran successfully in 97ms
+2020-09-09 15:28:26  [ main:30951 ] - [ INFO ]  SELECT MAX(ORDEREXECUTED) FROM erp.ACT_CO_DATABASECHANGELOG
+2020-09-09 15:28:26  [ main:30953 ] - [ INFO ]  INSERT INTO erp.ACT_CO_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1', 'activiti', 'org/flowable/content/db/liquibase/flowable-content-db-changelog.xml', NOW(), 1, '8:7644d7165cfe799200a2abdd3419e8b6', 'createTable tableName=ACT_CO_CONTENT_ITEM; createIndex indexName=idx_contitem_taskid, tableName=ACT_CO_CONTENT_ITEM; createIndex indexName=idx_contitem_procid, tableName=ACT_CO_CONTENT_ITEM', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506055')
+2020-09-09 15:28:26  [ main:30959 ] - [ INFO ]  ALTER TABLE erp.ACT_CO_CONTENT_ITEM ADD SCOPE_ID_ VARCHAR(255) NULL, ADD SCOPE_TYPE_ VARCHAR(255) NULL
+2020-09-09 15:28:26  [ main:30982 ] - [ INFO ]  Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)) added to ACT_CO_CONTENT_ITEM
+2020-09-09 15:28:26  [ main:30982 ] - [ INFO ]  CREATE INDEX idx_contitem_scope ON erp.ACT_CO_CONTENT_ITEM(SCOPE_ID_, SCOPE_TYPE_)
+2020-09-09 15:28:26  [ main:31001 ] - [ INFO ]  Index idx_contitem_scope created
+2020-09-09 15:28:26  [ main:31001 ] - [ INFO ]  ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::2::flowable ran successfully in 43ms
+2020-09-09 15:28:26  [ main:31002 ] - [ INFO ]  INSERT INTO erp.ACT_CO_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('2', 'flowable', 'org/flowable/content/db/liquibase/flowable-content-db-changelog.xml', NOW(), 2, '8:fe7b11ac7dbbf9c43006b23bbab60bab', 'addColumn tableName=ACT_CO_CONTENT_ITEM; createIndex indexName=idx_contitem_scope, tableName=ACT_CO_CONTENT_ITEM', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506055')
+2020-09-09 15:28:26  [ main:31011 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:28:26  [ main:31012 ] - [ INFO ]  ContentEngine default created
+2020-09-09 15:28:26  [ main:31013 ] - [ INFO ]  Executing configure() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2020-09-09 15:28:26  [ main:31177 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:26  [ main:31178 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_DATABASECHANGELOGLOCK (ID INT NOT NULL, `LOCKED` BIT(1) NOT NULL, LOCKGRANTED datetime NULL, LOCKEDBY VARCHAR(255) NULL, CONSTRAINT PK_ACT_CMMN_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+2020-09-09 15:28:26  [ main:31202 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:26  [ main:31204 ] - [ INFO ]  DELETE FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:26  [ main:31204 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOGLOCK (ID, `LOCKED`) VALUES (1, 0)
+2020-09-09 15:28:26  [ main:31207 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:28:26  [ main:31213 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:28:26  [ main:31235 ] - [ INFO ]  Creating database history table with name: erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 15:28:26  [ main:31235 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED datetime NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35) NULL, `DESCRIPTION` VARCHAR(255) NULL, COMMENTS VARCHAR(255) NULL, TAG VARCHAR(255) NULL, LIQUIBASE VARCHAR(20) NULL, CONTEXTS VARCHAR(255) NULL, LABELS VARCHAR(255) NULL, DEPLOYMENT_ID VARCHAR(10) NULL)
+2020-09-09 15:28:26  [ main:31259 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 15:28:26  [ main:31261 ] - [ INFO ]  Reading from erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 15:28:26  [ main:31261 ] - [ INFO ]  SELECT * FROM erp.ACT_CMMN_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:28:26  [ main:31262 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_CMMN_DATABASECHANGELOGLOCK
+2020-09-09 15:28:26  [ main:31290 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31291 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31296 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31297 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31298 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31298 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31298 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:26  [ main:31299 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_DEPLOYMENT (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, KEY_ VARCHAR(255) NULL, DEPLOY_TIME_ datetime NULL, PARENT_DEPLOYMENT_ID_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_ACT_CMMN_DEPLOYMENT PRIMARY KEY (ID_))
+2020-09-09 15:28:26  [ main:31322 ] - [ INFO ]  Table ACT_CMMN_DEPLOYMENT created
+2020-09-09 15:28:26  [ main:31322 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_DEPLOYMENT_RESOURCE (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, RESOURCE_BYTES_ LONGBLOB NULL, CONSTRAINT PK_CMMN_DEPLOYMENT_RESOURCE PRIMARY KEY (ID_))
+2020-09-09 15:28:26  [ main:31343 ] - [ INFO ]  Table ACT_CMMN_DEPLOYMENT_RESOURCE created
+2020-09-09 15:28:26  [ main:31344 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_DEPLOYMENT_RESOURCE ADD CONSTRAINT ACT_FK_CMMN_RSRC_DPL FOREIGN KEY (DEPLOYMENT_ID_) REFERENCES erp.ACT_CMMN_DEPLOYMENT (ID_)
+2020-09-09 15:28:26  [ main:31405 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+2020-09-09 15:28:26  [ main:31406 ] - [ INFO ]  CREATE INDEX ACT_IDX_CMMN_RSRC_DPL ON erp.ACT_CMMN_DEPLOYMENT_RESOURCE(DEPLOYMENT_ID_)
+2020-09-09 15:28:26  [ main:31428 ] - [ INFO ]  Index ACT_IDX_CMMN_RSRC_DPL created
+2020-09-09 15:28:26  [ main:31430 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_CASEDEF (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, NAME_ VARCHAR(255) NULL, KEY_ VARCHAR(255) NOT NULL, VERSION_ INT NOT NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, RESOURCE_NAME_ VARCHAR(4000) NULL, DESCRIPTION_ VARCHAR(4000) NULL, HAS_GRAPHICAL_NOTATION_ BIT(1) NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_ACT_CMMN_CASEDEF PRIMARY KEY (ID_))
+2020-09-09 15:28:26  [ main:31457 ] - [ INFO ]  Table ACT_CMMN_CASEDEF created
+2020-09-09 15:28:26  [ main:31458 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_CASEDEF ADD CONSTRAINT ACT_FK_CASE_DEF_DPLY FOREIGN KEY (DEPLOYMENT_ID_) REFERENCES erp.ACT_CMMN_DEPLOYMENT (ID_)
+2020-09-09 15:28:26  [ main:31522 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_CASEDEF (DEPLOYMENT_ID_)
+2020-09-09 15:28:26  [ main:31522 ] - [ INFO ]  CREATE INDEX ACT_IDX_CASE_DEF_DPLY ON erp.ACT_CMMN_CASEDEF(DEPLOYMENT_ID_)
+2020-09-09 15:28:26  [ main:31551 ] - [ INFO ]  Index ACT_IDX_CASE_DEF_DPLY created
+2020-09-09 15:28:26  [ main:31552 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_RU_CASE_INST (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, BUSINESS_KEY_ VARCHAR(255) NULL, NAME_ VARCHAR(255) NULL, PARENT_ID_ VARCHAR(255) NULL, CASE_DEF_ID_ VARCHAR(255) NULL, STATE_ VARCHAR(255) NULL, START_TIME_ datetime NULL, START_USER_ID_ VARCHAR(255) NULL, CALLBACK_ID_ VARCHAR(255) NULL, CALLBACK_TYPE_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_ACT_CMMN_RU_CASE_INST PRIMARY KEY (ID_))
+2020-09-09 15:28:26  [ main:31580 ] - [ INFO ]  Table ACT_CMMN_RU_CASE_INST created
+2020-09-09 15:28:26  [ main:31581 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_CASE_INST ADD CONSTRAINT ACT_FK_CASE_INST_CASE_DEF FOREIGN KEY (CASE_DEF_ID_) REFERENCES erp.ACT_CMMN_CASEDEF (ID_)
+2020-09-09 15:28:26  [ main:31681 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_CASE_INST (CASE_DEF_ID_)
+2020-09-09 15:28:26  [ main:31681 ] - [ INFO ]  CREATE INDEX ACT_IDX_CASE_INST_CASE_DEF ON erp.ACT_CMMN_RU_CASE_INST(CASE_DEF_ID_)
+2020-09-09 15:28:26  [ main:31711 ] - [ INFO ]  Index ACT_IDX_CASE_INST_CASE_DEF created
+2020-09-09 15:28:26  [ main:31711 ] - [ INFO ]  CREATE INDEX ACT_IDX_CASE_INST_PARENT ON erp.ACT_CMMN_RU_CASE_INST(PARENT_ID_)
+2020-09-09 15:28:26  [ main:31750 ] - [ INFO ]  Index ACT_IDX_CASE_INST_PARENT created
+2020-09-09 15:28:26  [ main:31751 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, CASE_DEF_ID_ VARCHAR(255) NULL, CASE_INST_ID_ VARCHAR(255) NULL, STAGE_INST_ID_ VARCHAR(255) NULL, IS_STAGE_ BIT(1) NULL, ELEMENT_ID_ VARCHAR(255) NULL, NAME_ VARCHAR(255) NULL, STATE_ VARCHAR(255) NULL, START_TIME_ datetime NULL, START_USER_ID_ VARCHAR(255) NULL, REFERENCE_ID_ VARCHAR(255) NULL, REFERENCE_TYPE_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_CMMN_PLAN_ITEM_INST PRIMARY KEY (ID_))
+2020-09-09 15:28:27  [ main:31801 ] - [ INFO ]  Table ACT_CMMN_RU_PLAN_ITEM_INST created
+2020-09-09 15:28:27  [ main:31802 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD CONSTRAINT ACT_FK_PLAN_ITEM_CASE_DEF FOREIGN KEY (CASE_DEF_ID_) REFERENCES erp.ACT_CMMN_CASEDEF (ID_)
+2020-09-09 15:28:27  [ main:31914 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_DEF_ID_)
+2020-09-09 15:28:27  [ main:31914 ] - [ INFO ]  CREATE INDEX ACT_IDX_PLAN_ITEM_CASE_DEF ON erp.ACT_CMMN_RU_PLAN_ITEM_INST(CASE_DEF_ID_)
+2020-09-09 15:28:27  [ main:31938 ] - [ INFO ]  Index ACT_IDX_PLAN_ITEM_CASE_DEF created
+2020-09-09 15:28:27  [ main:31938 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD CONSTRAINT ACT_FK_PLAN_ITEM_CASE_INST FOREIGN KEY (CASE_INST_ID_) REFERENCES erp.ACT_CMMN_RU_CASE_INST (ID_)
+2020-09-09 15:28:27  [ main:32015 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_INST_ID_)
+2020-09-09 15:28:27  [ main:32015 ] - [ INFO ]  CREATE INDEX ACT_IDX_PLAN_ITEM_CASE_INST ON erp.ACT_CMMN_RU_PLAN_ITEM_INST(CASE_INST_ID_)
+2020-09-09 15:28:27  [ main:32038 ] - [ INFO ]  Index ACT_IDX_PLAN_ITEM_CASE_INST created
+2020-09-09 15:28:27  [ main:32039 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_RU_SENTRY_PART_INST (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, CASE_DEF_ID_ VARCHAR(255) NULL, CASE_INST_ID_ VARCHAR(255) NULL, PLAN_ITEM_INST_ID_ VARCHAR(255) NULL, ON_PART_ID_ VARCHAR(255) NULL, IF_PART_ID_ VARCHAR(255) NULL, TIME_STAMP_ datetime NULL, CONSTRAINT PK_CMMN_SENTRY_PART_INST PRIMARY KEY (ID_))
+2020-09-09 15:28:27  [ main:32061 ] - [ INFO ]  Table ACT_CMMN_RU_SENTRY_PART_INST created
+2020-09-09 15:28:27  [ main:32061 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_SENTRY_PART_INST ADD CONSTRAINT ACT_FK_SENTRY_CASE_DEF FOREIGN KEY (CASE_DEF_ID_) REFERENCES erp.ACT_CMMN_CASEDEF (ID_)
+2020-09-09 15:28:27  [ main:32120 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_DEF_ID_)
+2020-09-09 15:28:27  [ main:32121 ] - [ INFO ]  CREATE INDEX ACT_IDX_SENTRY_CASE_DEF ON erp.ACT_CMMN_RU_SENTRY_PART_INST(CASE_DEF_ID_)
+2020-09-09 15:28:27  [ main:32143 ] - [ INFO ]  Index ACT_IDX_SENTRY_CASE_DEF created
+2020-09-09 15:28:27  [ main:32144 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_SENTRY_PART_INST ADD CONSTRAINT ACT_FK_SENTRY_CASE_INST FOREIGN KEY (CASE_INST_ID_) REFERENCES erp.ACT_CMMN_RU_CASE_INST (ID_)
+2020-09-09 15:28:27  [ main:32211 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_INST_ID_)
+2020-09-09 15:28:27  [ main:32212 ] - [ INFO ]  CREATE INDEX ACT_IDX_SENTRY_CASE_INST ON erp.ACT_CMMN_RU_SENTRY_PART_INST(CASE_INST_ID_)
+2020-09-09 15:28:27  [ main:32258 ] - [ INFO ]  Index ACT_IDX_SENTRY_CASE_INST created
+2020-09-09 15:28:27  [ main:32259 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_SENTRY_PART_INST ADD CONSTRAINT ACT_FK_SENTRY_PLAN_ITEM FOREIGN KEY (PLAN_ITEM_INST_ID_) REFERENCES erp.ACT_CMMN_RU_PLAN_ITEM_INST (ID_)
+2020-09-09 15:28:27  [ main:32338 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (PLAN_ITEM_INST_ID_)
+2020-09-09 15:28:27  [ main:32339 ] - [ INFO ]  CREATE INDEX ACT_IDX_SENTRY_PLAN_ITEM ON erp.ACT_CMMN_RU_SENTRY_PART_INST(PLAN_ITEM_INST_ID_)
+2020-09-09 15:28:27  [ main:32362 ] - [ INFO ]  Index ACT_IDX_SENTRY_PLAN_ITEM created
+2020-09-09 15:28:27  [ main:32363 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_RU_MIL_INST (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NOT NULL, TIME_STAMP_ datetime NOT NULL, CASE_INST_ID_ VARCHAR(255) NOT NULL, CASE_DEF_ID_ VARCHAR(255) NOT NULL, ELEMENT_ID_ VARCHAR(255) NOT NULL, CONSTRAINT PK_ACT_CMMN_RU_MIL_INST PRIMARY KEY (ID_))
+2020-09-09 15:28:27  [ main:32391 ] - [ INFO ]  Table ACT_CMMN_RU_MIL_INST created
+2020-09-09 15:28:27  [ main:32391 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_MIL_INST ADD CONSTRAINT ACT_FK_MIL_CASE_DEF FOREIGN KEY (CASE_DEF_ID_) REFERENCES erp.ACT_CMMN_CASEDEF (ID_)
+2020-09-09 15:28:27  [ main:32471 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_DEF_ID_)
+2020-09-09 15:28:27  [ main:32471 ] - [ INFO ]  CREATE INDEX ACT_IDX_MIL_CASE_DEF ON erp.ACT_CMMN_RU_MIL_INST(CASE_DEF_ID_)
+2020-09-09 15:28:27  [ main:32512 ] - [ INFO ]  Index ACT_IDX_MIL_CASE_DEF created
+2020-09-09 15:28:27  [ main:32513 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_MIL_INST ADD CONSTRAINT ACT_FK_MIL_CASE_INST FOREIGN KEY (CASE_INST_ID_) REFERENCES erp.ACT_CMMN_RU_CASE_INST (ID_)
+2020-09-09 15:28:27  [ main:32594 ] - [ INFO ]  Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_INST_ID_)
+2020-09-09 15:28:27  [ main:32594 ] - [ INFO ]  CREATE INDEX ACT_IDX_MIL_CASE_INST ON erp.ACT_CMMN_RU_MIL_INST(CASE_INST_ID_)
+2020-09-09 15:28:27  [ main:32636 ] - [ INFO ]  Index ACT_IDX_MIL_CASE_INST created
+2020-09-09 15:28:27  [ main:32637 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_HI_CASE_INST (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, BUSINESS_KEY_ VARCHAR(255) NULL, NAME_ VARCHAR(255) NULL, PARENT_ID_ VARCHAR(255) NULL, CASE_DEF_ID_ VARCHAR(255) NULL, STATE_ VARCHAR(255) NULL, START_TIME_ datetime NULL, END_TIME_ datetime NULL, START_USER_ID_ VARCHAR(255) NULL, CALLBACK_ID_ VARCHAR(255) NULL, CALLBACK_TYPE_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_ACT_CMMN_HI_CASE_INST PRIMARY KEY (ID_))
+2020-09-09 15:28:27  [ main:32683 ] - [ INFO ]  Table ACT_CMMN_HI_CASE_INST created
+2020-09-09 15:28:27  [ main:32684 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_HI_MIL_INST (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, NAME_ VARCHAR(255) NOT NULL, TIME_STAMP_ datetime NOT NULL, CASE_INST_ID_ VARCHAR(255) NOT NULL, CASE_DEF_ID_ VARCHAR(255) NOT NULL, ELEMENT_ID_ VARCHAR(255) NOT NULL, CONSTRAINT PK_ACT_CMMN_HI_MIL_INST PRIMARY KEY (ID_))
+2020-09-09 15:28:27  [ main:32707 ] - [ INFO ]  Table ACT_CMMN_HI_MIL_INST created
+2020-09-09 15:28:27  [ main:32708 ] - [ INFO ]  ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::1::flowable ran successfully in 1410ms
+2020-09-09 15:28:27  [ main:32709 ] - [ INFO ]  SELECT MAX(ORDEREXECUTED) FROM erp.ACT_CMMN_DATABASECHANGELOG
+2020-09-09 15:28:27  [ main:32715 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1', 'flowable', 'org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml', NOW(), 1, '8:8b4b922d90b05ff27483abefc9597aa6', 'createTable tableName=ACT_CMMN_DEPLOYMENT; createTable tableName=ACT_CMMN_DEPLOYMENT_RESOURCE; addForeignKeyConstraint baseTableName=ACT_CMMN_DEPLOYMENT_RESOURCE, constraintName=ACT_FK_CMMN_RSRC_DPL, referencedTableName=ACT_CMMN_DEPLOYMENT; create...', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506467')
+2020-09-09 15:28:27  [ main:32722 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_CASEDEF ADD DGRM_RESOURCE_NAME_ VARCHAR(4000) NULL, ADD HAS_START_FORM_KEY_ BIT(1) NULL
+2020-09-09 15:28:27  [ main:32759 ] - [ INFO ]  Columns DGRM_RESOURCE_NAME_(varchar(4000)),HAS_START_FORM_KEY_(boolean) added to ACT_CMMN_CASEDEF
+2020-09-09 15:28:27  [ main:32760 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_DEPLOYMENT_RESOURCE ADD GENERATED_ BIT(1) NULL
+2020-09-09 15:28:28  [ main:32812 ] - [ INFO ]  Columns GENERATED_(boolean) added to ACT_CMMN_DEPLOYMENT_RESOURCE
+2020-09-09 15:28:28  [ main:32812 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_CASE_INST ADD LOCK_TIME_ datetime NULL
+2020-09-09 15:28:28  [ main:32839 ] - [ INFO ]  Columns LOCK_TIME_(datetime) added to ACT_CMMN_RU_CASE_INST
+2020-09-09 15:28:28  [ main:32839 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD ITEM_DEFINITION_ID_ VARCHAR(255) NULL, ADD ITEM_DEFINITION_TYPE_ VARCHAR(255) NULL
+2020-09-09 15:28:28  [ main:32861 ] - [ INFO ]  Columns ITEM_DEFINITION_ID_(varchar(255)),ITEM_DEFINITION_TYPE_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+2020-09-09 15:28:28  [ main:32862 ] - [ INFO ]  ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::2::flowable ran successfully in 141ms
+2020-09-09 15:28:28  [ main:32862 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('2', 'flowable', 'org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml', NOW(), 2, '8:65e39b3d385706bb261cbeffe7533cbe', 'addColumn tableName=ACT_CMMN_CASEDEF; addColumn tableName=ACT_CMMN_DEPLOYMENT_RESOURCE; addColumn tableName=ACT_CMMN_RU_CASE_INST; addColumn tableName=ACT_CMMN_RU_PLAN_ITEM_INST', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506467')
+2020-09-09 15:28:28  [ main:32866 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD IS_COMPLETEABLE_ BIT(1) NULL
+2020-09-09 15:28:28  [ main:32887 ] - [ INFO ]  Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+2020-09-09 15:28:28  [ main:32887 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_CASE_INST ADD IS_COMPLETEABLE_ BIT(1) NULL
+2020-09-09 15:28:28  [ main:32926 ] - [ INFO ]  Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_CASE_INST
+2020-09-09 15:28:28  [ main:32926 ] - [ INFO ]  CREATE INDEX ACT_IDX_PLAN_ITEM_STAGE_INST ON erp.ACT_CMMN_RU_PLAN_ITEM_INST(STAGE_INST_ID_)
+2020-09-09 15:28:28  [ main:32947 ] - [ INFO ]  Index ACT_IDX_PLAN_ITEM_STAGE_INST created
+2020-09-09 15:28:28  [ main:32947 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD IS_COUNT_ENABLED_ BIT(1) NULL
+2020-09-09 15:28:28  [ main:32979 ] - [ INFO ]  Columns IS_COUNT_ENABLED_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+2020-09-09 15:28:28  [ main:32980 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD VAR_COUNT_ INT NULL
+2020-09-09 15:28:28  [ main:32999 ] - [ INFO ]  Columns VAR_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+2020-09-09 15:28:28  [ main:33000 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD SENTRY_PART_INST_COUNT_ INT NULL
+2020-09-09 15:28:28  [ main:33022 ] - [ INFO ]  Columns SENTRY_PART_INST_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+2020-09-09 15:28:28  [ main:33022 ] - [ INFO ]  ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::3::flowable ran successfully in 156ms
+2020-09-09 15:28:28  [ main:33023 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('3', 'flowable', 'org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml', NOW(), 3, '8:c01f6e802b49436b4489040da3012359', 'addColumn tableName=ACT_CMMN_RU_PLAN_ITEM_INST; addColumn tableName=ACT_CMMN_RU_CASE_INST; createIndex indexName=ACT_IDX_PLAN_ITEM_STAGE_INST, tableName=ACT_CMMN_RU_PLAN_ITEM_INST; addColumn tableName=ACT_CMMN_RU_PLAN_ITEM_INST; addColumn tableNam...', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506467')
+2020-09-09 15:28:28  [ main:33028 ] - [ INFO ]  CREATE TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, NAME_ VARCHAR(255) NULL, STATE_ VARCHAR(255) NULL, CASE_DEF_ID_ VARCHAR(255) NULL, CASE_INST_ID_ VARCHAR(255) NULL, STAGE_INST_ID_ VARCHAR(255) NULL, IS_STAGE_ BIT(1) NULL, ELEMENT_ID_ VARCHAR(255) NULL, ITEM_DEFINITION_ID_ VARCHAR(255) NULL, ITEM_DEFINITION_TYPE_ VARCHAR(255) NULL, CREATED_TIME_ datetime NULL, LAST_AVAILABLE_TIME_ datetime NULL, LAST_ENABLED_TIME_ datetime NULL, LAST_DISABLED_TIME_ datetime NULL, LAST_STARTED_TIME_ datetime NULL, LAST_SUSPENDED_TIME_ datetime NULL, COMPLETED_TIME_ datetime NULL, OCCURRED_TIME_ datetime NULL, TERMINATED_TIME_ datetime NULL, EXIT_TIME_ datetime NULL, ENDED_TIME_ datetime NULL, LAST_UPDATED_TIME_ datetime NULL, START_USER_ID_ VARCHAR(255) NULL, REFERENCE_ID_ VARCHAR(255) NULL, REFERENCE_TYPE_ VARCHAR(255) NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_ACT_CMMN_HI_PLAN_ITEM_INST PRIMARY KEY (ID_))
+2020-09-09 15:28:28  [ main:33052 ] - [ INFO ]  Table ACT_CMMN_HI_PLAN_ITEM_INST created
+2020-09-09 15:28:28  [ main:33053 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_MIL_INST ADD TENANT_ID_ VARCHAR(255) DEFAULT '' NULL
+2020-09-09 15:28:28  [ main:33070 ] - [ INFO ]  Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_RU_MIL_INST
+2020-09-09 15:28:28  [ main:33070 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_MIL_INST ADD TENANT_ID_ VARCHAR(255) DEFAULT '' NULL
+2020-09-09 15:28:28  [ main:33088 ] - [ INFO ]  Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_HI_MIL_INST
+2020-09-09 15:28:28  [ main:33089 ] - [ INFO ]  ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::4::flowable ran successfully in 62ms
+2020-09-09 15:28:28  [ main:33090 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('4', 'flowable', 'org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml', NOW(), 4, '8:e40d29cb79345b7fb5afd38a7f0ba8fc', 'createTable tableName=ACT_CMMN_HI_PLAN_ITEM_INST; addColumn tableName=ACT_CMMN_RU_MIL_INST; addColumn tableName=ACT_CMMN_HI_MIL_INST', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506467')
+2020-09-09 15:28:28  [ main:33098 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_DEPLOYMENT MODIFY DEPLOY_TIME_ datetime(3)
+2020-09-09 15:28:28  [ main:33182 ] - [ INFO ]  ACT_CMMN_DEPLOYMENT.DEPLOY_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:28  [ main:33182 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_CASE_INST MODIFY START_TIME_ datetime(3)
+2020-09-09 15:28:28  [ main:33268 ] - [ INFO ]  ACT_CMMN_RU_CASE_INST.START_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:28  [ main:33268 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST MODIFY START_TIME_ datetime(3)
+2020-09-09 15:28:28  [ main:33350 ] - [ INFO ]  ACT_CMMN_RU_PLAN_ITEM_INST.START_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:28  [ main:33350 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_SENTRY_PART_INST MODIFY TIME_STAMP_ datetime(3)
+2020-09-09 15:28:28  [ main:33431 ] - [ INFO ]  ACT_CMMN_RU_SENTRY_PART_INST.TIME_STAMP_ datatype was changed to datetime(3)
+2020-09-09 15:28:28  [ main:33432 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_MIL_INST MODIFY TIME_STAMP_ datetime(3)
+2020-09-09 15:28:28  [ main:33532 ] - [ INFO ]  ACT_CMMN_RU_MIL_INST.TIME_STAMP_ datatype was changed to datetime(3)
+2020-09-09 15:28:28  [ main:33533 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_CASE_INST MODIFY START_TIME_ datetime(3)
+2020-09-09 15:28:28  [ main:33649 ] - [ INFO ]  ACT_CMMN_HI_CASE_INST.START_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:28  [ main:33650 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_CASE_INST MODIFY END_TIME_ datetime(3)
+2020-09-09 15:28:28  [ main:33706 ] - [ INFO ]  ACT_CMMN_HI_CASE_INST.END_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:28  [ main:33707 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_MIL_INST MODIFY TIME_STAMP_ datetime(3)
+2020-09-09 15:28:28  [ main:33794 ] - [ INFO ]  ACT_CMMN_HI_MIL_INST.TIME_STAMP_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:33795 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_CASE_INST MODIFY LOCK_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:33865 ] - [ INFO ]  ACT_CMMN_RU_CASE_INST.LOCK_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:33865 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY CREATED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:33924 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.CREATED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:33924 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY LAST_AVAILABLE_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:33974 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.LAST_AVAILABLE_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:33974 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY LAST_ENABLED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34025 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.LAST_ENABLED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34026 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY LAST_DISABLED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34107 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.LAST_DISABLED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34108 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY LAST_STARTED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34189 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.LAST_STARTED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34190 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY LAST_SUSPENDED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34270 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.LAST_SUSPENDED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34271 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY COMPLETED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34393 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.COMPLETED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34393 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY OCCURRED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34450 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.OCCURRED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34450 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY TERMINATED_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34541 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.TERMINATED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34542 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY EXIT_TIME_ datetime(3)
+2020-09-09 15:28:29  [ main:34703 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.EXIT_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:29  [ main:34705 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY ENDED_TIME_ datetime(3)
+2020-09-09 15:28:30  [ main:34994 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.ENDED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:30  [ main:34995 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST MODIFY LAST_UPDATED_TIME_ datetime(3)
+2020-09-09 15:28:30  [ main:35137 ] - [ INFO ]  ACT_CMMN_HI_PLAN_ITEM_INST.LAST_UPDATED_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:30  [ main:35137 ] - [ INFO ]  ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::5::flowable ran successfully in 2040ms
+2020-09-09 15:28:30  [ main:35139 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('5', 'flowable', 'org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml', NOW(), 5, '8:70349de472f87368dcdec971a10311a0', 'modifyDataType columnName=DEPLOY_TIME_, tableName=ACT_CMMN_DEPLOYMENT; modifyDataType columnName=START_TIME_, tableName=ACT_CMMN_RU_CASE_INST; modifyDataType columnName=START_TIME_, tableName=ACT_CMMN_RU_PLAN_ITEM_INST; modifyDataType columnName=T...', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506467')
+2020-09-09 15:28:30  [ main:35150 ] - [ INFO ]  CREATE UNIQUE INDEX ACT_IDX_CASE_DEF_UNIQ ON erp.ACT_CMMN_CASEDEF(KEY_, VERSION_, TENANT_ID_)
+2020-09-09 15:28:30  [ main:35236 ] - [ INFO ]  Index ACT_IDX_CASE_DEF_UNIQ created
+2020-09-09 15:28:30  [ main:35236 ] - [ INFO ]  ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::6::flowable ran successfully in 86ms
+2020-09-09 15:28:30  [ main:35237 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('6', 'flowable', 'org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml', NOW(), 6, '8:10e82e26a7fee94c32a92099c059c18c', 'createIndex indexName=ACT_IDX_CASE_DEF_UNIQ, tableName=ACT_CMMN_CASEDEF', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506467')
+2020-09-09 15:28:30  [ main:35248 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST CHANGE START_TIME_ CREATE_TIME_ datetime(3)
+2020-09-09 15:28:30  [ main:35278 ] - [ INFO ]  Column ACT_CMMN_RU_PLAN_ITEM_INST.START_TIME_ renamed to CREATE_TIME_
+2020-09-09 15:28:30  [ main:35279 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST CHANGE CREATED_TIME_ CREATE_TIME_ datetime(3)
+2020-09-09 15:28:30  [ main:35300 ] - [ INFO ]  Column ACT_CMMN_HI_PLAN_ITEM_INST.CREATED_TIME_ renamed to CREATE_TIME_
+2020-09-09 15:28:30  [ main:35301 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_RU_PLAN_ITEM_INST ADD LAST_AVAILABLE_TIME_ datetime(3) NULL, ADD LAST_ENABLED_TIME_ datetime(3) NULL, ADD LAST_DISABLED_TIME_ datetime(3) NULL, ADD LAST_STARTED_TIME_ datetime(3) NULL, ADD LAST_SUSPENDED_TIME_ datetime(3) NULL, ADD COMPLETED_TIME_ datetime(3) NULL, ADD OCCURRED_TIME_ datetime(3) NULL, ADD TERMINATED_TIME_ datetime(3) NULL, ADD EXIT_TIME_ datetime(3) NULL, ADD ENDED_TIME_ datetime(3) NULL, ADD ENTRY_CRITERION_ID_ VARCHAR(255) NULL, ADD EXIT_CRITERION_ID_ VARCHAR(255) NULL
+2020-09-09 15:28:30  [ main:35387 ] - [ INFO ]  Columns LAST_AVAILABLE_TIME_(datetime(3)),LAST_ENABLED_TIME_(datetime(3)),LAST_DISABLED_TIME_(datetime(3)),LAST_STARTED_TIME_(datetime(3)),LAST_SUSPENDED_TIME_(datetime(3)),COMPLETED_TIME_(datetime(3)),OCCURRED_TIME_(datetime(3)),TERMINATED_TIME_(datetime(3)),EXIT_TIME_(datetime(3)),ENDED_TIME_(datetime(3)),ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+2020-09-09 15:28:30  [ main:35388 ] - [ INFO ]  ALTER TABLE erp.ACT_CMMN_HI_PLAN_ITEM_INST ADD ENTRY_CRITERION_ID_ VARCHAR(255) NULL, ADD EXIT_CRITERION_ID_ VARCHAR(255) NULL
+2020-09-09 15:28:30  [ main:35438 ] - [ INFO ]  Columns ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+2020-09-09 15:28:30  [ main:35439 ] - [ INFO ]  ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::7::flowable ran successfully in 191ms
+2020-09-09 15:28:30  [ main:35439 ] - [ INFO ]  INSERT INTO erp.ACT_CMMN_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('7', 'flowable', 'org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml', NOW(), 7, '8:530bc81a1e30618ccf4a2da1f7c6c043', 'renameColumn newColumnName=CREATE_TIME_, oldColumnName=START_TIME_, tableName=ACT_CMMN_RU_PLAN_ITEM_INST; renameColumn newColumnName=CREATE_TIME_, oldColumnName=CREATED_TIME_, tableName=ACT_CMMN_HI_PLAN_ITEM_INST; addColumn tableName=ACT_CMMN_RU_P...', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636506467')
+2020-09-09 15:28:30  [ main:35458 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:28:30  [ main:35459 ] - [ INFO ]  CmmnEngine default created
+2020-09-09 15:28:30  [ main:35670 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 15:28:30  [ main:35671 ] - [ INFO ]  CREATE TABLE erp.ACT_APP_DATABASECHANGELOGLOCK (ID INT NOT NULL, `LOCKED` BIT(1) NOT NULL, LOCKGRANTED datetime NULL, LOCKEDBY VARCHAR(255) NULL, CONSTRAINT PK_ACT_APP_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+2020-09-09 15:28:30  [ main:35730 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 15:28:30  [ main:35732 ] - [ INFO ]  DELETE FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 15:28:30  [ main:35732 ] - [ INFO ]  INSERT INTO erp.ACT_APP_DATABASECHANGELOGLOCK (ID, `LOCKED`) VALUES (1, 0)
+2020-09-09 15:28:30  [ main:35741 ] - [ INFO ]  SELECT `LOCKED` FROM erp.ACT_APP_DATABASECHANGELOGLOCK WHERE ID=1
+2020-09-09 15:28:30  [ main:35754 ] - [ INFO ]  Successfully acquired change log lock
+2020-09-09 15:28:30  [ main:35766 ] - [ INFO ]  Creating database history table with name: erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 15:28:30  [ main:35766 ] - [ INFO ]  CREATE TABLE erp.ACT_APP_DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED datetime NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35) NULL, `DESCRIPTION` VARCHAR(255) NULL, COMMENTS VARCHAR(255) NULL, TAG VARCHAR(255) NULL, LIQUIBASE VARCHAR(20) NULL, CONTEXTS VARCHAR(255) NULL, LABELS VARCHAR(255) NULL, DEPLOYMENT_ID VARCHAR(10) NULL)
+2020-09-09 15:28:31  [ main:36070 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 15:28:31  [ main:36076 ] - [ INFO ]  Reading from erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 15:28:31  [ main:36077 ] - [ INFO ]  SELECT * FROM erp.ACT_APP_DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-09-09 15:28:31  [ main:36078 ] - [ INFO ]  SELECT COUNT(*) FROM erp.ACT_APP_DATABASECHANGELOGLOCK
+2020-09-09 15:28:31  [ main:36090 ] - [ WARN ]  modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case
+2020-09-09 15:28:31  [ main:36091 ] - [ INFO ]  CREATE TABLE erp.ACT_APP_DEPLOYMENT (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, CATEGORY_ VARCHAR(255) NULL, KEY_ VARCHAR(255) NULL, DEPLOY_TIME_ datetime NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_ACT_APP_DEPLOYMENT PRIMARY KEY (ID_))
+2020-09-09 15:28:31  [ main:36191 ] - [ INFO ]  Table ACT_APP_DEPLOYMENT created
+2020-09-09 15:28:31  [ main:36193 ] - [ INFO ]  CREATE TABLE erp.ACT_APP_DEPLOYMENT_RESOURCE (ID_ VARCHAR(255) NOT NULL, NAME_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, RESOURCE_BYTES_ LONGBLOB NULL, CONSTRAINT PK_APP_DEPLOYMENT_RESOURCE PRIMARY KEY (ID_))
+2020-09-09 15:28:31  [ main:36291 ] - [ INFO ]  Table ACT_APP_DEPLOYMENT_RESOURCE created
+2020-09-09 15:28:31  [ main:36291 ] - [ INFO ]  ALTER TABLE erp.ACT_APP_DEPLOYMENT_RESOURCE ADD CONSTRAINT ACT_FK_APP_RSRC_DPL FOREIGN KEY (DEPLOYMENT_ID_) REFERENCES erp.ACT_APP_DEPLOYMENT (ID_)
+2020-09-09 15:28:31  [ main:36476 ] - [ INFO ]  Foreign key constraint added to ACT_APP_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+2020-09-09 15:28:31  [ main:36477 ] - [ INFO ]  CREATE INDEX ACT_IDX_APP_RSRC_DPL ON erp.ACT_APP_DEPLOYMENT_RESOURCE(DEPLOYMENT_ID_)
+2020-09-09 15:28:31  [ main:36540 ] - [ INFO ]  Index ACT_IDX_APP_RSRC_DPL created
+2020-09-09 15:28:31  [ main:36541 ] - [ INFO ]  CREATE TABLE erp.ACT_APP_APPDEF (ID_ VARCHAR(255) NOT NULL, REV_ INT NOT NULL, NAME_ VARCHAR(255) NULL, KEY_ VARCHAR(255) NOT NULL, VERSION_ INT NOT NULL, CATEGORY_ VARCHAR(255) NULL, DEPLOYMENT_ID_ VARCHAR(255) NULL, RESOURCE_NAME_ VARCHAR(4000) NULL, DESCRIPTION_ VARCHAR(4000) NULL, TENANT_ID_ VARCHAR(255) DEFAULT '' NULL, CONSTRAINT PK_ACT_APP_APPDEF PRIMARY KEY (ID_))
+2020-09-09 15:28:31  [ main:36611 ] - [ INFO ]  Table ACT_APP_APPDEF created
+2020-09-09 15:28:31  [ main:36612 ] - [ INFO ]  ALTER TABLE erp.ACT_APP_APPDEF ADD CONSTRAINT ACT_FK_APP_DEF_DPLY FOREIGN KEY (DEPLOYMENT_ID_) REFERENCES erp.ACT_APP_DEPLOYMENT (ID_)
+2020-09-09 15:28:31  [ main:36759 ] - [ INFO ]  Foreign key constraint added to ACT_APP_APPDEF (DEPLOYMENT_ID_)
+2020-09-09 15:28:31  [ main:36760 ] - [ INFO ]  CREATE INDEX ACT_IDX_APP_DEF_DPLY ON erp.ACT_APP_APPDEF(DEPLOYMENT_ID_)
+2020-09-09 15:28:32  [ main:36956 ] - [ INFO ]  Index ACT_IDX_APP_DEF_DPLY created
+2020-09-09 15:28:32  [ main:36957 ] - [ INFO ]  ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::1::flowable ran successfully in 867ms
+2020-09-09 15:28:32  [ main:36957 ] - [ INFO ]  SELECT MAX(ORDEREXECUTED) FROM erp.ACT_APP_DATABASECHANGELOG
+2020-09-09 15:28:32  [ main:36958 ] - [ INFO ]  INSERT INTO erp.ACT_APP_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1', 'flowable', 'org/flowable/app/db/liquibase/flowable-app-db-changelog.xml', NOW(), 1, '8:496fc778bdf2ab13f2e1926d0e63e0a2', 'createTable tableName=ACT_APP_DEPLOYMENT; createTable tableName=ACT_APP_DEPLOYMENT_RESOURCE; addForeignKeyConstraint baseTableName=ACT_APP_DEPLOYMENT_RESOURCE, constraintName=ACT_FK_APP_RSRC_DPL, referencedTableName=ACT_APP_DEPLOYMENT; createIndex...', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636511285')
+2020-09-09 15:28:32  [ main:36966 ] - [ INFO ]  ALTER TABLE erp.ACT_APP_DEPLOYMENT MODIFY DEPLOY_TIME_ datetime(3)
+2020-09-09 15:28:32  [ main:37143 ] - [ INFO ]  ACT_APP_DEPLOYMENT.DEPLOY_TIME_ datatype was changed to datetime(3)
+2020-09-09 15:28:32  [ main:37143 ] - [ INFO ]  ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::2::flowable ran successfully in 177ms
+2020-09-09 15:28:32  [ main:37144 ] - [ INFO ]  INSERT INTO erp.ACT_APP_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('2', 'flowable', 'org/flowable/app/db/liquibase/flowable-app-db-changelog.xml', NOW(), 2, '8:ccea9ebfb6c1f8367ca4dd473fcbb7db', 'modifyDataType columnName=DEPLOY_TIME_, tableName=ACT_APP_DEPLOYMENT', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636511285')
+2020-09-09 15:28:32  [ main:37153 ] - [ INFO ]  CREATE UNIQUE INDEX ACT_IDX_APP_DEF_UNIQ ON erp.ACT_APP_APPDEF(KEY_, VERSION_, TENANT_ID_)
+2020-09-09 15:28:32  [ main:37199 ] - [ INFO ]  Index ACT_IDX_APP_DEF_UNIQ created
+2020-09-09 15:28:32  [ main:37200 ] - [ INFO ]  ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::3::flowable ran successfully in 47ms
+2020-09-09 15:28:32  [ main:37200 ] - [ INFO ]  INSERT INTO erp.ACT_APP_DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, `DESCRIPTION`, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('3', 'flowable', 'org/flowable/app/db/liquibase/flowable-app-db-changelog.xml', NOW(), 3, '8:f1f8aff320aade831944ebad24355f3d', 'createIndex indexName=ACT_IDX_APP_DEF_UNIQ, tableName=ACT_APP_APPDEF', '', 'EXECUTED', NULL, NULL, '3.8.2', '9636511285')
+2020-09-09 15:28:32  [ main:37218 ] - [ INFO ]  Successfully released change log lock
+2020-09-09 15:28:32  [ main:37219 ] - [ INFO ]  AppEngine default created
+2020-09-09 15:28:32  [ main:37610 ] - [ WARN ]  Following warnings encountered during process validation: [Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-62BCD25C-944A-4725-A665-2D8026F96AFF - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-3F46C2CB-DAA8-4E36-97D7-8AE761E47DB1 - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-5E3ABCCC-3C61-45C0-9BD4-8D17C153F46A - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-6FE454DF-1333-4F4C-9B46-2297A589324D - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-CC530359-D61D-4AD5-80D9-ED88C521063E - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-17C8A397-A381-4DFC-B27A-FDBD6A642446 - [Extra info : ]
+[Validation set: 'flowable-executable-process' | Problem: 'flowable-di-invalid-reference'] : Invalid reference in diagram interchange definition: could not find sid-1ED6B0CC-23AB-4E3F-A580-09E383E609C4 - [Extra info : ]
+
+2020-09-09 15:28:32  [ main:37629 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-62BCD25C-944A-4725-A665-2D8026F96AFF
+2020-09-09 15:28:32  [ main:37629 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-3F46C2CB-DAA8-4E36-97D7-8AE761E47DB1
+2020-09-09 15:28:32  [ main:37629 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-5E3ABCCC-3C61-45C0-9BD4-8D17C153F46A
+2020-09-09 15:28:32  [ main:37629 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-6FE454DF-1333-4F4C-9B46-2297A589324D
+2020-09-09 15:28:32  [ main:37629 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-CC530359-D61D-4AD5-80D9-ED88C521063E
+2020-09-09 15:28:32  [ main:37629 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-17C8A397-A381-4DFC-B27A-FDBD6A642446
+2020-09-09 15:28:32  [ main:37630 ] - [ WARN ]  Invalid reference in diagram interchange definition: could not find sid-1ED6B0CC-23AB-4E3F-A580-09E383E609C4
+2020-09-09 15:28:33  [ main:37930 ] - [ INFO ]  Starting without optional epoll library
+2020-09-09 15:28:33  [ main:37932 ] - [ INFO ]  Starting without optional kqueue library
+2020-09-09 15:28:34  [ main:38940 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-09-09 15:28:34  [ main:38942 ] - [ INFO ]  Started ErpApplication in 38.846 seconds (JVM running for 40.075)
+2020-09-09 15:28:34  [ main:38955 ] - [ INFO ]  develop is：false
+2020-09-09 15:28:34  [ main:38956 ] - [ INFO ]  oops: 线下开发测试
+2020-09-09 16:58:39  [ http-nio-8088-exec-1:5444638 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-09-09 16:58:39  [ http-nio-8088-exec-1:5444671 ] - [ INFO ]  Completed initialization in 32 ms
+2020-09-09 17:02:20  [ http-nio-8088-exec-4:5665783 ] - [ INFO ]  condition:[{"mainClass":"material_namecn","value":"五","type":null}]
+2020-09-09 17:02:21  [ http-nio-8088-exec-4:5665797 ] - [ INFO ]  material:namecn>>五

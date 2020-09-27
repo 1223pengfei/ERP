@@ -1,0 +1,82 @@
+2020-08-13 15:59:53  [ main:6364 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of method init in com.scd.erp.ErpApplication required a bean of type 'org.flowable.task.service.TaskService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.flowable.task.service.TaskService' in your configuration.
+
+2020-08-13 16:00:44  [ main:12951 ] - [ ERROR ]  Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.scd.erp.ErpApplication.main(ErpApplication.java:54)
+Caused by: org.flowable.common.engine.api.FlowableObjectNotFoundException: No process definition found for key 'oneTaskProcess'
+	at org.flowable.engine.impl.cmd.StartProcessInstanceCmd.getProcessDefinition(StartProcessInstanceCmd.java:188)
+	at org.flowable.engine.impl.cmd.StartProcessInstanceCmd.execute(StartProcessInstanceCmd.java:102)
+	at org.flowable.engine.impl.cmd.StartProcessInstanceCmd.execute(StartProcessInstanceCmd.java:49)
+	at org.flowable.engine.impl.interceptor.CommandInvoker$1.run(CommandInvoker.java:51)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:93)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:71)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.engine.impl.RuntimeServiceImpl.startProcessInstanceByKey(RuntimeServiceImpl.java:107)
+	at com.scd.erp.ErpApplication$2.run(ErpApplication.java:103)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	... 5 more
+2020-08-13 16:02:12  [ main:12798 ] - [ ERROR ]  Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.scd.erp.ErpApplication.main(ErpApplication.java:54)
+Caused by: org.flowable.common.engine.api.FlowableException: Unknown property used in expression: ${user_account}
+	at org.flowable.common.engine.impl.el.JuelExpression.getValue(JuelExpression.java:50)
+	at org.flowable.engine.impl.bpmn.behavior.UserTaskActivityBehavior.handleAssignments(UserTaskActivityBehavior.java:265)
+	at org.flowable.engine.impl.bpmn.behavior.UserTaskActivityBehavior.execute(UserTaskActivityBehavior.java:226)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:264)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:158)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:113)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughSequenceFlow(ContinueProcessOperation.java:312)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:79)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:88)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:71)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.engine.impl.RuntimeServiceImpl.startProcessInstanceByKey(RuntimeServiceImpl.java:107)
+	at com.scd.erp.ErpApplication$2.run(ErpApplication.java:103)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	... 5 more
+Caused by: org.flowable.common.engine.impl.javax.el.PropertyNotFoundException: Cannot resolve identifier 'user_account'
+	at org.flowable.common.engine.impl.de.odysseus.el.tree.impl.ast.AstIdentifier.eval(AstIdentifier.java:97)
+	at org.flowable.common.engine.impl.de.odysseus.el.tree.impl.ast.AstEval.eval(AstEval.java:53)
+	at org.flowable.common.engine.impl.de.odysseus.el.tree.impl.ast.AstNode.getValue(AstNode.java:31)
+	at org.flowable.common.engine.impl.de.odysseus.el.TreeValueExpression.getValue(TreeValueExpression.java:122)
+	at org.flowable.engine.impl.delegate.invocation.ExpressionGetInvocation.invoke(ExpressionGetInvocation.java:34)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.el.JuelExpression.resolveGetValueExpression(JuelExpression.java:44)
+	at org.flowable.common.engine.impl.el.JuelExpression.getValue(JuelExpression.java:48)
+	... 24 more

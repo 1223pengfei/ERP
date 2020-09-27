@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.MenuMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Document.Menu">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="menuID" jdbcType="INTEGER" property="menuid" />
+    <result column="menuName" jdbcType="VARCHAR" property="menuname" />
+    <result column="menuUpID" jdbcType="INTEGER" property="menuupid" />
+    <result column="DocCodePrefix" jdbcType="VARCHAR" property="doccodeprefix" />
+    <result column="DocName" jdbcType="VARCHAR" property="docname" />
+    <result column="DocSubName" jdbcType="VARCHAR" property="docsubname" />
+  </resultMap>
+  <resultMap id="BaseMap" type="com.scd.erp.Vo.plm.Document.Menu">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="menuID" jdbcType="INTEGER" property="menuid" />
+    <result column="menuName" jdbcType="VARCHAR" property="menuname" />
+    <result column="DocCodePrefix" jdbcType="VARCHAR" property="doccodeprefix" />
+    <result column="DocName" jdbcType="VARCHAR" property="docname" />
+    <result column="DocSubName" jdbcType="VARCHAR" property="docsubname" />
+    <collection property="menus"     ofType="com.scd.erp.Vo.plm.Document.Menu">
+      <id column="menuID2" jdbcType="INTEGER" property="menuid" />
+      <result column="menuName2" jdbcType="VARCHAR" property="menuname" />
+      <result column="DocCodePrefix2" jdbcType="VARCHAR" property="doccodeprefix" />
+      <result column="DocName2" jdbcType="VARCHAR" property="docname" />
+      <result column="DocSubName2" jdbcType="VARCHAR" property="docsubname" />
+      <collection property="menus"   ofType="com.scd.erp.Vo.plm.Document.Menu">
+        <id column="menuID3" jdbcType="INTEGER" property="menuid" />
+        <result column="menuName3" jdbcType="VARCHAR" property="menuname" />
+        <result column="DocCodePrefix3" jdbcType="VARCHAR" property="doccodeprefix" />
+        <result column="DocName3" jdbcType="VARCHAR" property="docname" />
+        <result column="DocSubName3" jdbcType="VARCHAR" property="docsubname" />
+        <collection property="menus" ofType="com.scd.erp.Vo.plm.Document.Menu">
+          <id column="menuID4" jdbcType="INTEGER" property="menuid" />
+          <result column="menuName4" jdbcType="VARCHAR" property="menuname" />
+          <result column="DocCodePrefix4" jdbcType="VARCHAR" property="doccodeprefix" />
+          <result column="DocName4" jdbcType="VARCHAR" property="docname" />
+          <result column="DocSubName4" jdbcType="VARCHAR" property="docsubname" />
+        </collection>
+      </collection>
+    </collection>
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    menuID, menuName, menuUpID, DocCodePrefix, DocName, DocSubName
+  </sql>
+
+  <select id="getAll" resultMap="BaseMap">
+    SELECT
+      m1.menuID,m1.menuName,m1.DocCodePrefix,m1.DocName,m1.DocSubName,
+      m2.menuID menuID2,m2.menuName menuName2,m2.DocCodePrefix doccodeprefix2,m2.DocName docname2,m2.DocSubName docsubname2,
+      m3.menuID menuID3,m3.menuName menuName3,m3.DocCodePrefix doccodeprefix3,m3.DocName docname3,m3.DocSubName docsubname3,
+      m4.menuID menuID4,m4.menuName menuName4,m4.DocCodePrefix doccodeprefix4,m4.DocName docname4,m4.DocSubName docsubname4
+    FROM erp_plm_document_menu m1
+      LEFT JOIN erp_plm_document_menu m2 on m1.menuID = m2.menuUpID
+      LEFT JOIN erp_plm_document_menu m3 on m2.menuID = m3.menuUpID
+      LEFT JOIN erp_plm_document_menu m4 on  m3.menuID = m4.menuUpID
+    WHERE m1.menuUpID = 0
+    ORDER BY m1.menuID
+  </select>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.Center_job_ruleMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Center.Center_job_rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="job_rule_ID" jdbcType="INTEGER" property="jobRuleId" />
+    <result column="jobID" jdbcType="INTEGER" property="jobid" />
+    <result column="ruleID" jdbcType="INTEGER" property="ruleid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    job_rule_ID, jobID, ruleID
+  </sql>
+</mapper>

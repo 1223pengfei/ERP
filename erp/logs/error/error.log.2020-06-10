@@ -1,0 +1,48 @@
+2020-06-10 18:31:47  [ main:5380 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fm in com.scd.erp.service.review.Impl.FileUploadServiceImpl required a bean of type 'com.scd.erp.mapper.FileMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.scd.erp.mapper.FileMapper' in your configuration.
+
+2020-06-10 22:22:11  [ main:5751 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.scd.erp.controller.review.ReviewController required a bean of type 'com.scd.erp.utils.common.FileUtils' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scd.erp.utils.common.FileUtils' in your configuration.
+
+2020-06-10 22:24:01  [ main:6161 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.scd.erp.controller.review.ReviewController required a bean of type 'com.scd.erp.utils.common.FileUtils' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scd.erp.utils.common.FileUtils' in your configuration.
+

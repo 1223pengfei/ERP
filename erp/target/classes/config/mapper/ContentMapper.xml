@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.ContentMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.user.review.Content">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="tid" jdbcType="INTEGER" property="tid"/>
+        <result column="content" jdbcType="VARCHAR" property="content"/>
+        <result column="notes" jdbcType="VARCHAR" property="notes"/>
+        <result column="conclusion" jdbcType="VARCHAR" property="conclusion"/>
+        <result column="remarks" jdbcType="VARCHAR" property="remarks"/>
+        <result column="sign" jdbcType="VARCHAR" property="sign"/>
+        <result column="rid" jdbcType="INTEGER" property="rid"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        tid, content, record, conclusion, remarks, sign
+    </sql>
+
+    <insert id="saveContent"  useGeneratedKeys="true" keyProperty="tid" parameterType="com.scd.erp.user.review.Content">
+    INSERT INTO `erp_project_review_content` (content,notes,conclusion,remarks,sign,rid) VALUES
+    (#{content},#{notes},#{conclusion},#{remarks},#{sign},#{rid})
+  </insert>
+
+    <select id="selectContentByRid" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select * FROM erp_project_review_content WHERE
+            rid = #{rid,jdbcType=INTEGER}
+    </select>
+
+    <delete id="deleteReviewContent" parameterType="java.lang.Integer">
+        delete from erp_project_review_content
+        where rid = #{rid,jdbcType=INTEGER}
+    </delete>
+
+    <update id="updateContent" parameterType="com.scd.erp.user.review.Record">
+    update erp_project_review_content
+        set content = #{content,jdbcType=VARCHAR},
+            notes     = #{notes,jdbcType=VARCHAR},
+            conclusion  = #{conclusion,jdbcType=VARCHAR},
+            remarks = #{remarks,jdbcType=VARCHAR},
+            sign       = #{sign,jdbcType=VARCHAR}
+            where rid = #{rid,jdbcType=INTEGER}
+  </update>
+</mapper>

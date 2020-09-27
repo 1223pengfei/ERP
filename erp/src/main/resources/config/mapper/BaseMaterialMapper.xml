@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.BaseMaterialMapper">
+
+
+
+
+  <select id="getMaterail" resultMap="BaseResultMap">
+    select * from (erp_plm_material_base p , erp_plm_material_group g)
+      LEFT JOIN  erp_trace_product_type t ON p.typeID = t.typeID
+    where  p.CostGroupID = g.groupID
+    and p.baseID = #{0}
+  </select>
+
+  <select id="getERPNUM" resultType="java.lang.String">
+    SELECT a.ERPNUM FROM erp_plm_material_base a
+    WHERE
+      SUBSTR(a.ERPNUM FROM 3 FOR 9) =
+      (SELECT MAX(SUBSTR(b.ERPNUM FROM 3 FOR 9) ) FROM erp_plm_material_base b
+      WHERE SUBSTR(a.ERPNUM FROM 1 FOR 2) =SUBSTR(b.ERPNUM FROM 1 FOR 2)  )
+
+  </select>
+
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.BaseMaterial">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="baseID" jdbcType="INTEGER" property="baseid" />
+    <result column="nameCn" jdbcType="VARCHAR" property="namecn" />
+    <result column="nameEn" jdbcType="VARCHAR" property="nameen" />
+    <result column="nameShort" jdbcType="VARCHAR" property="nameshort" />
+    <result column="CustomerPN" jdbcType="VARCHAR" property="customerpn" />
+    <result column="Version" jdbcType="VARCHAR" property="version" />
+    <result column="Clazz" jdbcType="INTEGER" property="clazz" />
+    <result column="SubClass" jdbcType="INTEGER" property="subclass" />
+    <result column="CostGroupID" jdbcType="INTEGER" property="costgroupid" />
+    <result column="MainMaterial" jdbcType="VARCHAR" property="mainmaterial" />
+    <result column="Standard" jdbcType="TINYINT" property="standard" />
+    <result column="Description" jdbcType="VARCHAR" property="description" />
+    <result column="ERPNUM" jdbcType="VARCHAR" property="erpnum" />
+    <result column="typeID" jdbcType="INTEGER" property="typeid" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="Iteration" jdbcType="INTEGER" property="iteration" />
+    <association property="group" javaType="com.scd.erp.Vo.plm.Material.Group">
+      <id column="groupID" jdbcType="INTEGER" property="groupid" />
+      <result column="groupNum" jdbcType="VARCHAR" property="groupnum" />
+      <result column="groupName" jdbcType="VARCHAR" property="groupname" />
+    </association>
+    <association property="type" javaType="com.scd.erp.Vo.Product.Type">
+      <id column="typeID" jdbcType="INTEGER" property="typeid"/>
+      <result column="typeName" jdbcType="VARCHAR" property="typename"/>
+    </association>
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    baseID, nameCn, nameEn, nameShort, CustomerPN, Version, Clazz, SubClass, CostGroupID,
+    MainMaterial, Standard, Description, ERPNUM, typeID, remark
+  </sql>
+</mapper>

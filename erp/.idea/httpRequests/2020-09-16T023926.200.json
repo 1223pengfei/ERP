@@ -1,0 +1,2498 @@
+{
+  "data": {
+    "menu": [
+      {
+        "menuid": 1,
+        "menuname": "项目管理文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 2,
+            "menuname": "立项结项",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 3,
+                "menuname": "立项申请",
+                "menuupid": null,
+                "doccodeprefix": "PM_D_",
+                "docname": "立项申请",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 4,
+                "menuname": "项目任务书",
+                "menuupid": null,
+                "doccodeprefix": "PM_D_",
+                "docname": "项目任务书",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 5,
+                "menuname": "项目启动",
+                "menuupid": null,
+                "doccodeprefix": "PM_D_",
+                "docname": "项目启动报告",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 6,
+                "menuname": "项目总结",
+                "menuupid": null,
+                "doccodeprefix": "PM_D_",
+                "docname": "项目总结报告",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 7,
+            "menuname": "项目计划",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 8,
+                "menuname": "项目进度计划",
+                "menuupid": null,
+                "doccodeprefix": "PM_D_",
+                "docname": "项目进度计划",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 9,
+                "menuname": "项目试制计划",
+                "menuupid": null,
+                "doccodeprefix": "PM_D_",
+                "docname": "项目试制计划",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 10,
+                "menuname": "项目总体计划",
+                "menuupid": null,
+                "doccodeprefix": "PM_D_",
+                "docname": "项目总体计划",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 11,
+            "menuname": "项目监控",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 12,
+                "menuname": "项目汇报记录",
+                "menuupid": null,
+                "doccodeprefix": "PM_R_",
+                "docname": "项目周报",
+                "docsubname": "Pc_Pn_Dn_Time",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 13,
+                "menuname": "项目汇报记录",
+                "menuupid": null,
+                "doccodeprefix": "PM_R_",
+                "docname": "项目月报",
+                "docsubname": "Pc_Pn_Dn_Time",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 14,
+                "menuname": "项目汇报记录",
+                "menuupid": null,
+                "doccodeprefix": "PM_R_",
+                "docname": "项目例会会议纪要",
+                "docsubname": "Pc_Pn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 15,
+        "menuname": "项目管理质量保证文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 16,
+            "menuname": "APQP",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 17,
+                "menuname": "APQP",
+                "menuupid": null,
+                "doccodeprefix": "QA_D_",
+                "docname": "APQP文件目录",
+                "docsubname": "Pc_Pn_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 18,
+            "menuname": "样件出货",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 19,
+                "menuname": "样件出货检验标准",
+                "menuupid": null,
+                "doccodeprefix": "QA_D_",
+                "docname": "样件出货检验标准",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 20,
+                "menuname": "样件出货检验报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "样件出货检验报告",
+                "docsubname": "Pc_Pn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 21,
+            "menuname": "转阶段评审",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 22,
+                "menuname": "转阶段总结",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转产品详细定义阶段总结",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 23,
+                "menuname": "转阶段总结",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转S1阶段总结",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 24,
+                "menuname": "转阶段总结",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转S2阶段总结",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 25,
+                "menuname": "转阶段总结",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转S3阶段总结",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 26,
+                "menuname": "转阶段总结",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转SOP阶段总结",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 27,
+                "menuname": "转阶段评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转产品详细定义阶段评审报告",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 28,
+                "menuname": "转阶段评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转S1阶段评审报告",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 29,
+                "menuname": "转阶段评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转S2阶段评审报告",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 30,
+                "menuname": "转阶段评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转S3阶段评审报告",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 31,
+                "menuname": "转阶段评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "转SOP阶段评审报告",
+                "docsubname": "Pc_Pn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 32,
+            "menuname": "过程审计",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 33,
+                "menuname": "过程审计",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "过程审计报告",
+                "docsubname": "Pc_Pn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 34,
+        "menuname": "产品系统文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 35,
+            "menuname": "设计输入",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 36,
+                "menuname": "设计输入文档",
+                "menuupid": null,
+                "doccodeprefix": "EC_D_",
+                "docname": "技术协议/设计要求/试验标准(图纸)",
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 37,
+                "menuname": "设计输入文档",
+                "menuupid": null,
+                "doccodeprefix": "EC_D_",
+                "docname": "SOR/质量要求",
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 38,
+                "menuname": "客户需求变更记录",
+                "menuupid": null,
+                "doccodeprefix": "EC_R_",
+                "docname": "客户需求变更记录类文件",
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 39,
+                "menuname": "对标分析",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "对标分析报告",
+                "docsubname": "Pn/Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 40,
+            "menuname": "需求",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 41,
+                "menuname": "系统需求",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "系统需求规格说明书",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 42,
+                "menuname": "系统需求",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "需求跟踪矩阵",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 43,
+            "menuname": "方案",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 44,
+                "menuname": "系统方案",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "系统方案设计",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 45,
+                "menuname": "系统方案",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "产品特殊特性清单",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 46,
+                "menuname": "系统方案",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "SDFMEA",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 47,
+            "menuname": "输出文件",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 48,
+                "menuname": "输出文件",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "输出给客户的文件、记录",
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 49,
+                "menuname": "审查记录类",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "系统方案评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 50,
+                "menuname": "审查记录类",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "系统需求评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 51,
+                "menuname": "审查报告类",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "系统方案评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 52,
+                "menuname": "审查报告类",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "系统需求评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 53,
+        "menuname": "硬件开发文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 54,
+            "menuname": "设计方案",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 55,
+                "menuname": "设计需求",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "REQM",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 56,
+                "menuname": "设计方案",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "HWDFMEA",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 57,
+                "menuname": "设计方案",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "Solution",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 58,
+            "menuname": "原理图",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 59,
+                "menuname": "原理图",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "SCH",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 60,
+                "menuname": "原理图",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "SCH",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 61,
+            "menuname": "Layout",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 62,
+                "menuname": "Layout",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "Layout",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 63,
+                "menuname": "Gerber",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "GerberPCB",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 64,
+            "menuname": "生产加工文件",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 65,
+                "menuname": "PCB拼版图纸",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "PCB拼版图纸",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 66,
+                "menuname": "PCB加工要求",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "PCB加工要求",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 67,
+                "menuname": "SMT加工要求",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "SMT加工要求",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 68,
+                "menuname": "Gerber包",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "GerberSMTVX",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 69,
+            "menuname": "设计文档",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 70,
+                "menuname": "设计输出文档",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "ICD",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 71,
+            "menuname": "测试及失效分析",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 72,
+                "menuname": "测试记录",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "硬件测试记录",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 73,
+                "menuname": "失效分析",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "硬件失效分析报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 74,
+            "menuname": "质量保证",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 75,
+                "menuname": "评审记录",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "REQM_评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 76,
+                "menuname": "评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "REQM_评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 77,
+        "menuname": "结构开发文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 78,
+            "menuname": "结构文档",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 79,
+                "menuname": "结构设计需求",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "结构设计需求",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 80,
+                "menuname": "结构设计",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "结构设计方案说明",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 81,
+                "menuname": "结构设计",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "结构DFMEA",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 82,
+            "menuname": "OTS样件认可",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 83,
+                "menuname": "材料性能测试报告",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "材料性能测试报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 84,
+                "menuname": "供应商OTS报告",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "供应商OTS认可报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 85,
+                "menuname": "摸底试验报告",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "摸底试验报告",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 86,
+            "menuname": "结构分析",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 87,
+                "menuname": "成型工艺仿真分析报告",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "成型工艺仿真分析报告",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 88,
+                "menuname": "结构仿真分析报告",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "CAE仿真分析报告",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 89,
+            "menuname": "三维数模",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 90,
+                "menuname": "客户数模",
+                "menuupid": null,
+                "doccodeprefix": "EC_D_",
+                "docname": "客户下发数模名称_3D",
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 91,
+                "menuname": "内部数模",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": null,
+                "docsubname": "Cc_Cn_3D",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 92,
+                "menuname": "下发供应商",
+                "menuupid": null,
+                "doccodeprefix": "ES_D_",
+                "docname": null,
+                "docsubname": "Cc_Cn_3D",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 93,
+                "menuname": "提交客户",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "提交客户数模名称_3D_C",
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 94,
+            "menuname": "工程图纸",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 95,
+                "menuname": "PCB限位图",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": null,
+                "docsubname": "Cc_Cn_Pcbdrawing",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 96,
+                "menuname": "提交客户图纸",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "提交客户图纸名称_2D_C",
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 97,
+                "menuname": "工程图纸（.pdf）",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": null,
+                "docsubname": "Cc_Cn_2D",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 98,
+            "menuname": "质量保证",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 99,
+                "menuname": "客户下发图纸审查单",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "客户下发图纸（数模）审查单",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 100,
+                "menuname": "评审记录",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "结构需求评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 101,
+                "menuname": "评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "结构需求评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 102,
+        "menuname": "产品软件开发文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 103,
+            "menuname": "需求",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 104,
+                "menuname": "产品软件需求",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "软件需求规格说明书",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 105,
+            "menuname": "设计",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 106,
+                "menuname": "产品软件设计",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "软件概要设计",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 107,
+                "menuname": "产品软件设计",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "模块设计",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 108,
+            "menuname": "集成与调试",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 109,
+                "menuname": "产品软件集成调试",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "软件集成调试报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 110,
+                "menuname": "产品软件集成调试",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "模块调试记录",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 111,
+            "menuname": "算法模型",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 112,
+                "menuname": "产品算法模型",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "算法模型需求文档",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 113,
+                "menuname": "产品算法模型调试",
+                "menuupid": null,
+                "doccodeprefix": "PD_R_",
+                "docname": "算法模型调试记录",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 114,
+            "menuname": "源码包",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 115,
+                "menuname": "产品软件源码包",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "软件源码包",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 116,
+            "menuname": "可执行文件",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 117,
+                "menuname": "可执行文件",
+                "menuupid": null,
+                "doccodeprefix": "PD_D_",
+                "docname": "软件物料编码",
+                "docsubname": "Cc",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 118,
+            "menuname": "质量保证",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 119,
+                "menuname": "审查记录",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "软件需求评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 120,
+                "menuname": "评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "软件需求评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 121,
+        "menuname": "产品测试文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 122,
+            "menuname": "测试用例",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 123,
+                "menuname": "产品测试用例及测试环境",
+                "menuupid": null,
+                "doccodeprefix": "VV_D_",
+                "docname": "系统测试用例",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 124,
+                "menuname": "产品测试用例及测试环境",
+                "menuupid": null,
+                "doccodeprefix": "VV_D_",
+                "docname": "产品测试环境设计使用说明",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 125,
+                "menuname": "产品测试报告",
+                "menuupid": null,
+                "doccodeprefix": "VV_R_",
+                "docname": "测试报告",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 126,
+            "menuname": "质量保证",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 128,
+        "menuname": "试验相关文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 129,
+            "menuname": "可靠性试验",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 130,
+                "menuname": "试验方案",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 131,
+                    "menuname": "可靠性试验方案",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "环境/耐久性试验DVP",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 132,
+                    "menuname": "可靠性试验方案",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "环境/耐久性试验监测系统方案",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 137,
+                "menuname": "软件源码包及可执行文件",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 138,
+                    "menuname": "试验上位机源码",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "环境/耐久性试验上位机软件源码包",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 139,
+                    "menuname": "试验上位机源码",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "环境/耐久性试验环境上位机软件设计使用说明",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 140,
+                    "menuname": "DUT软件源码",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "环境/耐久性试验DUT软件源码包",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 141,
+                    "menuname": "DUT软件可执行文件",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "环境/耐久性试验DUT软件编译说明",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 142,
+                    "menuname": "DUT软件可执行文件",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "DUT软件物料编码",
+                    "docsubname": null,
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 143,
+                "menuname": "试验环境测试",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 144,
+                    "menuname": "可靠性试验环境测试用例",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "环境/耐久性试验监测系统测试用例",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 145,
+                    "menuname": "可靠性试验环境测试报告",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "环境/耐久性试验监测系统测试总结报告",
+                    "docsubname": "Cc_Cn_Dn_Time",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 146,
+                "menuname": "试验准备及样件信息",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 147,
+                    "menuname": "可靠性试验准备及样件信息",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "环境/耐久性（摸底、DV、PV、型式）试验样件标签文件",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 148,
+                    "menuname": "可靠性试验准备及样件信息",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "环境/耐久性（摸底、DV、PV、型式）试验样件基本信息表",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 149,
+                "menuname": "试验报告及开盖检查",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 150,
+                    "menuname": "试验报告及数据记录",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "环境/可靠性（摸底、DV、PV、型式）试验报告",
+                    "docsubname": "Cc_Cn_Dn_Time",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 151,
+                    "menuname": "试验报告及数据记录",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "环境 /耐久性（摸底、DV、PV、型式）试验总结及数据记录",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 152,
+                    "menuname": "开盖检查报告",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "环境/耐久性（摸底、DV、PV、型式）试验开盖检查报告",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 133,
+                "menuname": "监测系统详细设计及说明手册",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 153,
+            "menuname": "EMC及电性能",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 154,
+                "menuname": "试验方案",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 155,
+                    "menuname": "认证测试方案",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "EMC TEST PLAN",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 156,
+                    "menuname": "认证测试方案",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_D_",
+                    "docname": "EMC及电性能测试系统方案",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 157,
+                "menuname": "试验准备及样件信息",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 158,
+                    "menuname": "EMC试验准备及样件信息",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "EMC及电性能（摸底、DV、PV、型式）试验样件标签文件",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 159,
+                    "menuname": "EMC试验准备及样件信息",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "EMC及电性能（摸底、DV、PV、型式）试验样件基本信息表",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 160,
+                "menuname": "试验报告及总结",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 161,
+                    "menuname": "试验报告",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "EMC及电性能（摸底、DV、PV、型式）试验报告",
+                    "docsubname": "Cc_Cn_Dn_Time",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 162,
+                    "menuname": "试验报告",
+                    "menuupid": null,
+                    "doccodeprefix": "VV_R_",
+                    "docname": "EMC及电性能（摸底、DV、PV、型式）试验总结及数据记录",
+                    "docsubname": "Cc_Cn_Dn_Time",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 163,
+            "menuname": "质量保证",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 164,
+                "menuname": "评审记录",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "环境/耐久性试验监测系统方案评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 165,
+                "menuname": "评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "环境/耐久性试验监测系统方案评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 166,
+        "menuname": "工艺制程相关文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 178,
+            "menuname": "产线设计",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 179,
+                "menuname": "生产过程流程图",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 180,
+                    "menuname": "组装过程流程图",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "组装过程流程图",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 181,
+                    "menuname": "注塑过程流程图",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "注塑过程流程图",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 182,
+                    "menuname": "电子焊接过程流程图",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "电子焊接过程流程图",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 183,
+                "menuname": "车间平面布置图及物流路线图",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 184,
+                    "menuname": "组装车间布置图及物流路线图",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "组装车间平面布置图及物流路线图",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 185,
+                    "menuname": "注塑车间布置图及物流路线图",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "注塑车间平面布置图及物流路线图",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 186,
+                    "menuname": "SMT车间布置图及物流路线图",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "SMT车间平面布置图及物流路线图",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 187,
+                "menuname": "设备设施清单及配置计划",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 188,
+                    "menuname": "设备设施清单及配置计划",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "设备设施工装清单及配置计划",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 189,
+                "menuname": "初始过程能力研究计划",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 190,
+                    "menuname": "制程能力研究计划",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "初始过程能力研究计划",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 191,
+                "menuname": "MSA研究计划",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 192,
+                    "menuname": "制程能力研究计划",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "MSA研究计划",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 200,
+            "menuname": "产线验证",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 201,
+                "menuname": "过程能力研究报告",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 202,
+                    "menuname": "制程能力研究报告",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_R_",
+                    "docname": "初始过程能力研究报告",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 203,
+                "menuname": "MSA研究报告",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 204,
+                    "menuname": "MSA研究报告",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_R_",
+                    "docname": "MSA实施报告",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 205,
+                "menuname": "产线验收报告",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 206,
+                    "menuname": "产线验收",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_R_",
+                    "docname": "产线验收报告",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 207,
+                "menuname": "产能分析",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 208,
+                    "menuname": "产能分析",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_R_",
+                    "docname": "产能分析表",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 209,
+            "menuname": "样件试制",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 210,
+                "menuname": "试产总结",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 211,
+                    "menuname": "试产总结",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_R_",
+                    "docname": "试生产报告",
+                    "docsubname": "Cc_Cn_Dn_Time",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 167,
+            "menuname": "制造过程设计需求",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 168,
+                "menuname": "制造过程设计需求",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "制造过程设计需求分析报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 169,
+            "menuname": "工艺设计",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 170,
+                "menuname": "过程特殊特性清单",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "过程特殊特性清单",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 193,
+            "menuname": "PFMEA&CP",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 194,
+                "menuname": "组装PFMEA&CP",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "组装PFMEA",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 195,
+                "menuname": "组装PFMEA&CP",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "组装控制计划",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 196,
+                "menuname": "注塑PFMEA&CP",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "注塑PFMEA",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 197,
+                "menuname": "注塑PFMEA&CP",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "注塑控制计划",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 198,
+                "menuname": "电子焊接PFMEA&CP",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "电子焊接PFMEA",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 199,
+                "menuname": "电子焊接PFMEA&CP",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "电子焊接控制计划",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 212,
+            "menuname": "制造成本分析",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 213,
+                "menuname": "制造成本分析",
+                "menuupid": null,
+                "doccodeprefix": "EM_R_",
+                "docname": "制造成本分析表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 171,
+            "menuname": "作业指导书",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [],
+            "documents": null
+          },
+          {
+            "menuid": 175,
+            "menuname": "包装设计",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 214,
+        "menuname": "装备相关文件及记录",
+        "menuupid": null,
+        "doccodeprefix": null,
+        "docname": null,
+        "docsubname": null,
+        "menus": [
+          {
+            "menuid": 215,
+            "menuname": "设计与实现",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 216,
+                "menuname": "系统",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 217,
+                    "menuname": "系统需求",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "装备需求规格说明书",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 218,
+                    "menuname": "系统方案",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "装备系统设计方案说明",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 219,
+                    "menuname": "系统接口图纸",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "装备硬件设计及接线图",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 220,
+                    "menuname": "系统设计实现",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "装备信号映射表",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 221,
+                    "menuname": "产品测试规范",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "终端测试规范",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 222,
+                    "menuname": "复测说明",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "产品复测说明",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 223,
+                "menuname": "工装",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 224,
+                    "menuname": "装备工装",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "工装方案设计说明书",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 225,
+                    "menuname": "装备工装",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "工装设计图纸",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 227,
+                "menuname": "软件",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 228,
+                    "menuname": "装备软件",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "装备软件设计说明书",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 229,
+                    "menuname": "装备软件",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "软件源码包",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  },
+                  {
+                    "menuid": 230,
+                    "menuname": "可执行文件",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "软件可执行文件",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 231,
+                "menuname": "硬件",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [
+                  {
+                    "menuid": 232,
+                    "menuname": "装备硬件板卡",
+                    "menuupid": null,
+                    "doccodeprefix": "EM_D_",
+                    "docname": "硬件板卡设计说明书_板卡名称",
+                    "docsubname": "Cc_Cn_Dn",
+                    "menus": null,
+                    "documents": null
+                  }
+                ],
+                "documents": null
+              },
+              {
+                "menuid": 226,
+                "menuname": "机柜图纸",
+                "menuupid": null,
+                "doccodeprefix": null,
+                "docname": null,
+                "docsubname": null,
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 233,
+            "menuname": "集成与调试",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 234,
+                "menuname": "装备集成大纲",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "装备系统集成大纲",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 235,
+                "menuname": "装备调试记录",
+                "menuupid": null,
+                "doccodeprefix": "EM_R_",
+                "docname": "集成调试问题记录",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 236,
+            "menuname": "装备测试",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 237,
+                "menuname": "装备系统测试用例",
+                "menuupid": null,
+                "doccodeprefix": "VV_D_",
+                "docname": "系统集成测试用例",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 238,
+                "menuname": "装备系统测试报告",
+                "menuupid": null,
+                "doccodeprefix": "VV_R_",
+                "docname": "测试总结报告",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 239,
+            "menuname": "使用维护",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 240,
+                "menuname": "工装使用维护说明",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "工装操作及维护说明",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 241,
+                "menuname": "装备操作维护说明",
+                "menuupid": null,
+                "doccodeprefix": "EM_D_",
+                "docname": "装备操作及维护说明",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 242,
+                "menuname": "检定报告",
+                "menuupid": null,
+                "doccodeprefix": "EM_R_",
+                "docname": "装备检定报告",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 243,
+            "menuname": "验收",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 244,
+                "menuname": "验收大纲及验收报告",
+                "menuupid": null,
+                "doccodeprefix": "EM_R_",
+                "docname": "装备验收大纲及验收报告",
+                "docsubname": "Cc_Cn_Dn_Time",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          },
+          {
+            "menuid": 245,
+            "menuname": "质量保证",
+            "menuupid": null,
+            "doccodeprefix": null,
+            "docname": null,
+            "docsubname": null,
+            "menus": [
+              {
+                "menuid": 246,
+                "menuname": "评审记录",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "装备系统需求分析评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 247,
+                "menuname": "评审记录",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "装备系统方案评审记录及行动项列表",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 248,
+                "menuname": "评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "装备系统需求分析评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              },
+              {
+                "menuid": 249,
+                "menuname": "评审报告",
+                "menuupid": null,
+                "doccodeprefix": "QA_R_",
+                "docname": "装备系统方案评审报告",
+                "docsubname": "Cc_Cn_Dn",
+                "menus": [],
+                "documents": null
+              }
+            ],
+            "documents": null
+          }
+        ],
+        "documents": null
+      },
+      {
+        "menuid": 250,
+        "menuname": "标准文件",
+        "menuupid": null,
+        "doccodeprefix": "SM_D_",
+        "docname": "汽车厂简称",
+        "docsubname": "Cc_Cn_Dn",
+        "menus": [],
+        "documents": null
+      }
+    ]
+  },
+  "msg": "ok",
+  "code": "200"
+}

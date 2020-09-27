@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.AnnotationMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Document.Annotation">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="annotationID" jdbcType="INTEGER" property="annotationid" />
+    <result column="annUserID" jdbcType="INTEGER" property="annuserid" />
+    <result column="annotation" jdbcType="VARCHAR" property="annotation" />
+    <result column="creatTime" jdbcType="TIMESTAMP" property="creattime" />
+    <result column="versionID" jdbcType="INTEGER" property="versionid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    annotationID, annUserID, annotation, creatTime, versionID
+  </sql>
+</mapper>

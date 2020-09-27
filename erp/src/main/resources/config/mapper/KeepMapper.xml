@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.KeepMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Document.Keep">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="keepID" jdbcType="INTEGER" property="keepid" />
+    <result column="keepName" jdbcType="VARCHAR" property="keepname" />
+    <result column="userID" jdbcType="INTEGER" property="userid" />
+    <result column="creatTime" jdbcType="TIMESTAMP" property="creattime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    keepID, keepName, userID, creatTime
+  </sql>
+</mapper>

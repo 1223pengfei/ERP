@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "mainClass": "doc_docname",
+      "value": "文档名称",
+      "type": null
+    },
+    {
+      "mainClass": "doc_docnum",
+      "value": "文档编号",
+      "type": null
+    },
+    {
+      "mainClass": "doc_docphase",
+      "value": "文档阶段",
+      "type": null
+    },
+    {
+      "mainClass": "doc_creatuserid",
+      "value": "创建人",
+      "type": null
+    },
+    {
+      "mainClass": "doc_createtime",
+      "value": "创建时间",
+      "type": null
+    },
+    {
+      "mainClass": "ver_versioncode",
+      "value": "版本号",
+      "type": null
+    },
+    {
+      "mainClass": "ver_setuserid",
+      "value": "修改人",
+      "type": null
+    },
+    {
+      "mainClass": "ver_updatatime",
+      "value": "更新时间",
+      "type": null
+    },
+    {
+      "mainClass": "ver_verstate",
+      "value": "状态",
+      "type": null
+    },
+    {
+      "mainClass": "ver_verite",
+      "value": "迭代号",
+      "type": null
+    }
+  ],
+  "msg": "ok",
+  "code": "200"
+}

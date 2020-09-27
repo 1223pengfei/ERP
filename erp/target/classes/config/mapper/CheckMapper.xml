@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.CheckMapper">
+
+  <select id="getIDs" resultType="Integer">
+    select checkerID from erp_process_check where processID = #{0}
+  </select>
+
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Process.Check">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="checkID" jdbcType="INTEGER" property="checkid" />
+    <result column="processID" jdbcType="INTEGER" property="processid" />
+    <result column="checkerID" jdbcType="INTEGER" property="checkerid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    checkID, processID, checkerID
+  </sql>
+</mapper>

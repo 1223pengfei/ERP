@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.VersionMapper">
+
+  <select id="getNowVersion" resultMap="BaseResultMap">
+    SELECT * from erp_plm_document_version b,
+      (select max(versionCode) c,docID from erp_plm_document_version
+      GROUP BY docID ) as v
+    where b.docID = v.docID and b.versionCode = v.c
+  </select>
+
+
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Document.Version">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="versionID" jdbcType="INTEGER" property="versionid" />
+    <result column="versionCode" jdbcType="VARCHAR" property="versioncode" />
+    <result column="setUserID" jdbcType="INTEGER" property="setuserid" />
+    <result column="docUrl" jdbcType="VARCHAR" property="docurl" />
+    <result column="docSize" jdbcType="INTEGER" property="docsize" />
+    <result column="suffix" jdbcType="VARCHAR" property="suffix" />
+    <result column="updataTime" jdbcType="TIMESTAMP" property="updatatime" />
+    <result column="docID" jdbcType="INTEGER" property="docid" />
+    <result column="verState" jdbcType="INTEGER" property="verstate" />
+    <result column="verIte" jdbcType="INTEGER" property="verIte" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    versionID, versionCode, setUserID, docUrl, docSize, suffix, updataTime, docID
+  </sql>
+</mapper>

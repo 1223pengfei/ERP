@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.LogisticMapper">
+
+  <select id="getLogistic" resultMap="BaseResultMap">
+    select * from  erp_plm_material_logistic l,erp_plm_material_wareroom w,base_package b
+    where l.stockTypeID = w.wareroomID and l.PackageID = b.PackageID
+    and l.BaseID = #{0}
+  </select>
+
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Logistic">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="logisticID" jdbcType="INTEGER" property="logisticid" />
+    <result column="PackageID" jdbcType="INTEGER" property="packageid" />
+    <result column="Unit" jdbcType="INTEGER" property="unit" />
+    <result column="PackageNumber" jdbcType="INTEGER" property="packagenumber" />
+    <result column="SupplyForm" jdbcType="CHAR" property="supplyform" />
+    <result column="BatchTrace" jdbcType="BIT" property="batchtrace" />
+    <result column="SNTrace" jdbcType="BIT" property="sntrace" />
+    <result column="StockMin" jdbcType="INTEGER" property="stockmin" />
+    <result column="StockMax" jdbcType="INTEGER" property="stockmax" />
+    <result column="stockTypeID" jdbcType="INTEGER" property="stocktypeid" />
+    <result column="LogisticInPlant" jdbcType="CHAR" property="logisticinplant" />
+    <result column="BaseID" jdbcType="INTEGER" property="baseid" />
+    <association property="wareroom" javaType="com.scd.erp.Vo.plm.Material.Wareroom">
+      <id column="wareroomID" jdbcType="INTEGER" property="wareroomid" />
+      <result column="wareroomCode" jdbcType="VARCHAR" property="wareroomcode" />
+      <result column="wareroomName" jdbcType="VARCHAR" property="wareroomname" />
+    </association>
+    <association property="basePackage" javaType="com.scd.erp.Vo.baseData.BasePackage">
+      <id column="PackageID" jdbcType="INTEGER" property="packageid" />
+      <result column="PackageNum" jdbcType="VARCHAR" property="packagenum" />
+      <result column="PackageName" jdbcType="VARCHAR" property="packagename" />
+      <result column="PackageShortName" jdbcType="VARCHAR" property="packageshortname" />
+    </association>
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    logisticID, PackageID, Unit, PackageNumber, SupplyForm, BatchTrace, SNTrace, StockMin, 
+    StockMax, stockTypeID, LogisticInPlant, BaseID
+  </sql>
+</mapper>

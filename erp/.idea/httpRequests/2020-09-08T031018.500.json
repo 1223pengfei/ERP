@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-09-08T07:10:18.784+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "condition expression returns non-Boolean (sequenceFlowId: sf6): true> (java.lang.String)",
+  "path": "/Act/approve/0"
+}

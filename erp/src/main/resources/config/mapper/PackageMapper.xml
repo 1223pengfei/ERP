@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.PackageMapper">
+
+    <select id="allFile" resultMap="BaseResultMap">
+        select * , n.personName npersonName ,n.personID npersonID
+        from (erp_file_package p ,erp_file_packagetype t )
+        left join erp_center_file_package c on p.packageID = c.packageID
+        left join  erp_file_msg f on   c.fileID = f.FileID
+        left join  erp_file_belong b on b.fileID = f.FileID
+        left join  erp_person_msg p1 on p1.personID = b.updataUserID
+        left join  erp_person_msg n on n.personID = b.nowBelongUserID
+        left join  erp_department_msg d on d.departmentID = b.departmentID
+        left join erp_center_file_collect c2 on c2.fileID = f.FileID
+        left join erp_file_collect c3 on c2.collectID = c3.collectID
+        where  p.packageTypeID = t.packTypeID
+        and p.belongDepartmentID = #{departid}
+        <if test="packageid != 0 ">
+            and p.packageID = #{packageid}
+        </if>
+        order by p.packageCreatTime
+    </select>
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Doc.Package">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="packageID" jdbcType="INTEGER" property="packageid"/>
+        <result column="packageName" jdbcType="VARCHAR" property="packagename"/>
+        <result column="packageTypeID" jdbcType="INTEGER" property="packagetypeid"/>
+        <result column="packageCreatTime" jdbcType="TIMESTAMP" property="packagecreattime"/>
+        <result column="belongDepartmentID" jdbcType="INTEGER" property="belongdepartmentid"/>
+        <association property="type" javaType="com.scd.erp.Vo.Doc.PackageType">
+            <id column="packTypeID" jdbcType="INTEGER" property="packtypeid"/>
+            <result column="typeName" jdbcType="VARCHAR" property="typename"/>
+        </association>
+        <collection property="docements" ofType="com.scd.erp.Vo.Doc.Docement">
+            <id column="FileID" jdbcType="INTEGER" property="fileid"/>
+            <result column="FileName" jdbcType="VARCHAR" property="filename"/>
+            <result column="FlieUrl" jdbcType="VARCHAR" property="flieurl"/>
+            <result column="FlieType" jdbcType="CHAR" property="flietype"/>
+            <result column="FileRemark" jdbcType="VARCHAR" property="fileremark"/>
+            <result column="FileCreatTime" jdbcType="TIMESTAMP" property="filecreattime"/>
+            <result column="FileDelTime" jdbcType="TIMESTAMP" property="filedeltime"/>
+
+            <result column="DataSize" jdbcType="INTEGER" property="size"/>
+            <result column="DataSuffix" jdbcType="VARCHAR" property="suffix"/>
+            <association property="collect" javaType="com.scd.erp.Vo.Doc.Collect">
+                <id column="collectID" jdbcType="INTEGER" property="collectid"/>
+                <result column="collectName" jdbcType="VARCHAR" property="collectname"/>
+                <result column="collectCode" jdbcType="VARCHAR" property="collectcode"/>
+                <result column="upColID" jdbcType="INTEGER" property="upcolid"/>
+
+            </association>
+            <association property="belong" javaType="com.scd.erp.Vo.Doc.Belong">
+                <id column="belongID" jdbcType="INTEGER" property="belongid"/>
+                <result column="fileID" jdbcType="INTEGER" property="fileid"/>
+                <result column="updataUserID" jdbcType="INTEGER" property="updatauserid"/>
+                <result column="departmentID" jdbcType="INTEGER" property="departmentid"/>
+                <result column="isbelongUser" jdbcType="BIT" property="isbelonguser"/>
+                <result column="nowBelongUserID" jdbcType="INTEGER" property="nowbelonguserid"/>
+                <result column="lastTime" jdbcType="TIMESTAMP" property="lasttime"/>
+                <association property="upPerson" javaType="com.scd.erp.Vo.Person.Person">
+                    <id column="personID" jdbcType="INTEGER" property="personid"/>
+                    <result column="personName" jdbcType="VARCHAR" property="personname"/>
+                </association>
+                <association property="nowPerson" javaType="com.scd.erp.Vo.Person.Person">
+                    <id column="personID" jdbcType="INTEGER" property="personid"/>
+                    <result column="npersonName" jdbcType="VARCHAR" property="personname"/>
+                </association>
+                <association property="dep" javaType="com.scd.erp.Vo.Department.Department">
+                    <id column="departmentID" jdbcType="INTEGER" property="departmentid"/>
+                    <result column="depName" jdbcType="VARCHAR" property="depname"/>
+                </association>
+            </association>
+        </collection>
+
+    </resultMap>
+
+</mapper>

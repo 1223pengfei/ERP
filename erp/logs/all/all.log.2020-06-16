@@ -1,0 +1,184 @@
+2020-06-16 08:09:15  [ main:0 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-06-16 08:09:15  [ main:7 ] - [ INFO ]  初始化Log4j。。。。
+2020-06-16 08:09:15  [ main:7 ] - [ INFO ]  path is /D:/xiangmu/works/gitwork/erp/target/classes/log4j.properties
+2020-06-16 08:09:15  [ main:16 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-06-16 08:09:15  [ background-preinit:341 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-06-16 08:09:16  [ main:678 ] - [ INFO ]  Starting ErpApplication on DESKTOP-5P5KG9K with PID 14544 (D:\xiangmu\works\gitwork\erp\target\classes started by Administrator in D:\xiangmu\works\gitwork\erp)
+2020-06-16 08:09:16  [ main:680 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-06-16 08:09:17  [ main:1799 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-16 08:09:17  [ main:1800 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-16 08:09:17  [ main:1847 ] - [ INFO ]  Finished Spring Data repository scanning in 42ms. Found 0 JDBC repository interfaces.
+2020-06-16 08:09:17  [ main:1867 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-16 08:09:17  [ main:1869 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-16 08:09:17  [ main:1899 ] - [ INFO ]  Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-06-16 08:09:17  [ main:2163 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2165 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2166 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2167 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2168 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2169 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2169 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2169 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2170 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2171 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2171 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2172 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2173 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2173 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2173 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2174 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2175 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2180 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2181 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2181 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2182 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2182 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2182 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2183 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2183 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2185 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2186 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2186 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2187 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2187 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2189 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 08:09:17  [ main:2190 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-06-16 08:09:17  [ main:2402 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$fa36faf5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:18  [ main:3490 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:18  [ main:3495 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$2a2c4b05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:18  [ main:3497 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:18  [ main:3503 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:18  [ main:3527 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:19  [ main:4442 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:19  [ main:4451 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:19  [ main:4640 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:19  [ main:4646 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:19  [ main:4647 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4731 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4734 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4815 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4819 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4820 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4829 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4879 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$18d3686b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4921 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-06-16 08:09:20  [ main:4969 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$32f5f214] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:4982 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:09:20  [ main:5384 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-06-16 08:09:20  [ main:5518 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 4772 ms
+2020-06-16 08:09:20  [ main:5604 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-06-16 08:09:22  [ main:7500 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 08:09:22  [ main:7616 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-06-16 08:09:23  [ main:8325 ] - [ INFO ]  Starting without optional epoll library
+2020-06-16 08:09:23  [ main:8327 ] - [ INFO ]  Starting without optional kqueue library
+2020-06-16 08:09:24  [ main:9407 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-06-16 08:09:24  [ main:9554 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-06-16 08:09:25  [ main:10466 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-06-16 08:09:25  [ main:10472 ] - [ INFO ]  Started ErpApplication in 10.332 seconds (JVM running for 13.052)
+2020-06-16 08:09:25  [ main:10474 ] - [ INFO ]  oops: 线下开发测试
+2020-06-16 08:14:00  [ http-nio-8088-exec-1:284945 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-06-16 08:14:00  [ http-nio-8088-exec-1:284952 ] - [ INFO ]  Completed initialization in 7 ms
+2020-06-16 09:35:20  [ main:0 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-06-16 09:35:20  [ main:3 ] - [ INFO ]  初始化Log4j。。。。
+2020-06-16 09:35:20  [ main:4 ] - [ INFO ]  path is /D:/xiangmu/works/gitwork/erp/target/classes/log4j.properties
+2020-06-16 09:35:20  [ main:17 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-06-16 09:35:20  [ background-preinit:231 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-06-16 09:35:20  [ main:504 ] - [ INFO ]  Starting ErpApplication on DESKTOP-5P5KG9K with PID 9760 (D:\xiangmu\works\gitwork\erp\target\classes started by Administrator in D:\xiangmu\works\gitwork\erp)
+2020-06-16 09:35:20  [ main:506 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-06-16 09:35:21  [ main:1608 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-16 09:35:21  [ main:1610 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-16 09:35:21  [ main:1662 ] - [ INFO ]  Finished Spring Data repository scanning in 48ms. Found 0 JDBC repository interfaces.
+2020-06-16 09:35:21  [ main:1681 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-16 09:35:21  [ main:1683 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-16 09:35:21  [ main:1716 ] - [ INFO ]  Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-06-16 09:35:22  [ main:1907 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1909 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1909 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contentMapper' and 'com.scd.erp.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1910 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1911 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1911 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1912 ] - [ WARN ]  Skipping MapperFactoryBean with name 'fileMapper' and 'com.scd.erp.mapper.FileMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1912 ] - [ WARN ]  Skipping MapperFactoryBean with name 'itemsMapper' and 'com.scd.erp.mapper.ItemsMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1912 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1913 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1914 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1917 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1917 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1918 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1918 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1919 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1919 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1919 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1919 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1920 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1920 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1920 ] - [ WARN ]  Skipping MapperFactoryBean with name 'recordMapper' and 'com.scd.erp.mapper.RecordMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1920 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1921 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1921 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1921 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1921 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1921 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-06-16 09:35:22  [ main:1922 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-06-16 09:35:22  [ main:2070 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$31456722] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:23  [ main:3418 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:23  [ main:3424 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$613ab732] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:23  [ main:3426 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:23  [ main:3432 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:23  [ main:3454 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:3987 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:3991 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4054 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4056 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4057 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4118 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4120 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4170 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4173 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4173 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4178 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4203 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4fe1d498] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4218 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-06-16 09:35:24  [ main:4230 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$6a045e41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4237 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 09:35:24  [ main:4574 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-06-16 09:35:24  [ main:4700 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 4123 ms
+2020-06-16 09:35:24  [ main:4800 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-06-16 09:35:26  [ main:6592 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 09:35:26  [ main:6676 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-06-16 09:35:27  [ main:7160 ] - [ INFO ]  Starting without optional epoll library
+2020-06-16 09:35:27  [ main:7163 ] - [ INFO ]  Starting without optional kqueue library
+2020-06-16 09:35:28  [ main:8507 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-06-16 09:35:28  [ main:8644 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-06-16 09:35:29  [ main:9260 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-06-16 09:35:29  [ main:9263 ] - [ INFO ]  Started ErpApplication in 9.155 seconds (JVM running for 10.727)
+2020-06-16 09:35:29  [ main:9265 ] - [ INFO ]  oops: 线下开发测试
+2020-06-16 09:45:37  [ http-nio-8088-exec-1:617678 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-06-16 09:45:37  [ http-nio-8088-exec-1:617685 ] - [ INFO ]  Completed initialization in 7 ms
+2020-06-16 15:16:14  [ http-nio-8088-exec-3:20454532 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:17:58  [ http-nio-8088-exec-4:20558432 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:18:41  [ http-nio-8088-exec-8:20601269 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:18:54  [ http-nio-8088-exec-6:20614375 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:19:59  [ http-nio-8088-exec-7:20679556 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:20:08  [ http-nio-8088-exec-3:20688816 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:20:59  [ http-nio-8088-exec-2:20739605 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:22:31  [ http-nio-8088-exec-9:20831643 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:23:03  [ http-nio-8088-exec-5:20863483 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:26:34  [ http-nio-8088-exec-8:21074421 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:32:37  [ http-nio-8088-exec-6:21437374 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:36:57  [ http-nio-8088-exec-2:21697415 ] - [ WARN ]  Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-06-16 15:38:50  [ http-nio-8088-exec-4:21810499 ] - [ WARN ]  Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-06-16 15:40:37  [ http-nio-8088-exec-1:21917114 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:43:08  [ http-nio-8088-exec-6:22068679 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]
+2020-06-16 15:48:44  [ http-nio-8088-exec-2:22404023 ] - [ WARN ]  Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'map' is not present]

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-09-08T07:04:25.662+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Missing URI template variable 'taskid' for method parameter of type String",
+  "path": "/Act/HQ/20029"
+}

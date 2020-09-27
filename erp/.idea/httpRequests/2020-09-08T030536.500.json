@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-09-08T07:05:36.280+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Exception while invoking TaskListener: com.scd.erp.handler.flowableHandler.AuditorHandler doesn't implement interface org.flowable.engine.delegate.TaskListener",
+  "path": "/Act/HQ/20029"
+}

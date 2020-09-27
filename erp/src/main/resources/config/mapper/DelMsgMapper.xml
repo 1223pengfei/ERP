@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.DelMsgMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Note.DelMsg">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="delID" jdbcType="INTEGER" property="delid" />
+    <result column="delTime" jdbcType="TIMESTAMP" property="deltime" />
+    <result column="delUserID" jdbcType="INTEGER" property="deluserid" />
+    <result column="delReason" jdbcType="VARCHAR" property="delreason" />
+    <result column="delMaterailMSG" jdbcType="VARCHAR" property="delmaterailmsg" />
+    <result column="baseID" jdbcType="INTEGER" property="baseid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    delID, delTime, delUserID, delReason, delMaterailMSG, baseID
+  </sql>
+</mapper>

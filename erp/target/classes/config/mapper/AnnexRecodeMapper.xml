@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.AnnexRecodeMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Process.AnnexRecode">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ApplyRecodeID" jdbcType="INTEGER" property="applyrecodeid" />
+    <result column="AppllerID" jdbcType="INTEGER" property="appllerid" />
+    <result column="ApplyTime" jdbcType="TIMESTAMP" property="applytime" />
+    <result column="label" jdbcType="VARCHAR" property="label" />
+    <result column="result" jdbcType="BIT" property="result" />
+    <result column="annexID" jdbcType="INTEGER" property="annexid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    ApplyRecodeID, AppllerID, ApplyTime, label, result, annexID
+  </sql>
+</mapper>

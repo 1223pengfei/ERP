@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.RenewMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Note.Renew">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="renewID" jdbcType="INTEGER" property="renewid" />
+    <result column="renewUserID" jdbcType="INTEGER" property="renewuserid" />
+    <result column="renewTime" jdbcType="TIMESTAMP" property="renewtime" />
+    <result column="iterationCode" jdbcType="VARCHAR" property="iterationcode" />
+    <result column="iterationVersion" jdbcType="VARCHAR" property="iterationversion" />
+    <result column="noteID" jdbcType="INTEGER" property="noteid" />
+    <result column="renewType" jdbcType="VARCHAR" property="renewtype" />
+    <result column="attrituteID" jdbcType="INTEGER" property="attrituteid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    renewID, renewUserID, renewTime, iterationCode, iterationVersion, noteID, renewType, 
+    attrituteID
+  </sql>
+</mapper>

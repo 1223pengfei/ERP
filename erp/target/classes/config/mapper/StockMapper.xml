@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.StockMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Stock">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="stockID" jdbcType="INTEGER" property="stockid" />
+    <result column="Manufacturer" jdbcType="VARCHAR" property="manufacturer" />
+    <result column="ManufacturerIdentification" jdbcType="VARCHAR" property="manufactureridentification" />
+    <result column="Agent" jdbcType="VARCHAR" property="agent" />
+    <result column="AgentIdentification" jdbcType="VARCHAR" property="agentidentification" />
+    <result column="ManufacturerPartNumber" jdbcType="VARCHAR" property="manufacturerpartnumber" />
+    <result column="OrderingPeriod" jdbcType="INTEGER" property="orderingperiod" />
+    <result column="MinPurchaseNumber" jdbcType="INTEGER" property="minpurchasenumber" />
+    <result column="PriceIncludeMaterial" jdbcType="BIT" property="priceincludematerial" />
+    <result column="CurrentPrice" jdbcType="INTEGER" property="currentprice" />
+    <result column="LTA" jdbcType="INTEGER" property="lta" />
+    <result column="VolumePrice" jdbcType="VARCHAR" property="volumeprice" />
+    <result column="baseID" jdbcType="INTEGER" property="baseid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    stockID, Manufacturer, ManufacturerIdentification, Agent, AgentIdentification, ManufacturerPartNumber, 
+    OrderingPeriod, MinPurchaseNumber, PriceIncludeMaterial, CurrentPrice, LTA, VolumePrice, 
+    baseID
+  </sql>
+</mapper>

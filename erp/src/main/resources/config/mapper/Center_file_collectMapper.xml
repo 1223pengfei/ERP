@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.Center_file_collectMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Center.Center_file_collect">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="privateID" jdbcType="INTEGER" property="privateid" />
+    <result column="collectID" jdbcType="INTEGER" property="collectid" />
+    <result column="fileID" jdbcType="INTEGER" property="fileid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    privateID, collectID, fileID
+  </sql>
+</mapper>

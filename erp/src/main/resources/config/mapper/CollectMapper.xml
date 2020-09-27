@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.CollectMapper">
+
+    <select id="withPerson" resultMap="BaseResultMap">
+        select *
+        from erp_file_collect c
+            left join erp_center_file_collect cc on c.collectID = cc.collectID
+            left join erp_file_msg f on f.fileID = cc.fileID
+        where c.personID = #{personid}
+    </select>
+
+    <select id="getCollect" resultMap="BaseResultMap">
+        select *
+        from erp_file_collect c
+            left join erp_center_file_collect cc on c.collectID = cc.collectID
+            left join erp_file_msg f on cc.fileID = f.fileID
+        WHERE c.collectID = #{collectid}
+    </select>
+
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Doc.Collect">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="collectID" jdbcType="INTEGER" property="collectid"/>
+        <result column="collectName" jdbcType="VARCHAR" property="collectname"/>
+        <result column="collectCode" jdbcType="VARCHAR" property="collectcode"/>
+        <result column="upColID" jdbcType="INTEGER" property="upcolid"/>
+        <result column="personID" jdbcType="INTEGER" property="personid"/>
+        <collection property="docements" ofType="com.scd.erp.Vo.Doc.Docement">
+            <id column="FileID" jdbcType="INTEGER" property="fileid"/>
+            <result column="FileName" jdbcType="VARCHAR" property="filename"/>
+            <result column="FlieUrl" jdbcType="VARCHAR" property="flieurl"/>
+            <result column="FlieType" jdbcType="CHAR" property="flietype"/>
+            <result column="FileRemark" jdbcType="VARCHAR" property="fileremark"/>
+            <result column="FileCreatTime" jdbcType="TIMESTAMP" property="filecreattime"/>
+            <result column="FileDelTime" jdbcType="TIMESTAMP" property="filedeltime"/>
+            <result column="packageID" jdbcType="INTEGER" property="packageid"/>
+            <result column="DataSize" jdbcType="INTEGER" property="size"/>
+            <result column="DataSuffix" jdbcType="VARCHAR" property="suffix"/>
+        </collection>
+    </resultMap>
+
+</mapper>

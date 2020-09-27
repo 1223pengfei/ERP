@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.JobMapper">
+
+    <select id="allJob" resultMap="BaseResultMap">
+        select * from erp_department_job j
+        left join erp_center_job_rule c on c.jobID = j.jobID
+        left join erp_auth_rule r on c.ruleID = r.ruleID
+        left join erp_center_rule_persission c2 on c2.rulID = r.ruleID
+        left join erp_auth_permission p on c2.persID = p.permissionID
+    </select>
+
+    <select id="getJob" resultMap="BaseResultMap">
+        select * from (erp_department_job j ,erp_center_person_job c)
+            left join erp_center_job_rule c_rj on c_rj.jobID = j.jobID
+            left join erp_auth_rule r on r.ruleID = c_rj.ruleID
+            left join erp_center_rule_persission c_rp on c_rp.rulID = r.ruleID
+            left join erp_auth_permission p on c_rp.persID = p.permissionID
+        where c.jobID = j.jobID
+            <if test="pid != 0">
+                and c.pesonID = #{pid}
+            </if>
+
+    </select>
+
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Department.Job">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="jobID" jdbcType="INTEGER" property="jobid"/>
+        <result column="jobCode" jdbcType="VARCHAR" property="jobcode"/>
+        <result column="jobName" jdbcType="VARCHAR" property="jobname"/>
+        <result column="upJobID" jdbcType="INTEGER" property="upjobid"/>
+        <result column="depID" jdbcType="INTEGER" property="depid"/>
+        <collection property="rules" ofType="com.scd.erp.Vo.auth.Rule">
+            <id column="ruleID" jdbcType="INTEGER" property="ruleid" />
+            <result column="ruleName" jdbcType="VARCHAR" property="rulename" />
+            <result column="upRuleID" jdbcType="INTEGER" property="upruleid" />
+            <result column="ruleRemark" jdbcType="VARCHAR" property="ruleremark" />
+            <collection property="permissions" ofType="com.scd.erp.Vo.auth.Permission">
+                <id column="permissionID" jdbcType="INTEGER" property="permissionid" />
+                <result column="permissionName" jdbcType="VARCHAR" property="permissionname" />
+                <result column="permissionUrl" jdbcType="VARCHAR" property="permissionurl" />
+                <result column="permissionCode" jdbcType="VARCHAR" property="permissioncode" />
+                <result column="upPermissionID" jdbcType="INTEGER" property="uppermissionid" />
+            </collection>
+        </collection>
+    </resultMap>
+
+</mapper>

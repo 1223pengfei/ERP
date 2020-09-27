@@ -1,0 +1,1154 @@
+2020-06-01 08:36:43  [ main:0 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-06-01 08:36:43  [ main:160 ] - [ INFO ]  初始化Log4j。。。。
+2020-06-01 08:36:43  [ main:160 ] - [ INFO ]  path is /D:/works/gitwork/erp/target/classes/log4j.properties
+2020-06-01 08:36:43  [ main:230 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-06-01 08:36:45  [ background-preinit:2012 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-06-01 08:36:46  [ main:3376 ] - [ INFO ]  Starting ErpApplication on DESKTOP-L12CCK6 with PID 1204 (D:\works\gitwork\erp\target\classes started by R in D:\works\gitwork\erp)
+2020-06-01 08:36:46  [ main:3378 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-06-01 08:36:51  [ main:7950 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 08:36:51  [ main:7960 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-01 08:36:51  [ main:8180 ] - [ INFO ]  Finished Spring Data repository scanning in 177ms. Found 0 JDBC repository interfaces.
+2020-06-01 08:36:51  [ main:8230 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 08:36:51  [ main:8230 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 08:36:51  [ main:8370 ] - [ INFO ]  Finished Spring Data repository scanning in 56ms. Found 0 Redis repository interfaces.
+2020-06-01 08:36:52  [ main:9570 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9590 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9590 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9590 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9600 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9600 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9600 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9608 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9608 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9610 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9610 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9610 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9619 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9619 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9619 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9621 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9621 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9631 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9631 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9639 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9641 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9641 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9641 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9641 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9641 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9641 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9649 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9651 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9651 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9651 ] - [ WARN ]  Skipping MapperFactoryBean with name 'testMapper' and 'com.scd.erp.mapper.TestMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9651 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9651 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 08:36:52  [ main:9651 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-06-01 08:36:53  [ main:10370 ] - [ INFO ]  No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-01 08:36:53  [ main:10380 ] - [ INFO ]  No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-06-01 08:36:53  [ main:10380 ] - [ INFO ]  No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-01 08:36:53  [ main:10410 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$511bb54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:54  [ main:11620 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:54  [ main:11630 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$35070b64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:54  [ main:11641 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:54  [ main:11661 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:54  [ main:11782 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:13794 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:13814 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14024 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14034 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14034 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14144 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14144 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14280 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14290 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14290 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14290 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14361 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$23ae28ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14401 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-06-01 08:36:57  [ main:14439 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:57  [ main:14741 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$3dd0b273] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:58  [ main:14812 ] - [ INFO ]  Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:58  [ main:14832 ] - [ INFO ]  Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:58  [ main:14842 ] - [ INFO ]  Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 08:36:58  [ main:15708 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-06-01 08:36:59  [ main:16311 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 12660 ms
+2020-06-01 08:36:59  [ main:16521 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-06-01 08:37:03  [ main:19865 ] - [ INFO ]  Initializing ExecutorService 'taskScheduler'
+2020-06-01 08:37:03  [ main:20248 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 08:37:03  [ main:20410 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-06-01 08:37:04  [ main:21388 ] - [ INFO ]  Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-01 08:37:04  [ main:21388 ] - [ INFO ]  Channel 'application.errorChannel' has 1 subscriber(s).
+2020-06-01 08:37:04  [ main:21388 ] - [ INFO ]  started bean '_org.springframework.integration.errorLogger'
+2020-06-01 08:37:04  [ main:21388 ] - [ INFO ]  Adding {message-handler:mqttReceiveConfig.handler.serviceActivator} as a subscriber to the 'mqttInputChannel' channel
+2020-06-01 08:37:04  [ main:21388 ] - [ INFO ]  Channel 'application.mqttInputChannel' has 1 subscriber(s).
+2020-06-01 08:37:04  [ main:21388 ] - [ INFO ]  started bean 'mqttReceiveConfig.handler.serviceActivator'
+2020-06-01 08:37:04  [ main:21396 ] - [ INFO ]  Adding {message-handler:mqttReceiveConfig.mqttOutbound.serviceActivator} as a subscriber to the 'mqttOutboundChannel' channel
+2020-06-01 08:37:04  [ main:21396 ] - [ INFO ]  Channel 'application.mqttOutboundChannel' has 1 subscriber(s).
+2020-06-01 08:37:04  [ main:21396 ] - [ INFO ]  started bean 'mqttReceiveConfig.mqttOutbound.serviceActivator'
+2020-06-01 08:37:04  [ main:21396 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 08:37:04  [ main:21396 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 08:37:04  [ main:21396 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 08:37:04  [ main:21678 ] - [ INFO ]  started bean 'inbound'; defined in: 'class path resource [com/scd/erp/MQTT/MqttReceiveConfig.class]'; from source: 'org.springframework.core.type.classreading.SimpleMethodMetadata@4a883b15'
+2020-06-01 08:37:05  [ main:21890 ] - [ INFO ]  Starting without optional epoll library
+2020-06-01 08:37:05  [ main:21890 ] - [ INFO ]  Starting without optional kqueue library
+2020-06-01 08:37:06  [ main:23173 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-06-01 08:37:08  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:25666 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:37:20  [ main:36877 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-06-01 08:37:21  [ main:38232 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-06-01 08:37:21  [ main:38238 ] - [ INFO ]  Started ErpApplication in 36.83 seconds (JVM running for 40.926)
+2020-06-01 08:37:21  [ main:38242 ] - [ INFO ]  oops: 线下开发测试
+2020-06-01 08:38:21  [ http-nio-8088-exec-1:98749 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-06-01 08:38:22  [ http-nio-8088-exec-1:98789 ] - [ INFO ]  Completed initialization in 40 ms
+2020-06-01 08:39:37  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:174707 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:39:53  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:190765 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:41:59  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:316303 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:42:13  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:330353 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:49:31  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:768186 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:49:55  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:792454 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:50:55  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:852589 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:52:24  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:941701 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 08:55:15  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1112431 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:56:45  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1202107 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:56:59  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1216185 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:57:24  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1241232 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:58:18  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1295332 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 08:59:02  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1339527 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:01:17  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1473821 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:02:24  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1540917 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:03:17  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1594098 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:04:09  [ task-scheduler-5:1646119 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 09:04:09  [ task-scheduler-5:1646125 ] - [ ERROR ]  Exception while connecting and subscribing
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 09:04:49  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1686220 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:05:58  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1755303 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:06:18  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1775380 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:07:08  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1825494 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:08:33  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1910651 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:09:23  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:1960757 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:10:40  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2036917 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:11:31  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2087995 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:12:37  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2154155 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:14:23  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2260494 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:15:25  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2322726 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:16:26  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2382984 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:24:04  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2841349 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:24:59  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:2896637 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:27:42  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3059513 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:29:03  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3139892 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:30:06  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3203186 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:31:07  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3264413 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:32:08  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3325659 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:34:28  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3465090 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:34:51  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3488157 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:35:16  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:3513612 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 09:38:30  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3707687 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:40:07  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3803828 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:40:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3825935 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:43:00  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:3977302 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:48:15  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:4291810 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:49:25  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:4361937 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:51:59  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:4516252 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:52:15  [ http-nio-8088-exec-3:4532470 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1bbb4393 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:20  [ http-nio-8088-exec-3:4537482 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30cb6c5a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:21  [ http-nio-8088-exec-4:4538781 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17399978 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:25  [ http-nio-8088-exec-3:4542489 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3acbd3a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:27  [ http-nio-8088-exec-4:4543798 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31f1d40c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:30  [ http-nio-8088-exec-3:4547491 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@13bb1d45 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:32  [ http-nio-8088-exec-4:4548804 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b1c4b00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:35  [ http-nio-8088-exec-3:4552496 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1ecdb9ab (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:37  [ http-nio-8088-exec-4:4553807 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48ed43aa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:40  [ http-nio-8088-exec-3:4557502 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a26c61c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:52:40  [ http-nio-8088-exec-3:4557513 ] - [ WARN ]  Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30128ms.
+### The error may exist in com/scd/erp/mapper/UserMapper.java (best guess)
+### The error may involve com.scd.erp.mapper.UserMapper.selectOneByExample
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30128ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy78.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy82.selectOneByExample(Unknown Source)
+	at com.scd.erp.service.auth.Impl.LoginserviceImpl.login(LoginserviceImpl.java:28)
+	at com.scd.erp.shiro.UserRealm.doGetAuthenticationInfo(UserRealm.java:82)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at com.scd.erp.controller.auth.loginContro.loginUser(loginContro.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.scd.erp.Filter.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30128ms.
+### The error may exist in com/scd/erp/mapper/UserMapper.java (best guess)
+### The error may involve com.scd.erp.mapper.UserMapper.selectOneByExample
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30128ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 82 more
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30128ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 89 more
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30128ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:697)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:196)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:161)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 99 more
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2490)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:552)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:168)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:185)
+	... 104 more
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor80.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1171)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:576)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2486)
+	... 107 more
+2020-06-01 09:52:40  [ http-nio-8088-exec-3:4557543 ] - [ ERROR ]  org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+2020-06-01 09:53:26  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:4603367 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:54:04  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:4640801 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:54:09  [ http-nio-8088-exec-7:4646575 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d46b3e4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:54:09  [ http-nio-8088-exec-10:4646582 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49b2f3d4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:54:09  [ http-nio-8088-exec-5:4646582 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ecb636d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:54:09  [ http-nio-8088-exec-6:4646585 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ceeb80e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:54:14  [ http-nio-8088-exec-7:4651582 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5aa6e5e0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:54:14  [ http-nio-8088-exec-5:4651592 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@38dc0e88 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:54:14  [ http-nio-8088-exec-10:4651592 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4258e335 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:54:14  [ http-nio-8088-exec-6:4651592 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@88de7ab (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 09:55:43  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:4740131 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 09:55:57  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:4754190 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:00:05  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:5002558 ] - [ ERROR ]  Lost connection: Timed out while waiting to write messages to the server; retrying...
+2020-06-01 10:08:23  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:5500725 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:09:16  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:5552988 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:12:33  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:5750518 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:13:23  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:5800585 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:14:36  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:5873693 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:15:53  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:5950040 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:16:51  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6007784 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:18:02  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6078883 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:19:01  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6138112 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:24:43  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6480593 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:25:19  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6516759 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:25:38  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6534801 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:26:23  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6579995 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:27:12  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6629170 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:29:18  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6755745 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:30:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6825953 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:31:52  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6909284 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:32:12  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6929359 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:32:59  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6976539 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:33:08  [ http-nio-8088-exec-1:6985206 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@619ab503 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:33:11  [ http-nio-8088-exec-6:6988175 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f8d3d4d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:33:13  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:6990595 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:33:16  [ http-nio-8088-exec-6:6993185 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5dfa93c7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:33:21  [ http-nio-8088-exec-6:6998194 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5eb126ef (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:33:26  [ http-nio-8088-exec-6:7003204 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52e50ee1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:33:31  [ http-nio-8088-exec-6:7008213 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60d1948e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:33:36  [ http-nio-8088-exec-6:7013223 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7a693649 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:33:58  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7035751 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:34:15  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7051820 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:36:19  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7176296 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:37:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7246568 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:38:21  [ task-scheduler-9:7298611 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 10:38:21  [ task-scheduler-9:7298621 ] - [ ERROR ]  Exception while connecting and subscribing
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 10:39:05  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7342776 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:39:26  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7362857 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:40:48  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7445230 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:42:09  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7526543 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:44:03  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7640086 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:45:05  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7702379 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:46:12  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7769693 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:48:10  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7887252 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:49:46  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:7983702 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:51:28  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8085110 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:51:51  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8108198 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:53:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8206666 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:54:32  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8268942 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:55:20  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8317168 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:56:08  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8365383 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:57:01  [ http-nio-8088-exec-5:8418254 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d30331f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:57:01  [ http-nio-8088-exec-7:8418274 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e63e3c1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:57:01  [ http-nio-8088-exec-9:8418284 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@d719a2c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:57:01  [ http-nio-8088-exec-1:8418284 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d73c1a6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:57:06  [ http-nio-8088-exec-5:8423264 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7f0e9076 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:57:06  [ http-nio-8088-exec-7:8423284 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d2570c0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:57:06  [ http-nio-8088-exec-9:8423294 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3dceecc6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 10:57:19  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8436663 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:58:50  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8527113 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:59:04  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8541172 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 10:59:39  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8576270 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:00:07  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8604389 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:00:48  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8645488 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:01:10  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8667586 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:01:58  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8715707 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:02:19  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8735825 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:03:13  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8789975 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:03:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8806084 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:06:19  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8975812 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:06:39  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:8995912 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:06:59  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:9015990 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:08:10  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:9087323 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:13:01  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:9378698 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:19:12  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:9749421 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:21:09  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:9866012 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:21:56  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:9913202 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:22:40  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:9957448 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:23:40  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:10017716 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:24:37  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:10074415 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:28:10  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:10287270 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:35:25  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:10721965 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:36:36  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:10793236 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:37:45  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:10862511 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:40:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11026179 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:42:14  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11131684 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:42:31  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11147812 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:44:01  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11238302 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:44:21  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11258384 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:45:15  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11312686 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:45:30  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11326926 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:46:24  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11381159 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:47:30  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11447463 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:47:50  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11467561 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:51:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11686617 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:54:19  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:11856380 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 11:58:38  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:12115602 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:00:25  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:12222116 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:01:28  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:12284985 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 12:01:40  [ task-scheduler-4:12297114 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+无法连接至服务器 (32103) - java.net.ConnectException: Connection refused: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 12:01:40  [ task-scheduler-4:12297144 ] - [ ERROR ]  Exception while connecting and subscribing
+无法连接至服务器 (32103) - java.net.ConnectException: Connection refused: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 12:03:51  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:12427871 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:06:49  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:12606724 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:11:57  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:12914204 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:16:14  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:13171647 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:22:56  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:13573154 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 12:23:48  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:13625383 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:24:45  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:13681818 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:25:27  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:13723893 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 12:26:41  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:13798234 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:27:07  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:13824281 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 12:27:35  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:13852398 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:31:17  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14074432 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:33:22  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14199005 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:34:31  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14268284 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:36:10  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14367665 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:37:39  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14456084 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:38:32  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14509349 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:40:36  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14632957 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:40:50  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14647051 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:42:13  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14729863 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:43:21  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14798161 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:43:41  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14818249 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:44:54  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14891513 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:45:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14926709 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:46:28  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:14985142 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:47:20  [ task-scheduler-3:15037207 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 12:47:20  [ task-scheduler-3:15037207 ] - [ ERROR ]  Exception while connecting and subscribing
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 12:48:12  [ task-scheduler-3:15089281 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 12:48:12  [ task-scheduler-3:15089281 ] - [ ERROR ]  Exception while connecting and subscribing
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 12:49:35  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15171829 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:50:41  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15238339 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:50:59  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15256407 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:51:32  [ task-scheduler-4:15289015 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+已断开连接 (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:181)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:92)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:133)
+	... 7 more
+2020-06-01 12:51:34  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:15291045 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 12:51:34  [ task-scheduler-4:15291045 ] - [ ERROR ]  Exception while connecting and subscribing
+已断开连接 (32109) - java.io.EOFException
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:181)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(DataInputStream.java:267)
+	at org.eclipse.paho.client.mqttv3.internal.wire.MqttInputStream.readMqttWireMessage(MqttInputStream.java:92)
+	at org.eclipse.paho.client.mqttv3.internal.CommsReceiver.run(CommsReceiver.java:133)
+	... 7 more
+2020-06-01 12:52:42  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15359388 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:53:02  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15379476 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:54:19  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15456780 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:55:49  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15546132 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:57:41  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15658759 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 12:58:51  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15728063 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:02:40  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:15957190 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:03:42  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16019481 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:05:34  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16130960 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:07:54  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16271665 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:09:24  [ http-nio-8088-exec-9:16361014 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b4b38e1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:24  [ http-nio-8088-exec-6:16361244 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6fe470c0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:27  [ http-nio-8088-exec-1:16364024 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7265a72e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:27  [ http-nio-8088-exec-8:16364034 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@811bc6f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:29  [ http-nio-8088-exec-9:16366033 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3966c160 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:29  [ http-nio-8088-exec-6:16366253 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@756f5582 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:32  [ http-nio-8088-exec-1:16369033 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@109025b3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:32  [ http-nio-8088-exec-8:16369043 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@77b8819b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:34  [ http-nio-8088-exec-9:16371043 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c16e601 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:34  [ http-nio-8088-exec-6:16371263 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@517c3239 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:09:37  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16374143 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:10:33  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16430384 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:10:46  [ http-nio-8088-exec-8:16443253 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4dd56b09 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:46  [ http-nio-8088-exec-1:16443253 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b16aa31 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:49  [ http-nio-8088-exec-10:16446073 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@d1fa19c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:51  [ http-nio-8088-exec-1:16448262 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b75016 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:51  [ http-nio-8088-exec-8:16448262 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@64a48e60 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:54  [ http-nio-8088-exec-10:16451082 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7e23979f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:56  [ http-nio-8088-exec-8:16453272 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2921257 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:56  [ http-nio-8088-exec-1:16453272 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@183e5f8e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:10:59  [ http-nio-8088-exec-10:16456092 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5432e0c9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 13:11:58  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16515712 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:13:41  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16618199 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:15:29  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16726709 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:17:20  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16837216 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:18:08  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16885340 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:18:42  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:16919142 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:24:13  [ MQTT Rec: d3cc35719003b07d035ff09e718931da_inbound:17249916 ] - [ ERROR ]  Lost connection: 已断开连接; retrying...
+2020-06-01 13:24:31  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17268232 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:25:08  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17305591 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:25:28  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17325731 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:26:24  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17381268 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:26:52  [ task-scheduler-6:17409291 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+等待来自服务器的响应时超时 (32000)
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:31)
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.checkForActivity(ClientState.java:694)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms.checkForActivity(ClientComms.java:784)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms.checkForActivity(ClientComms.java:770)
+	at org.eclipse.paho.client.mqttv3.TimerPingSender$PingTask.run(TimerPingSender.java:77)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2020-06-01 13:26:52  [ task-scheduler-6:17409295 ] - [ ERROR ]  Exception while connecting and subscribing
+等待来自服务器的响应时超时 (32000)
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:31)
+	at org.eclipse.paho.client.mqttv3.internal.ClientState.checkForActivity(ClientState.java:694)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms.checkForActivity(ClientComms.java:784)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms.checkForActivity(ClientComms.java:770)
+	at org.eclipse.paho.client.mqttv3.TimerPingSender$PingTask.run(TimerPingSender.java:77)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2020-06-01 13:26:52  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17409295 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:27:36  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17453353 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:27:55  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17472704 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:28:22  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17499284 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:29:12  [ MQTT Ping: d3cc35719003b07d035ff09e718931da_inbound:17549338 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 13:30:04  [ task-scheduler-10:17601348 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 13:30:04  [ task-scheduler-10:17601358 ] - [ ERROR ]  Exception while connecting and subscribing
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 15:48:40  [ main:1 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-06-01 15:48:40  [ main:10 ] - [ INFO ]  初始化Log4j。。。。
+2020-06-01 15:48:40  [ main:13 ] - [ INFO ]  path is /D:/works/gitwork/erp/target/classes/log4j.properties
+2020-06-01 15:48:40  [ main:48 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-06-01 15:48:42  [ background-preinit:1274 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-06-01 15:48:43  [ main:2382 ] - [ INFO ]  Starting ErpApplication on DESKTOP-L12CCK6 with PID 15264 (D:\works\gitwork\erp\target\classes started by R in D:\works\gitwork\erp)
+2020-06-01 15:48:43  [ main:2489 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-06-01 15:48:47  [ main:6664 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 15:48:47  [ main:6669 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-01 15:48:47  [ main:6778 ] - [ INFO ]  Finished Spring Data repository scanning in 103ms. Found 0 JDBC repository interfaces.
+2020-06-01 15:48:47  [ main:6827 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 15:48:47  [ main:6831 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 15:48:47  [ main:6915 ] - [ INFO ]  Finished Spring Data repository scanning in 59ms. Found 0 Redis repository interfaces.
+2020-06-01 15:48:48  [ main:8061 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8063 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8064 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8068 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8069 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8070 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8071 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8071 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8072 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8073 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8074 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8075 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8075 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8076 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8077 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8078 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8079 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8080 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8080 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8081 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8084 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8085 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8086 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8087 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8088 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8089 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8090 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8090 ] - [ WARN ]  Skipping MapperFactoryBean with name 'testMapper' and 'com.scd.erp.mapper.TestMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8091 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 15:48:48  [ main:8093 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-06-01 15:48:49  [ main:8671 ] - [ INFO ]  No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-01 15:48:49  [ main:8687 ] - [ INFO ]  No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-06-01 15:48:49  [ main:8696 ] - [ INFO ]  No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-01 15:48:49  [ main:8739 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$be86577e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:50  [ main:9966 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:50  [ main:9984 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$ee7ba78e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:50  [ main:9988 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:50  [ main:10015 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:50  [ main:10124 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:52  [ main:11919 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:52  [ main:11929 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:52  [ main:12216 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:52  [ main:12224 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:52  [ main:12225 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12381 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12384 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12559 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12563 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12564 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12569 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12637 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$dd22c4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:12677 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-06-01 15:48:53  [ main:12739 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:13073 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$f7454e9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:13167 ] - [ INFO ]  Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:13203 ] - [ INFO ]  Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:53  [ main:13210 ] - [ INFO ]  Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 15:48:55  [ main:14253 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-06-01 15:48:55  [ main:14717 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 11982 ms
+2020-06-01 15:48:55  [ main:14950 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-06-01 15:48:59  [ main:19065 ] - [ INFO ]  Initializing ExecutorService 'taskScheduler'
+2020-06-01 15:49:00  [ main:19557 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 15:49:00  [ main:19798 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-06-01 15:49:01  [ main:21126 ] - [ INFO ]  Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-01 15:49:01  [ main:21127 ] - [ INFO ]  Channel 'application.errorChannel' has 1 subscriber(s).
+2020-06-01 15:49:01  [ main:21127 ] - [ INFO ]  started bean '_org.springframework.integration.errorLogger'
+2020-06-01 15:49:01  [ main:21128 ] - [ INFO ]  Adding {message-handler:mqttReceiveConfig.handler.serviceActivator} as a subscriber to the 'mqttInputChannel' channel
+2020-06-01 15:49:01  [ main:21132 ] - [ INFO ]  Channel 'application.mqttInputChannel' has 1 subscriber(s).
+2020-06-01 15:49:01  [ main:21132 ] - [ INFO ]  started bean 'mqttReceiveConfig.handler.serviceActivator'
+2020-06-01 15:49:01  [ main:21133 ] - [ INFO ]  Adding {message-handler:mqttReceiveConfig.mqttOutbound.serviceActivator} as a subscriber to the 'mqttOutboundChannel' channel
+2020-06-01 15:49:01  [ main:21133 ] - [ INFO ]  Channel 'application.mqttOutboundChannel' has 1 subscriber(s).
+2020-06-01 15:49:01  [ main:21133 ] - [ INFO ]  started bean 'mqttReceiveConfig.mqttOutbound.serviceActivator'
+2020-06-01 15:49:01  [ main:21134 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 15:49:01  [ main:21134 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 15:49:01  [ main:21134 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 15:49:05  [ main:24346 ] - [ INFO ]  started bean 'inbound'; defined in: 'class path resource [com/scd/erp/MQTT/MqttReceiveConfig.class]'; from source: 'org.springframework.core.type.classreading.SimpleMethodMetadata@783a467b'
+2020-06-01 15:49:05  [ main:24656 ] - [ INFO ]  Starting without optional epoll library
+2020-06-01 15:49:05  [ main:24658 ] - [ INFO ]  Starting without optional kqueue library
+2020-06-01 15:49:06  [ main:25986 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-06-01 15:49:07  [ main:26908 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-06-01 15:49:09  [ main:28287 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-06-01 15:49:09  [ main:28291 ] - [ INFO ]  Started ErpApplication in 27.619 seconds (JVM running for 30.948)
+2020-06-01 15:49:09  [ main:28293 ] - [ INFO ]  oops: 线下开发测试
+2020-06-01 15:50:08  [ http-nio-8088-exec-1:87562 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-06-01 15:50:08  [ http-nio-8088-exec-1:87585 ] - [ INFO ]  Completed initialization in 22 ms
+2020-06-01 15:51:19  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:158472 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 15:53:39  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:298543 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 15:55:21  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:400745 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 15:56:00  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:439787 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 15:56:14  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:453821 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 15:57:25  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:524906 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 15:58:32  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:591967 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 15:59:24  [ task-scheduler-4:643983 ] - [ ERROR ]  Error connecting or subscribing to [biopsy, test]
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 15:59:24  [ task-scheduler-4:644000 ] - [ ERROR ]  Exception while connecting and subscribing
+无法连接至服务器 (32103) - java.net.ConnectException: Connection timed out: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:94)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:701)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:84)
+	... 8 more
+2020-06-01 15:59:42  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:662057 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:00:07  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:687105 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:01:12  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:752219 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:02:11  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:810292 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:03:59  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:918404 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:04:15  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:934532 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:06:09  [ http-nio-8088-exec-5:1048324 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@494aab64 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:09  [ http-nio-8088-exec-7:1048454 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c3e363 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:12  [ http-nio-8088-exec-9:1051261 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7e24e74a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:12  [ http-nio-8088-exec-10:1051271 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2df33416 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:14  [ http-nio-8088-exec-5:1053333 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1fdfad7c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:14  [ http-nio-8088-exec-7:1053459 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43b4d394 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:17  [ http-nio-8088-exec-9:1056264 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11d40203 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:17  [ http-nio-8088-exec-10:1056276 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1944320b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:19  [ http-nio-8088-exec-5:1058342 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2bcef52d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:06:19  [ http-nio-8088-exec-7:1058465 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a99d30 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:07:31  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1130642 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:07:59  [ http-nio-8088-exec-6:1159109 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@630559a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:07:59  [ http-nio-8088-exec-9:1159118 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7025bc28 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:07:59  [ http-nio-8088-exec-10:1159124 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@694c456f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:07:59  [ http-nio-8088-exec-5:1159131 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@509e6451 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:08:04  [ http-nio-8088-exec-6:1164117 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6be84e10 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:08:04  [ http-nio-8088-exec-9:1164125 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42a62724 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:08:04  [ http-nio-8088-exec-10:1164134 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55c4c446 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:08:04  [ http-nio-8088-exec-5:1164137 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2484cb64 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:33  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1252962 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:09:51  [ http-nio-8088-exec-4:1270953 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@64ad2b30 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:51  [ http-nio-8088-exec-10:1270969 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46a6786e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:51  [ http-nio-8088-exec-2:1270975 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5df07841 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:51  [ http-nio-8088-exec-7:1270978 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ed387e7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:56  [ http-nio-8088-exec-4:1275961 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2453ff7f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:56  [ http-nio-8088-exec-10:1275978 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fcd58fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:56  [ http-nio-8088-exec-2:1275984 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@708c801a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:09:56  [ http-nio-8088-exec-7:1275985 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25b2641f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:10:01  [ http-nio-8088-exec-4:1280965 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41689b2e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:10:01  [ http-nio-8088-exec-10:1280987 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7add2462 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:11:33  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1373061 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:11:53  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1393117 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:11:59  [ http-nio-8088-exec-6:1398506 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c5e9750 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:11:59  [ http-nio-8088-exec-9:1398515 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16131f14 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:11:59  [ http-nio-8088-exec-7:1398515 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c7c21b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:11:59  [ http-nio-8088-exec-4:1398525 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b28a309 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:12:04  [ http-nio-8088-exec-6:1403513 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@53546508 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:12:04  [ http-nio-8088-exec-9:1403520 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2bb35e2b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:12:04  [ http-nio-8088-exec-7:1403525 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1642fa59 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:12:04  [ http-nio-8088-exec-4:1403532 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1098693 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:14:16  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1536192 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:15:00  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1580231 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:15:43  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1622277 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:16:42  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1681390 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:17:29  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1728489 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:17:43  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1742532 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:17:47  [ http-nio-8088-exec-4:1747219 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44e70b17 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:19:11  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1830585 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:19:34  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1853632 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:20:03  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1882689 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:20:35  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:1914911 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:22:23  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:2023236 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:24:08  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:2127291 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:24:46  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:2165326 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:25:58  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:2237384 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:27:29  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:2328450 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:30:34  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:2513528 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:31:10  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:2549587 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:39:04  [ http-nio-8088-exec-9:3023330 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6cc5f75b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:04  [ http-nio-8088-exec-7:3023330 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@146b5acc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:04  [ http-nio-8088-exec-3:3023330 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1498fd3d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:04  [ http-nio-8088-exec-1:3023336 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@15e17902 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:06  [ http-nio-8088-exec-4:3026127 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d678a60 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:06  [ http-nio-8088-exec-5:3026134 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24e0903d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:09  [ http-nio-8088-exec-9:3028335 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78c3390c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:09  [ http-nio-8088-exec-7:3028337 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@249dd42a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:09  [ http-nio-8088-exec-3:3028339 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a431049 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:09  [ http-nio-8088-exec-1:3028342 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4aa2257a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:12  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3031744 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:39:14  [ http-nio-8088-exec-9:3033337 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73dd7de2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:14  [ http-nio-8088-exec-7:3033339 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@596753a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:14  [ http-nio-8088-exec-3:3033343 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3bda20b6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:39:14  [ http-nio-8088-exec-1:3033347 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2abc4272 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:40:42  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3121795 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:45:00  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3379898 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:45:51  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3430956 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:47:05  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3505006 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:47:41  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3541056 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:49:23  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3643113 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:51:35  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3775199 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:51:49  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:3789230 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:56:46  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:4085326 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:57:00  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:4099368 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:57:46  [ http-nio-8088-exec-3:4146217 ] - [ WARN ]  HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f102ea8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-06-01 16:58:02  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:4161411 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:59:04  [ MQTT Ping: 6e40daa724fce01365bdb7e06ed15825_inbound:4223648 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 16:59:26  [ main:0 ] - [ INFO ]  Log4j线下开发模式初始化。。。
+2020-06-01 16:59:26  [ main:12 ] - [ INFO ]  初始化Log4j。。。。
+2020-06-01 16:59:26  [ main:13 ] - [ INFO ]  path is /D:/works/gitwork/erp/target/classes/log4j.properties
+2020-06-01 16:59:26  [ main:56 ] - [ INFO ]  oops: main入口函数编码-UTF-8
+2020-06-01 16:59:27  [ background-preinit:723 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2020-06-01 16:59:27  [ main:1457 ] - [ INFO ]  Starting ErpApplication on DESKTOP-L12CCK6 with PID 5004 (D:\works\gitwork\erp\target\classes started by R in D:\works\gitwork\erp)
+2020-06-01 16:59:27  [ main:1459 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-06-01 16:59:31  [ main:4981 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 16:59:31  [ main:4988 ] - [ INFO ]  Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-01 16:59:31  [ main:5105 ] - [ INFO ]  Finished Spring Data repository scanning in 107ms. Found 0 JDBC repository interfaces.
+2020-06-01 16:59:31  [ main:5162 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-01 16:59:31  [ main:5166 ] - [ INFO ]  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-01 16:59:31  [ main:5259 ] - [ INFO ]  Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
+2020-06-01 16:59:32  [ main:6214 ] - [ WARN ]  Skipping MapperFactoryBean with name 'alarmMapper' and 'com.scd.erp.mapper.AlarmMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6215 ] - [ WARN ]  Skipping MapperFactoryBean with name 'belongMapper' and 'com.scd.erp.mapper.BelongMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6216 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_collectMapper' and 'com.scd.erp.mapper.Center_file_collectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6218 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_file_packageMapper' and 'com.scd.erp.mapper.Center_file_packageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6219 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_job_ruleMapper' and 'com.scd.erp.mapper.Center_job_ruleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6220 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_person_jobMapper' and 'com.scd.erp.mapper.Center_person_jobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6221 ] - [ WARN ]  Skipping MapperFactoryBean with name 'center_rule_persissionMapper' and 'com.scd.erp.mapper.Center_rule_persissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6221 ] - [ WARN ]  Skipping MapperFactoryBean with name 'collectMapper' and 'com.scd.erp.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6222 ] - [ WARN ]  Skipping MapperFactoryBean with name 'contactMapper' and 'com.scd.erp.mapper.ContactMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6223 ] - [ WARN ]  Skipping MapperFactoryBean with name 'departmentMapper' and 'com.scd.erp.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6223 ] - [ WARN ]  Skipping MapperFactoryBean with name 'docementMapper' and 'com.scd.erp.mapper.DocementMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6224 ] - [ WARN ]  Skipping MapperFactoryBean with name 'featureMapper' and 'com.scd.erp.mapper.FeatureMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6224 ] - [ WARN ]  Skipping MapperFactoryBean with name 'jobMapper' and 'com.scd.erp.mapper.JobMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6225 ] - [ WARN ]  Skipping MapperFactoryBean with name 'linkMapper' and 'com.scd.erp.mapper.LinkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6225 ] - [ WARN ]  Skipping MapperFactoryBean with name 'materailMapper' and 'com.scd.erp.mapper.MaterailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6226 ] - [ WARN ]  Skipping MapperFactoryBean with name 'nailMapper' and 'com.scd.erp.mapper.NailMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6227 ] - [ WARN ]  Skipping MapperFactoryBean with name 'OEMMapper' and 'com.scd.erp.mapper.OEMMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6227 ] - [ WARN ]  Skipping MapperFactoryBean with name 'operateMapper' and 'com.scd.erp.mapper.OperateMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6228 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageMapper' and 'com.scd.erp.mapper.PackageMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6228 ] - [ WARN ]  Skipping MapperFactoryBean with name 'packageTypeMapper' and 'com.scd.erp.mapper.PackageTypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6229 ] - [ WARN ]  Skipping MapperFactoryBean with name 'permissionMapper' and 'com.scd.erp.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6229 ] - [ WARN ]  Skipping MapperFactoryBean with name 'personMapper' and 'com.scd.erp.mapper.PersonMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6230 ] - [ WARN ]  Skipping MapperFactoryBean with name 'productMapper' and 'com.scd.erp.mapper.ProductMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6230 ] - [ WARN ]  Skipping MapperFactoryBean with name 'projectMapper' and 'com.scd.erp.mapper.ProjectMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6231 ] - [ WARN ]  Skipping MapperFactoryBean with name 'questionMapper' and 'com.scd.erp.mapper.QuestionMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6236 ] - [ WARN ]  Skipping MapperFactoryBean with name 'remarkMapper' and 'com.scd.erp.mapper.RemarkMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6237 ] - [ WARN ]  Skipping MapperFactoryBean with name 'ruleMapper' and 'com.scd.erp.mapper.RuleMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6238 ] - [ WARN ]  Skipping MapperFactoryBean with name 'serialMapper' and 'com.scd.erp.mapper.SerialMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6239 ] - [ WARN ]  Skipping MapperFactoryBean with name 'taskMapper' and 'com.scd.erp.mapper.TaskMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6239 ] - [ WARN ]  Skipping MapperFactoryBean with name 'testMapper' and 'com.scd.erp.mapper.TestMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6240 ] - [ WARN ]  Skipping MapperFactoryBean with name 'typeMapper' and 'com.scd.erp.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6240 ] - [ WARN ]  Skipping MapperFactoryBean with name 'userMapper' and 'com.scd.erp.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-06-01 16:59:32  [ main:6241 ] - [ WARN ]  No MyBatis mapper was found in '[com.scd.erp]' package. Please check your configuration.
+2020-06-01 16:59:33  [ main:6713 ] - [ INFO ]  No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-01 16:59:33  [ main:6724 ] - [ INFO ]  No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-06-01 16:59:33  [ main:6732 ] - [ INFO ]  No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-01 16:59:33  [ main:6755 ] - [ INFO ]  Bean 'shiroConfig' of type [com.scd.erp.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$930d314d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:33  [ main:7544 ] - [ INFO ]  Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:33  [ main:7562 ] - [ INFO ]  Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$c302815d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:33  [ main:7570 ] - [ INFO ]  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:33  [ main:7595 ] - [ INFO ]  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:33  [ main:7659 ] - [ INFO ]  Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:8901 ] - [ INFO ]  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:8910 ] - [ INFO ]  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9220 ] - [ INFO ]  Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9235 ] - [ INFO ]  Bean 'userMapper' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9239 ] - [ INFO ]  Bean 'loginserviceImpl' of type [com.scd.erp.service.auth.Impl.LoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9422 ] - [ INFO ]  Bean 'jobMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9426 ] - [ INFO ]  Bean 'jobMapper' of type [com.sun.proxy.$Proxy83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9635 ] - [ INFO ]  Bean 'permissionMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9642 ] - [ INFO ]  Bean 'permissionMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9643 ] - [ INFO ]  Bean 'userRealm' of type [com.scd.erp.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:35  [ main:9651 ] - [ INFO ]  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:36  [ main:9730 ] - [ INFO ]  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1a99ec3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:36  [ main:9772 ] - [ INFO ]  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-06-01 16:59:36  [ main:9827 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:36  [ main:10122 ] - [ INFO ]  Bean 'redisConfig' of type [com.scd.erp.config.RedisConfig$$EnhancerBySpringCGLIB$$cbcc286c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:36  [ main:10185 ] - [ INFO ]  Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:36  [ main:10215 ] - [ INFO ]  Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:36  [ main:10219 ] - [ INFO ]  Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-01 16:59:37  [ main:10944 ] - [ INFO ]  Tomcat initialized with port(s): 8088 (http)
+2020-06-01 16:59:37  [ main:11325 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 9384 ms
+2020-06-01 16:59:37  [ main:11508 ] - [ INFO ]  Autowired annotation is not supported on static fields: private static boolean com.scd.erp.ErpApplication.isdevelop
+2020-06-01 16:59:41  [ main:14899 ] - [ INFO ]  Initializing ExecutorService 'taskScheduler'
+2020-06-01 16:59:41  [ main:15261 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 16:59:41  [ main:15520 ] - [ INFO ]  Adding welcome page: class path resource [static/index.html]
+2020-06-01 16:59:42  [ main:16492 ] - [ INFO ]  Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-01 16:59:42  [ main:16494 ] - [ INFO ]  Channel 'application.errorChannel' has 1 subscriber(s).
+2020-06-01 16:59:42  [ main:16495 ] - [ INFO ]  started bean '_org.springframework.integration.errorLogger'
+2020-06-01 16:59:42  [ main:16495 ] - [ INFO ]  Adding {message-handler:mqttReceiveConfig.handler.serviceActivator} as a subscriber to the 'mqttInputChannel' channel
+2020-06-01 16:59:42  [ main:16496 ] - [ INFO ]  Channel 'application.mqttInputChannel' has 1 subscriber(s).
+2020-06-01 16:59:42  [ main:16496 ] - [ INFO ]  started bean 'mqttReceiveConfig.handler.serviceActivator'
+2020-06-01 16:59:42  [ main:16497 ] - [ INFO ]  Adding {message-handler:mqttReceiveConfig.mqttOutbound.serviceActivator} as a subscriber to the 'mqttOutboundChannel' channel
+2020-06-01 16:59:42  [ main:16497 ] - [ INFO ]  Channel 'application.mqttOutboundChannel' has 1 subscriber(s).
+2020-06-01 16:59:42  [ main:16497 ] - [ INFO ]  started bean 'mqttReceiveConfig.mqttOutbound.serviceActivator'
+2020-06-01 16:59:42  [ main:16498 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 16:59:42  [ main:16498 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 16:59:42  [ main:16498 ] - [ INFO ]  started bean 'mqttGateway'
+2020-06-01 16:59:42  [ main:16621 ] - [ INFO ]  started bean 'inbound'; defined in: 'class path resource [com/scd/erp/MQTT/MqttReceiveConfig.class]'; from source: 'org.springframework.core.type.classreading.SimpleMethodMetadata@a38c7fe'
+2020-06-01 16:59:43  [ main:16986 ] - [ INFO ]  Starting without optional epoll library
+2020-06-01 16:59:43  [ main:16989 ] - [ INFO ]  Starting without optional kqueue library
+2020-06-01 16:59:44  [ main:18548 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-06-01 16:59:45  [ main:19171 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-06-01 16:59:46  [ main:20531 ] - [ INFO ]  Tomcat started on port(s): 8088 (http) with context path ''
+2020-06-01 16:59:46  [ main:20536 ] - [ INFO ]  Started ErpApplication in 20.063 seconds (JVM running for 21.811)
+2020-06-01 16:59:46  [ main:20539 ] - [ INFO ]  oops: 线下开发测试
+2020-06-01 16:59:48  [ http-nio-8088-exec-1:22298 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-06-01 16:59:48  [ http-nio-8088-exec-1:22322 ] - [ INFO ]  Completed initialization in 24 ms
+2020-06-01 17:00:04  [ MQTT Ping: 0fe11e23ea75840752579c0b07f908d2_inbound:38658 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 17:01:39  [ MQTT Ping: 0fe11e23ea75840752579c0b07f908d2_inbound:133021 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...
+2020-06-01 17:02:27  [ MQTT Ping: 0fe11e23ea75840752579c0b07f908d2_inbound:181095 ] - [ ERROR ]  Lost connection: 等待来自服务器的响应时超时; retrying...

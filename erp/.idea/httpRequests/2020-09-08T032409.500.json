@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-09-08T07:24:09.971+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "com.scd.erp.handler.flowableHandler.applyGoodEndHandler doesn't implement interface org.flowable.engine.delegate.ExecutionListener nor interface org.flowable.engine.delegate.JavaDelegate",
+  "path": "/Act/approve/0"
+}

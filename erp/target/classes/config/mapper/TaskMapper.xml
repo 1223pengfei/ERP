@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.TaskMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.user.Task">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="tid" jdbcType="INTEGER" property="tid"/>
+        <result column="tcontent" jdbcType="VARCHAR" property="tcontent"/>
+        <result column="starttime" jdbcType="TIMESTAMP" property="starttime"/>
+        <result column="endtime" jdbcType="TIMESTAMP" property="endtime"/>
+        <result column="hours" jdbcType="INTEGER" property="hours"/>
+        <result column="cost" jdbcType="INTEGER" property="cost"/>
+        <result column="leader" jdbcType="VARCHAR" property="leader"/>
+        <result column="ocontent" jdbcType="VARCHAR" property="ocontent"/>
+        <result column="state" jdbcType="INTEGER" property="state"/>
+        <result column="remarks" jdbcType="VARCHAR" property="remarks"/>
+    </resultMap>
+    <insert id="addTak" useGeneratedKeys="true" keyProperty="tid" parameterType="com.scd.erp.user.Task">
+        insert into project_task (tcontent, starttime, endtime, hours, cost, leader, ocontent, remarks)
+        values (#{tcontent,jdbcType=VARCHAR}, #{starttime,jdbcType=TIMESTAMP},
+                #{endtime,jdbcType=TIMESTAMP}, #{hours,jdbcType=INTEGER}, #{cost,jdbcType=INTEGER},
+                #{leader,jdbcType=VARCHAR}, #{ocontent,jdbcType=VARCHAR}, #{remarks,jdbcType=VARCHAR})
+    </insert>
+
+    <insert id="addUidPidTid">
+        insert into user_project_task (uid, pid, tid)
+        values (#{uid,jdbcType=INTEGER}, #{pid,jdbcType=INTEGER}, #{tid,jdbcType=INTEGER})
+    </insert>
+
+
+    <delete id="delTask" parameterType="java.lang.Integer">
+        delete from project_task
+        where tid = #{tid,jdbcType=INTEGER}
+    </delete>
+
+    <delete id="delUserProjectTask" parameterType="java.lang.Integer">
+        delete from user_project_task
+        where tid = #{tid,jdbcType=INTEGER} and uid = #{uid,jdbcType=INTEGER} and pid =#{pid,jdbcType=INTEGER}
+    </delete>
+
+    <select id="selectTask" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select *
+        from project_task p
+            LEFT JOIN user_project_task u ON p.tid = u.tid
+        WHERE u.pid = #{pid,jdbcType=INTEGER} and u.uid = #{uid,jdbcType=INTEGER}
+    </select>
+
+    <update id="updateTask" parameterType="com.scd.erp.user.Task">
+        update project_task
+        set tcontent  = #{tcontent,jdbcType=VARCHAR},
+            starttime = #{starttime,jdbcType=TIMESTAMP},
+            endtime   = #{endtime,jdbcType=TIMESTAMP},
+            hours     = #{hours,jdbcType=INTEGER},
+            cost      = #{cost,jdbcType=INTEGER},
+            leader    = #{leader,jdbcType=VARCHAR},
+            ocontent  = #{ocontent,jdbcType=VARCHAR},
+            remarks   = #{remarks,jdbcType=VARCHAR}
+        where tid = #{tid,jdbcType=INTEGER}
+    </update>
+
+
+    <update id="updateTaskState" parameterType="com.scd.erp.user.Task">
+        update project_task
+        set state = #{state,jdbcType=INTEGER}
+        where tid = #{tid,jdbcType=INTEGER}
+    </update>
+
+
+    <select id="taskStatistics" resultType="com.scd.erp.user.CountClass">
+        select
+            COUNT(*) as COUNT,
+            state
+        from project_task
+        GROUP BY state
+    </select>
+
+</mapper>

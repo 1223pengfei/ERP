@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Person.User">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="UserID" jdbcType="INTEGER" property="userid"/>
+        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+        <result column="presonID" jdbcType="INTEGER" property="presonid"/>
+    </resultMap>
+
+    <select id="findUser" resultMap="BaseResultMap">
+        select *
+        from
+            user_temp_user_role u
+            LEFT JOIN `user` a ON u.userID = a.userID
+            LEFT JOIN user_role b ON u.roleID = b.roleID
+            LEFT JOIN user_temp_rolr_premission c ON b.roleID = c.roleID
+            LEFT JOIN user_premission d ON c.permissionID = d.premissionID
+        WHERE a.`username` = #{name} and `password` = #{password}
+    </select>
+
+
+    <select id="findALL" resultMap="BaseResultMap">
+        SELECT *
+        FROM `user` u
+        ORDER BY u.department
+    </select>
+
+</mapper>

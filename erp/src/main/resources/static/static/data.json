@@ -1,0 +1,128 @@
+[
+    {
+        "depname": "预研部",
+        "departments": [
+            {
+                "deparmentid": "jobs2",
+                "depname": "软件工程师"
+            },
+            {
+                "deparmentid": "jobs3",
+                "depname": "前端"
+            },
+            {
+                "departmentid": 15,
+                "depname": "设计组",
+                "deptype": "3",
+                "depcode": "0101",
+                "updepid": 1,
+                "depart": null,
+                "departments": null,
+                "jobs": [
+                    {
+                        "jobid": 5,
+                        "jobcode": null,
+                        "jobname": "平面设计",
+                        "upjobid": null,
+                        "depid": 15,
+                        "people": null,
+                        "department": null
+                    },
+                    {
+                        "jobid": 6,
+                        "jobcode": null,
+                        "jobname": "外观设计",
+                        "upjobid": null,
+                        "depid": 15,
+                        "people": null,
+                        "department": null
+                    },
+                    {
+                        "jobid": 7,
+                        "jobcode": null,
+                        "jobname": "宣传",
+                        "upjobid": null,
+                        "depid": 15,
+                        "people": null,
+                        "department": null
+                    },
+                    {
+                        "jobid": 12,
+                        "jobcode": null,
+                        "jobname": "平面设计助理",
+                        "upjobid": null,
+                        "depid": 15,
+                        "people": null,
+                        "department": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "depname": "销售部",
+        "departments": [
+            {
+                "deparmentid": "jobs9",
+                "depname": "销售部助理"
+            },
+            {
+                "deparmentid": "jobs10",
+                "depname": "助理的助理"
+            },
+            {
+                "departmentid": 14,
+                "depname": "销售2",
+                "deptype": "2",
+                "depcode": "0301",
+                "updepid": 3,
+                "depart": null,
+                "departments": null,
+                "jobs": [
+                    {
+                        "jobid": 8,
+                        "jobcode": null,
+                        "jobname": "销售经理",
+                        "upjobid": null,
+                        "depid": 14,
+                        "people": null,
+                        "department": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "depname": "质保部",
+        "departments": [
+            {
+                "deparmentid": "jobs14",
+                "depname": "质保部长"
+            },
+            {
+                "deparmentid": "jobs15",
+                "depname": "部长助理"
+            },
+            {
+                "departmentid": 20,
+                "depname": "质保1部",
+                "deptype": "4",
+                "depcode": "0201",
+                "updepid": 2,
+                "depart": null,
+                "departments": null,
+                "jobs": []
+            },
+            {
+                "departmentid": 21,
+                "depname": "质保2部",
+                "deptype": "4",
+                "depcode": "0202",
+                "updepid": 2,
+                "depart": null,
+                "departments": null,
+                "jobs": []
+            }
+        ]
+    }
+]

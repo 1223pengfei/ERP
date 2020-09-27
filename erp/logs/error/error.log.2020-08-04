@@ -1,0 +1,44 @@
+2020-08-04 14:07:14  [ main:4945 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginUtile in com.scd.erp.controller.plm.FileController required a bean of type 'com.scd.erp.utils.extraUtil.LoginUtile' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.scd.erp.utils.extraUtil.LoginUtile' in your configuration.
+
+2020-08-04 14:07:55  [ main:5939 ] - [ ERROR ]  Application run failed
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.scd.erp.mapper.DocumentMapper.getDocNum
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:98)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:97)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:92)
+	at com.sun.proxy.$Proxy147.getDocNum(Unknown Source)
+	at com.scd.erp.listener.CenterListenter.onApplicationEvent(CenterListenter.java:107)
+	at com.scd.erp.listener.CenterListenter.onApplicationEvent(CenterListenter.java:22)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.scd.erp.ErpApplication.main(ErpApplication.java:49)

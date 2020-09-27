@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.Mapper.Alarm.QuestionMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Alarm.Question">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="questionID" jdbcType="INTEGER" property="questionid"/>
+        <result column="queType" jdbcType="INTEGER" property="quetype"/>
+        <result column="question" jdbcType="VARCHAR" property="question"/>
+        <result column="cause" jdbcType="VARCHAR" property="cause"/>
+        <result column="solution" jdbcType="VARCHAR" property="solution"/>
+    </resultMap>
+
+</mapper>

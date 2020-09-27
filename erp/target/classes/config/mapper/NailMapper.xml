@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.NailMapper">
+
+    <select id="getList" resultMap="BaseResultMap">
+        select *
+        from erp_trace_nail_msg n
+            left join erp_trace_nail_feature_center c on n.nailID = c.nailID
+            left join erp_trace_nail_feature f on c.featureID = f.featureID
+
+    </select>
+
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Nail.Nail">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="nailID" jdbcType="INTEGER" property="nailid"/>
+        <result column="nailName" jdbcType="VARCHAR" property="nailname"/>
+        <collection property="features" ofType="com.scd.erp.Vo.Nail.Feature">
+            <id column="featureID" jdbcType="INTEGER" property="featureid"/>
+            <result column="feature" jdbcType="VARCHAR" property="feature"/>
+        </collection>
+    </resultMap>
+
+</mapper>

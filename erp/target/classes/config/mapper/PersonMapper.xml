@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.PersonMapper">
+
+    <select id="getNames" resultMap="BaseResultMap">
+        select
+            m.personID,
+            m.personName,
+            u.presonID,
+            u.UserID
+        from erp_person_msg m, erp_person_user u
+        where m.personID = u.presonID
+    </select>
+
+    <select id="getPersonAll" resultMap="BaseResultMap">
+        SELECT
+            p.personID,
+            p.personName,
+            p.IDcard,
+            p.fixedMail,
+            c.contactID,
+            c.contactType,
+            c.contactNumber,
+            c.contactRemark,
+            j.jobID,
+            j.jobName,
+            j.depID,
+            d.departmentID,
+            d.depName,
+            d.depType,
+            d.depCode,
+            d.upDepID,
+            d2.departmentID departmentID2,
+            d2.depName      depName2,
+            d2.depCode      depCode2,
+            d2.upDepID      updepid2
+        from erp_person_msg p
+            left join  erp_person_contact c on p.personID = c.personID
+            left join erp_center_person_job cj on cj.pesonID = p.personID
+            left join erp_department_job j on cj.jobID = j.jobID
+            left join erp_department_msg d on j.depID = d.departmentID
+            left join erp_department_msg d2 on d2.departmentID = d.upDepID
+        WHERE  p.personID = #{pid}
+    </select>
+
+    <select id="getCount" resultType="Integer">
+
+        SELECT count(distinct p.personID)
+        FROM (erp_person_msg p,
+        erp_person_user u)
+        left join erp_person_contact c on p.personID = c.personID
+        left join erp_center_person_job cj on cj.pesonID = p.personID
+        left join erp_department_job j on cj.jobID = j.jobID
+        left join erp_department_msg d on j.depID = d.departmentID
+        left join erp_department_msg d2 on d.departmentID = d2.upDepID
+        WHERE  p.personID= u.presonID
+
+    </select>
+
+    <select id="List" resultMap="BaseResultMap" parameterType="Map">
+
+        SELECT
+        p.personID, p.personName, p.IDcard, p.fixedMail,
+        c.contactID, c.contactType, c.contactNumber, c.contactRemark,
+        u.UserID, u.username, u.presonID,
+        j.jobID, j.jobName, j.depID,
+        d.departmentID, d.depName, d.depType, d.depCode, d.upDepID,
+        d2.departmentID departmentID2,
+        d2.depName depName2,
+        d2.depCode depCode2
+        FROM (
+        (
+        select * from erp_person_msg
+        <if test="row != null">
+            <bind name="pages" value="(page-1)*row"/>
+            LIMIT #{pages},#{row}
+        </if>
+
+        ) p,
+        erp_person_user u
+        )
+        left join erp_person_contact c on p.personID = c.personID
+        left join erp_center_person_job cj on cj.pesonID = p.personID
+        left join erp_department_job j on cj.jobID = j.jobID
+        left join erp_department_msg d on j.depID = d.departmentID
+        left join erp_department_msg d2 on d.departmentID = d2.upDepID
+        WHERE  p.personID= u.presonID
+        ORDER BY convert(p.personName using gbk)
+
+    </select>
+
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Person.Person">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="personID" jdbcType="INTEGER" property="personid"/>
+        <result column="personName" jdbcType="VARCHAR" property="personname"/>
+        <result column="IDcard" jdbcType="VARCHAR" property="idcard"/>
+        <result column="fixedMail" jdbcType="VARCHAR" property="fixedmail"/>
+
+
+        <association property="user" javaType="com.scd.erp.Vo.Person.User">
+            <id column="UserID" jdbcType="INTEGER" property="userid"/>
+            <result column="username" jdbcType="VARCHAR" property="username"/>
+            <result column="presonID" jdbcType="INTEGER" property="presonid"/>
+        </association>
+        <collection property="contacts" ofType="com.scd.erp.Vo.Person.Contact">
+            <id column="contactID" jdbcType="INTEGER" property="contactid"/>
+            <result column="contactType" jdbcType="CHAR" property="contacttype"/>
+            <result column="contactNumber" jdbcType="VARCHAR" property="contactnumber"/>
+            <result column="contactRemark" jdbcType="VARCHAR" property="contactremark"/>
+            <result column="personID" jdbcType="INTEGER" property="personid"/>
+        </collection>
+        <collection property="job" ofType="com.scd.erp.Vo.Department.Job">
+            <id column="jobID" jdbcType="INTEGER" property="jobid"/>
+            <result column="jobName" jdbcType="VARCHAR" property="jobname"/>
+            <result column="depID" jdbcType="INTEGER" property="depid"/>
+            <association property="department" javaType="com.scd.erp.Vo.Department.Department">
+                <id column="departmentID" jdbcType="INTEGER" property="departmentid"/>
+                <result column="depName" jdbcType="VARCHAR" property="depname"/>
+                <result column="depType" jdbcType="CHAR" property="deptype"/>
+                <result column="depCode" jdbcType="VARCHAR" property="depcode"/>
+                <result column="upDepID" jdbcType="INTEGER" property="updepid"/>
+                <association property="depart" javaType="com.scd.erp.Vo.Department.Department">
+                    <id column="departmentID2" jdbcType="INTEGER" property="departmentid"/>
+                    <result column="depName2" jdbcType="VARCHAR" property="depname"/>
+                    <result column="depCode2" jdbcType="VARCHAR" property="depcode"/>
+                    <result column="updepid2" jdbcType="INTEGER" property="updepid"/>
+                </association>
+            </association>
+        </collection>
+    </resultMap>
+
+</mapper>

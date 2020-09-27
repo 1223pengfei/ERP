@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.Mapper.Product.RemarkMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Product.Remark">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="remarkID" jdbcType="INTEGER" property="remarkid"/>
+        <result column="productID" jdbcType="INTEGER" property="productid"/>
+        <result column="creatTime" jdbcType="TIMESTAMP" property="creattime"/>
+        <result column="lotNumber" jdbcType="VARCHAR" property="lotnumber"/>
+        <result column="proTotal" jdbcType="INTEGER" property="prototal"/>
+    </resultMap>
+
+</mapper>

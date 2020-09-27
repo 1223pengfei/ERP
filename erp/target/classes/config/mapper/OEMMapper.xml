@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.Mapper.Alarm.OEMMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Alarm.OEM">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="oemID" jdbcType="INTEGER" property="oemid"/>
+        <result column="oemName" jdbcType="VARCHAR" property="oemname"/>
+        <result column="linkerName" jdbcType="VARCHAR" property="linkername"/>
+        <result column="linkerTell" jdbcType="VARCHAR" property="linkertell"/>
+        <result column="linkerEmail" jdbcType="VARCHAR" property="linkeremail"/>
+        <result column="oemAddr" jdbcType="VARCHAR" property="oemaddr"/>
+        <result column="oemUB" jdbcType="VARCHAR" property="oemub"/>
+    </resultMap>
+
+</mapper>

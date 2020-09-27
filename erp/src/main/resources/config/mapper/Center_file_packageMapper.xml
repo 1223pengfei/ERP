@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.Center_file_packageMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Center.Center_file_package">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="file_package_ID" jdbcType="INTEGER" property="filePackageId" />
+    <result column="fileID" jdbcType="INTEGER" property="fileid" />
+    <result column="packageID" jdbcType="INTEGER" property="packageid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    file_package_ID, fileID, packageID
+  </sql>
+</mapper>

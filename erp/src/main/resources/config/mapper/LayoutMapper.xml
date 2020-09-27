@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.LayoutMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Layout">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="layoutID" jdbcType="INTEGER" property="layoutid" />
+    <result column="Automotive" jdbcType="VARCHAR" property="automotive" />
+    <result column="TotalPins" jdbcType="INTEGER" property="totalpins" />
+    <result column="SpecialCharacteristics" jdbcType="VARCHAR" property="specialcharacteristics" />
+    <result column="Color" jdbcType="VARCHAR" property="color" />
+    <result column="Value" jdbcType="VARCHAR" property="value" />
+    <result column="Tolerance" jdbcType="VARCHAR" property="tolerance" />
+    <result column="Temperature" jdbcType="VARCHAR" property="temperature" />
+    <result column="VoltageRange" jdbcType="VARCHAR" property="voltagerange" />
+    <result column="CurrentRange" jdbcType="VARCHAR" property="currentrange" />
+    <result column="PowerRange" jdbcType="VARCHAR" property="powerrange" />
+    <result column="Weight_g" jdbcType="DOUBLE" property="weightG" />
+    <result column="ESD" jdbcType="VARCHAR" property="esd" />
+    <result column="FIT" jdbcType="VARCHAR" property="fit" />
+    <result column="Footprint" jdbcType="VARCHAR" property="footprint" />
+    <result column="BaseID" jdbcType="INTEGER" property="baseid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    layoutID, Automotive, TotalPins, SpecialCharacteristics, Color, Value, Tolerance, 
+    Temperature, VoltageRange, CurrentRange, PowerRange, Weight_g, ESD, FIT, Footprint, 
+    BaseID
+  </sql>
+</mapper>

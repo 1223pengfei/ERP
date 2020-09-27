@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.AlarmMapper">
+
+    <select id="alarmCount" resultType="Integer">
+        SELECT
+        count(distinct a.alarmID)
+        FROM
+        (erp_trace_alarm_msg a , erp_trace_alarm_question q,
+        erp_trace_oem_msg o, erp_trace_product_serial s ,
+        erp_trace_product_remark r,erp_trace_product_msg p,
+        erp_person_user uf,erp_person_user ut,erp_trace_nail_msg n,
+        erp_trace_nail_alarm_center nac,
+        erp_trace_product_type t)
+        left join erp_trace_alarm_center c on a.alarmID = c.alarmID
+        left join erp_trace_materail_msg m on c.materailID = m.materialID
+        WHERE
+        a.FuserID = uf.userID AND
+        a.TuserID = ut.userID and
+        a.oemID = o.oemID AND
+        a.serailID = s.serialID And
+        s.remarkID =r.remarkID AND
+        r.productID = p.productID AND
+        a.questionID = q.questionID AND
+        nac.alarmID = a.alarmID and
+        nac.nailID = n.nailID and
+        t.typeID = p.typeID
+        <if test="#{map} != null">
+            <if test="crts!=null and crto !=null">
+                and DATE_FORMAT(a.creatTime,'%Y-%m-%d') between #{crts} and #{crto}
+            </if>
+            <if test="erts!=null and erto !=null">
+                and DATE_FORMAT(a.ENDTime,'%Y-%m-%d') between #{erts} and #{erto}
+            </if>
+            <if test="type!=null">
+                and p.typeID = #{type}
+            </if>
+            <if test="oem!=null">
+                and o.oemID = #{oem}
+            </if>
+            <if test="name!=null">
+                and p.productID = #{pid}
+            </if>
+            <if test="code != null">
+                and p.proCode LIKE BINARY concat(concat('%', #{code}),'%')
+            </if>
+            <if test="num != null">
+                and s.serialNumber LIKE BINARY concat(concat('%', #{num}),'%')
+            </if>
+            <if test="que != null">
+                and n.nailID = #{que}
+            </if>
+            <if test="state != null">
+                and a.alarmState = #{state}
+            </if>
+            <if test="fzr !=null">
+                and uf.userID = #{fzr}
+            </if>
+
+        </if>
+    </select>
+
+
+    <select id="countOEM" resultType="java.util.HashMap">
+        SELECT
+
+        <if test="  where== 0">
+            o.oemName
+        </if>
+        <if test=" where== 1">
+            t.typeName
+        </if>
+        <if test=" where== 2">
+            DATE_FORMAT(a.creatTime,'%Y-%m-%d')
+        </if>
+        <if test=" where== 3">
+            n.nailName
+        </if>
+        'name',
+        COUNT(1) 'value'
+        FROM
+        erp_trace_alarm_msg a,
+        erp_trace_oem_msg o,
+        erp_trace_product_serial s,
+        erp_trace_product_remark r,
+        erp_trace_product_msg p,
+        erp_trace_product_type t,
+        erp_trace_nail_alarm_center c1,
+        erp_trace_nail_msg n
+        WHERE
+        a.oemID = o.oemID
+        AND a.serailID = s.serialID
+        AND s.remarkID = r.remarkID
+        AND r.productID = p.productID
+        AND t.typeID = p.typeID
+        AND a.alarmID = c1.alarmID
+        AND c1.nailID = n.nailID
+        GROUP BY
+
+        <if test="  where== 0">
+            o.oemName
+        </if>
+        <if test=" where== 1">
+            t.typeName
+        </if>
+        <if test=" where== 2">
+            DATE_FORMAT(a.creatTime,'%Y-%m-%d')
+        </if>
+        <if test=" where== 3">
+            n.nailID
+        </if>
+    </select>
+
+
+    <select id="getList" resultMap="BaseResultMap" parameterType="Map">
+        SELECT
+        a.*,
+        q.*,
+        s.serialID,
+        s.serialNumber,
+        r.remarkID,
+        p.*,
+        m.*,
+        n.nailID,
+        n.nailName,
+        t.*,
+
+        tj.userID tjuserID ,
+        tj.personID tjpersonID ,
+        tj.personName tjpersonName,
+        tj.jobID tjjobID,
+        tj.upDepID tjupDepID ,
+        tj.depID tjdepID,
+        tj.depid1 tjdepid1 ,
+        tj.depid2 tjdepid2 ,
+        tj.dname1 tjdname1 ,
+        tj.dname2 tjdname2 ,
+
+        fz.userID fzuserID ,
+        fz.personID fzpersonID ,
+        fz.personName fzpersonName,
+        fz.jobID fzjobID,
+        fz.depID fzdepID,
+        fz.depid1 fzdepid1 ,
+        fz.depid2 fzdepid2 ,
+        fz.dname1 fzdname1 ,
+        fz.dname2 fzdname2 ,
+        fz.upDepID
+        FROM
+        (
+        ( SELECT
+        a0.*,
+        o.oemName
+        FROM erp_trace_alarm_msg a0
+        LEFT JOIN erp_trace_oem_msg o on a0.oemID = o.oemID
+        ORDER BY creatTime desc
+        <if test="#{map}!= null">
+            <if test="row != null">
+                limit #{page},#{row}
+            </if>
+        </if>
+        ) a,
+        erp_trace_alarm_question q,
+        erp_trace_product_serial s,
+        erp_trace_product_remark r,
+        erp_trace_product_msg p,
+        (
+        SELECT
+        u.*,
+        p.*,
+        j.*,
+        d1.departmentID depid1,
+        d1.upDepID,
+        d1.depName dname1,
+        d2.departmentID depid2,
+        d2.depName dname2
+        FROM
+        ( erp_person_user u, erp_person_msg p )
+        LEFT JOIN erp_center_person_job pj ON p.personID = pj.pesonID
+        LEFT JOIN erp_department_job j ON j.jobID = pj.jobID
+        LEFT JOIN erp_department_msg d1 ON j.depID = d1.departmentID
+        LEFT JOIN erp_department_msg d2 ON d1.upDepID = d2.departmentID
+        WHERE
+        u.presonID = p.personID
+        ) fz,
+        (
+        SELECT
+        u.*,
+        p.*,
+        j.*,
+        d1.departmentID depid1,
+        d1.upDepID,
+        d1.depName dname1,
+        d2.departmentID depid2,
+        d2.depName dname2
+        FROM
+        ( erp_person_user u, erp_person_msg p )
+        LEFT JOIN erp_center_person_job pj ON p.personID = pj.pesonID
+        LEFT JOIN erp_department_job j ON j.jobID = pj.jobID
+        LEFT JOIN erp_department_msg d1 ON j.depID = d1.departmentID
+        LEFT JOIN erp_department_msg d2 ON d1.upDepID = d2.departmentID
+        WHERE
+        u.presonID = p.personID
+        ) tj,
+        erp_trace_nail_msg n,
+        erp_trace_nail_alarm_center nac,
+        erp_trace_product_type t
+        )
+        LEFT JOIN erp_trace_alarm_center c ON a.alarmID = c.alarmID
+        LEFT JOIN erp_trace_materail_msg m ON c.materailID = m.materialID
+        WHERE
+        a.FuserID = fz.userID
+        AND a.TuserID = tj.userID
+        AND a.serailID = s.serialID
+        AND s.remarkID = r.remarkID
+        AND r.productID = p.productID
+        AND a.questionID = q.questionID
+        AND nac.alarmID = a.alarmID
+        AND nac.nailID = n.nailID
+        AND t.typeID = p.typeID
+        <if test="#{map} != null">
+            <if test="crts!=null and crto !=null">
+                and DATE_FORMAT(a.creatTime,'%Y-%m-%d') between #{crts} and #{crto}
+            </if>
+            <if test="erts!=null and erto !=null">
+                and DATE_FORMAT(a.ENDTime,'%Y-%m-%d') between #{erts} and #{erto}
+            </if>
+            <if test="type!=null">
+                and p.typeID = #{type}
+            </if>
+            <if test="oem!=null">
+                and a.oemID = #{oem}
+            </if>
+            <if test="pid!=null">
+                and p.productID = #{pid}
+            </if>
+            <if test="code != null">
+                and p.proCode LIKE BINARY concat(concat('%', #{code}),'%')
+            </if>
+            <if test="num != null">
+                and s.serialNumber LIKE BINARY concat(concat('%', #{num}),'%')
+            </if>
+            <if test="que != null">
+                and n.nailID = #{que}
+            </if>
+            <if test="state != null">
+                and a.alarmState = #{state}
+            </if>
+            <if test="fzr !=null">
+                and fz.userID = #{fzr}
+            </if>
+
+        </if>
+        order by a.creatTime desc
+
+
+    </select>
+
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Alarm.Alarm" >
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="alarmID" jdbcType="INTEGER" property="alarmid"/>
+        <result column="fuserID" jdbcType="INTEGER" property="fuserid"/>
+        <result column="tuserID" jdbcType="INTEGER" property="tuserid"/>
+        <result column="serailID" jdbcType="INTEGER" property="serailid"/>
+        <result column="questionID" jdbcType="INTEGER" property="questionid"/>
+        <result column="creatTime" jdbcType="TIMESTAMP" property="creattime"/>
+        <result column="ENDTime" jdbcType="TIMESTAMP" property="endtime"/>
+        <result column="alarmState" jdbcType="INTEGER" property="alarmstate"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+        <association property="quest" javaType="com.scd.erp.Vo.Alarm.Question">
+            <id column="questionID" jdbcType="INTEGER" property="questionid"/>
+            <result column="queType" jdbcType="INTEGER" property="quetype"/>
+            <result column="question" jdbcType="VARCHAR" property="question"/>
+            <result column="cause" jdbcType="VARCHAR" property="cause"/>
+            <result column="solution" jdbcType="VARCHAR" property="solution"/>
+        </association>
+        <association property="fuser" javaType="com.scd.erp.Vo.Person.User">
+            <id column="fzuserID" jdbcType="INTEGER" property="userid"/>
+            <association property="person" javaType="com.scd.erp.Vo.Person.Person">
+                <id column="fzpersonID" jdbcType="INTEGER" property="personid"/>
+                <result column="fzpersonName" jdbcType="VARCHAR" property="personname"/>
+                <collection property="job" ofType="com.scd.erp.Vo.Department.Job">
+                    <id column="fzjobID" jdbcType="INTEGER" property="jobid"/>
+                    <result column="fzdepID" jdbcType="INTEGER" property="depid"/>
+                    <association property="department" javaType="com.scd.erp.Vo.Department.Department">
+                        <id column="fzdepid1" jdbcType="INTEGER" property="departmentid"/>
+                        <result column="fzdname1" jdbcType="VARCHAR" property="depname"/>
+                        <result column="fzupDepID" jdbcType="INTEGER" property="updepid"/>
+                        <association property="depart" javaType="com.scd.erp.Vo.Department.Department">
+                            <id column="fzdepid2" jdbcType="INTEGER" property="departmentid"/>
+                            <result column="fzdname2" jdbcType="VARCHAR" property="depname"/>
+                        </association>
+                    </association>
+                </collection>
+            </association>
+        </association>
+        <association property="tuser" javaType="com.scd.erp.Vo.Person.User">
+            <id column="tjuserID" jdbcType="INTEGER" property="userid"/>
+            <association property="person" javaType="com.scd.erp.Vo.Person.Person">
+                <id column="tjpersonID" jdbcType="INTEGER" property="personid"/>
+                <result column="tjpersonName" jdbcType="VARCHAR" property="personname"/>
+                <collection property="job" ofType="com.scd.erp.Vo.Department.Job">
+                    <id column="tjjobID" jdbcType="INTEGER" property="jobid"/>
+                    <result column="tjdepID" jdbcType="INTEGER" property="depid"/>
+                    <association property="department" javaType="com.scd.erp.Vo.Department.Department">
+                        <id column="tjzdepid1" jdbcType="INTEGER" property="departmentid"/>
+                        <result column="tjdname1" jdbcType="VARCHAR" property="depname"/>
+                        <result column="tjupDepID" jdbcType="INTEGER" property="updepid"/>
+                        <association property="depart" javaType="com.scd.erp.Vo.Department.Department">
+                            <id column="tjdepid2" jdbcType="INTEGER" property="departmentid"/>
+                            <result column="tjdname2" jdbcType="VARCHAR" property="depname"/>
+                        </association>
+                    </association>
+                </collection>
+            </association>
+        </association>
+        <association property="oem" javaType="com.scd.erp.Vo.Alarm.OEM">
+            <id column="oemID" jdbcType="INTEGER" property="oemid"/>
+            <result column="oemName" jdbcType="VARCHAR" property="oemname"/>
+            <result column="linkerName" jdbcType="VARCHAR" property="linkername"/>
+            <result column="linkerTell" jdbcType="VARCHAR" property="linkertell"/>
+            <result column="linkerEmail" jdbcType="VARCHAR" property="linkeremail"/>
+            <result column="oemAddr" jdbcType="VARCHAR" property="oemaddr"/>
+            <result column="oemUB" jdbcType="VARCHAR" property="oemub"/>
+        </association>
+        <association property="serial" javaType="com.scd.erp.Vo.Product.Serial">
+            <id column="serialID" jdbcType="INTEGER" property="serialid"/>
+            <result column="serialNumber" jdbcType="VARCHAR" property="serialnumber"/>
+            <result column="remarkID" jdbcType="INTEGER" property="remarkid"/>
+            <association property="remark" javaType="com.scd.erp.Vo.Product.Remark">
+                <id column="remarkID" jdbcType="INTEGER" property="remarkid"/>
+                <result column="productID" jdbcType="INTEGER" property="productid"/>
+                <result column="creatTime" jdbcType="TIMESTAMP" property="creattime"/>
+                <result column="lotNumber" jdbcType="VARCHAR" property="lotnumber"/>
+                <result column="proTotal" jdbcType="INTEGER" property="prototal"/>
+                <association property="product" javaType="com.scd.erp.Vo.Product.Product">
+                    <id column="productID" jdbcType="INTEGER" property="productid"/>
+                    <result column="proName" jdbcType="VARCHAR" property="proname"/>
+                    <result column="proCode" jdbcType="VARCHAR" property="procode"/>
+                    <result column="typeID" jdbcType="INTEGER" property="typeid"/>
+                    <result column="inventory" jdbcType="INTEGER" property="inventory"/>
+                    <result column="offered" jdbcType="INTEGER" property="offered"/>
+                    <result column="production" jdbcType="INTEGER" property="production"/>
+                    <result column="total" jdbcType="INTEGER" property="total"/>
+                    <association property="type" javaType="com.scd.erp.Vo.Product.Type">
+                        <id column="typeID" jdbcType="INTEGER" property="typeid"/>
+                        <result column="typeName" jdbcType="VARCHAR" property="typename"/>
+                    </association>
+                </association>
+            </association>
+        </association>
+        <collection property="materails" ofType="com.scd.erp.Vo.Materail.Materail">
+            <id column="materialID" jdbcType="INTEGER" property="materialid"/>
+            <result column="materialType" jdbcType="INTEGER" property="materialtype"/>
+            <result column="materialName" jdbcType="VARCHAR" property="materialname"/>
+            <result column="materialUrl" jdbcType="VARCHAR" property="materialurl"/>
+            <result column="creatDate" jdbcType="TIMESTAMP" property="creatdate"/>
+            <result column="creatID" jdbcType="INTEGER" property="creatid"/>
+        </collection>
+        <collection property="nails" ofType="com.scd.erp.Vo.Nail.Nail">
+            <id column="nailID" jdbcType="INTEGER" property="nailid"/>
+            <result column="nailName" jdbcType="VARCHAR" property="nailname"/>
+        </collection>
+    </resultMap>
+
+</mapper>

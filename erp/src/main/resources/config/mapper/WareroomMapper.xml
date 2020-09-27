@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.WareroomMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Wareroom">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="wareroomID" jdbcType="INTEGER" property="wareroomid" />
+    <result column="wareroomCode" jdbcType="VARCHAR" property="wareroomcode" />
+    <result column="wareroomName" jdbcType="VARCHAR" property="wareroomname" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    wareroomID, wareroomCode, wareroomName
+  </sql>
+</mapper>

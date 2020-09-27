@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.DepartmentMapper">
+
+    <!--<select id="getList" resultMap="BaseResultMap">
+        SELECT
+            d.departmentID,
+            d.depName,
+            d.depType,
+            d.depCode,
+            d.upDepID,
+            d2.departmentID departmentID2,
+            d2.depName      depName2,
+            d2.depType      depType2,
+            d2.depCode      depCode2,
+            d2.upDepID      upDepID2,
+            j.jobID,
+            j.jobCode,
+            j.jobName,
+            j.upJobID,
+            j.depID,
+            j2.jobID        jobID2,
+            j2.jobCode      jobCode2,
+            j2.jobName      jobName2,
+            j2.upJobID      upJobID2,
+            j2.depID        depID2
+        FROM erp_department_msg d
+            LEFT JOIN erp_department_job j ON d.departmentID = j.depID
+            LEFT JOIN erp_department_msg d2 ON d2.upDepID = d.departmentID
+            LEFT JOIN erp_department_job j2 ON d2.departmentID = j2.depID
+        where d.upDepID = 0
+    </select>-->
+
+    <select id="getList" resultMap="BaseResultMap">
+        SELECT
+            d.departmentID,
+            d.depName,
+            d.depType,
+            d.depCode,
+            d.upDepID,
+            d2.departmentID departmentID2,
+            d2.depName      depName2,
+            d2.depType      depType2,
+            d2.depCode      depCode2,
+            d2.upDepID      upDepID2,
+            j.jobID,
+            j.jobCode,
+            j.jobName,
+            j.upJobID,
+            j.depID,
+            j2.jobID        jobID2,
+            j2.jobCode      jobCode2,
+            j2.jobName      jobName2,
+            j2.upJobID      upJobID2,
+            j2.depID        depID2,
+            p.personID 	 ,
+            p.fixedMail  ,
+            p.personName ,
+            p2.personID     personID2  ,
+            p2.fixedMail    fixedMail2 ,
+            p2.personName   personName2
+        FROM erp_department_msg d
+            LEFT JOIN erp_department_job j ON d.departmentID = j.depID
+            LEFT JOIN erp_department_msg d2 ON d2.upDepID = d.departmentID
+            LEFT JOIN erp_department_job j2 ON d2.departmentID = j2.depID
+
+            LEFT JOIN erp_center_person_job c on c.jobID = j.jobID
+            LEFT JOIN erp_person_msg p on c.pesonID = p.personID
+
+            LEFT JOIN erp_center_person_job c2 on c2.jobID = j2.jobID
+            LEFT JOIN erp.erp_person_msg p2 on c2.pesonID = p2.personID
+        where d.upDepID = 0
+    </select>
+
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Department.Department">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="departmentID" jdbcType="INTEGER" property="departmentid"/>
+        <result column="depName" jdbcType="VARCHAR" property="depname"/>
+        <result column="depType" jdbcType="CHAR" property="deptype"/>
+        <result column="depCode" jdbcType="VARCHAR" property="depcode"/>
+        <result column="upDepID" jdbcType="INTEGER" property="updepid"/>
+        <collection property="departments" ofType="com.scd.erp.Vo.Department.Department">
+            <id column="departmentID2" jdbcType="INTEGER" property="departmentid"/>
+            <result column="depName2" jdbcType="VARCHAR" property="depname"/>
+            <result column="depType2" jdbcType="CHAR" property="deptype"/>
+            <result column="depCode2" jdbcType="VARCHAR" property="depcode"/>
+            <result column="upDepID2" jdbcType="INTEGER" property="updepid"/>
+            <collection property="jobs" ofType="com.scd.erp.Vo.Department.Job">
+                <id column="jobID2" jdbcType="INTEGER" property="jobid"/>
+                <result column="jobCode2" jdbcType="VARCHAR" property="jobcode"/>
+                <result column="jobName2" jdbcType="VARCHAR" property="jobname"/>
+                <result column="upJobID2" jdbcType="INTEGER" property="upjobid"/>
+                <result column="depID2" jdbcType="INTEGER" property="depid"/>
+                <collection property="people" ofType="com.scd.erp.Vo.Person.Person">
+                    <id column="personID2" jdbcType="INTEGER" property="personid"/>
+                    <result column="personName2" jdbcType="VARCHAR" property="personname"/>
+                    <result column="IDcard2" jdbcType="VARCHAR" property="idcard"/>
+                    <result column="fixedMail2" jdbcType="VARCHAR" property="fixedmail"/>
+                </collection>
+            </collection>
+        </collection>
+        <collection property="jobs" ofType="com.scd.erp.Vo.Department.Job">
+            <id column="jobID" jdbcType="INTEGER" property="jobid"/>
+            <result column="jobCode" jdbcType="VARCHAR" property="jobcode"/>
+            <result column="jobName" jdbcType="VARCHAR" property="jobname"/>
+            <result column="upJobID" jdbcType="INTEGER" property="upjobid"/>
+            <result column="depID" jdbcType="INTEGER" property="depid"/>
+            <collection property="people" ofType="com.scd.erp.Vo.Person.Person">
+                <id column="personID" jdbcType="INTEGER" property="personid"/>
+                <result column="personName" jdbcType="VARCHAR" property="personname"/>
+                <result column="IDcard" jdbcType="VARCHAR" property="idcard"/>
+                <result column="fixedMail" jdbcType="VARCHAR" property="fixedmail"/>
+            </collection>
+        </collection>
+    </resultMap>
+
+</mapper>

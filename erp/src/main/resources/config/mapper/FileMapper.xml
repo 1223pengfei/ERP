@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.FileMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.user.review.ContentFile">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="rfid" jdbcType="INTEGER" property="rfid" />
+    <result column="filename" jdbcType="VARCHAR" property="filename" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    rfid, url
+  </sql>
+
+  <insert id="saveFileMsg" useGeneratedKeys="true" keyProperty="rfid"  parameterType="com.scd.erp.user.review.ContentFile">
+    INSERT INTO `erp_project_content_file`
+    (url,filename) VALUES (#{url},#{filename})
+  </insert>
+
+  <insert id="saveContentIDs"  parameterType="java.lang.Integer">
+    INSERT INTO `erp_projet_file_content`
+    (tid,rfid) VALUES (#{tid},#{fid})
+  </insert>
+</mapper>

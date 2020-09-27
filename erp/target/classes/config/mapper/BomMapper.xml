@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.BomMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Bom">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="BomID" jdbcType="INTEGER" property="bomid" />
+    <result column="baseID" jdbcType="INTEGER" property="baseid" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="Tag" jdbcType="VARCHAR" property="tag" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="unit" jdbcType="INTEGER" property="unit" />
+    <result column="creatTime" jdbcType="TIMESTAMP" property="creattime" />
+    <result column="creatUserID" jdbcType="INTEGER" property="creatuserid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    BomID, baseID, amount, Tag, remark, unit, creatTime, creatUserID
+  </sql>
+</mapper>

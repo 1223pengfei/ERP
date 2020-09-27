@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-09-08T07:00:01.391+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Unknown property used in expression: ${auditors}",
+  "path": "/Act/applyc.do"
+}

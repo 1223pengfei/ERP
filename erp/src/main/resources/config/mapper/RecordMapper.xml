@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.RecordMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.user.review.Record">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="rid" jdbcType="INTEGER" property="rid"/>
+        <result column="DocumentNo" jdbcType="VARCHAR" property="documentno"/>
+        <result column="Edition" jdbcType="VARCHAR" property="edition"/>
+        <result column="pname" jdbcType="VARCHAR" property="pname"/>
+        <result column="Model" jdbcType="VARCHAR" property="model"/>
+        <result column="CarModel" jdbcType="VARCHAR" property="carmodel"/>
+        <result column="CustName" jdbcType="VARCHAR" property="custname"/>
+        <result column="host" jdbcType="VARCHAR" property="host"/>
+        <result column="StartTime" jdbcType="VARCHAR" property="starttime"/>
+        <result column="EndTime" jdbcType="VARCHAR" property="endtime"/>
+        <result column="pid" jdbcType="INTEGER" property="pid"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        rid, DocumentNo, Edition, Model, CarModel,CustName, host, StartTime, EndTime
+    </sql>
+
+    <select id="selectRid" resultType="Integer" parameterType="java.lang.String">
+        select rid FROM erp_project_review_record WHERE
+            pname = #{pname,jdbcType=VARCHAR}
+    </select>
+
+    <insert id="addRecordMsg" useGeneratedKeys="true" keyProperty="rid" parameterType="com.scd.erp.user.review.Record">
+    INSERT INTO `erp_project_review_record`
+    (DocumentNo,Edition,pname,Model,CarModel,CustName,host,StartTime,EndTime,pid) VALUES
+    (#{documentno},#{edition},#{pname},#{model},#{carmodel},#{custname},#{host},#{starttime},#{endtime},#{pid})
+  </insert>
+
+    <update id="updateRecordMsg"  parameterType="com.scd.erp.user.review.Record">
+    update erp_project_review_record
+        set DocumentNo       = #{documentno,jdbcType=VARCHAR},
+            Edition   = #{edition,jdbcType=VARCHAR},
+            model     = #{model,jdbcType=VARCHAR},
+            carmodel     = #{carmodel,jdbcType=VARCHAR},
+            custname = #{custname,jdbcType=VARCHAR},
+            host       = #{host,jdbcType=VARCHAR},
+            starttime       = #{starttime,jdbcType=VARCHAR},
+            endtime       = #{endtime,jdbcType=VARCHAR}
+            where rid = #{rid,jdbcType=INTEGER}
+  </update>
+
+    <insert id="saveID" parameterType="Integer">
+        insert into erp_person_review_record (rid, personID)
+        values (#{rid}, #{personID})
+    </insert>
+
+    <delete id="deleteID" parameterType="java.lang.Integer">
+        delete from erp_person_review_record
+        where rid = #{recordid,jdbcType=INTEGER} and personID = #{personID,jdbcType=INTEGER}
+    </delete>
+
+    <update id="updateID"  parameterType="com.scd.erp.user.review.Record">
+    update erp_person_review_record
+        set rid       = #{rid,jdbcType=VARCHAR},
+            personID   = #{personID,jdbcType=VARCHAR}
+            where rid = #{rid,jdbcType=INTEGER} and personID = #{personID,jdbcType=INTEGER}
+  </update>
+
+    <insert id="saveRecordItemsID" parameterType="Integer">
+        insert into erp_project_record_item (rid, iid)
+        values (#{rid}, #{iid})
+    </insert>
+    <delete id="delRecordItemsID" parameterType="java.lang.Integer">
+        delete from erp_project_record_item
+        where rid = #{rid,jdbcType=INTEGER} and iid = #{iid,jdbcType=INTEGER}
+    </delete>
+
+    <delete id="deletePersonReviewRecord" parameterType="java.lang.Integer">
+        delete from erp_project_record_item
+        where rid = #{rid,jdbcType=INTEGER} and iid = #{iid,jdbcType=INTEGER}
+    </delete>
+
+    <delete id="deleteProjectRecordItem" parameterType="java.lang.Integer">
+        delete from erp_project_record_item
+        where rid = #{rid,jdbcType=INTEGER}
+    </delete>
+
+    <resultMap id="ResultMap" type="com.scd.erp.user.review.Record">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="rid" jdbcType="INTEGER" property="rid"/>
+        <result column="DocumentNo" jdbcType="VARCHAR" property="documentno"/>
+        <result column="Edition" jdbcType="VARCHAR" property="edition"/>
+        <result column="pname" jdbcType="VARCHAR" property="pname"/>
+        <result column="Model" jdbcType="VARCHAR" property="model"/>
+        <result column="CarModel" jdbcType="VARCHAR" property="carmodel"/>
+        <result column="CustName" jdbcType="VARCHAR" property="custname"/>
+        <result column="host" jdbcType="VARCHAR" property="host"/>
+        <result column="StartTime" jdbcType="VARCHAR" property="starttime"/>
+        <result column="EndTime" jdbcType="VARCHAR" property="endtime"/>
+        <result column="pid" jdbcType="INTEGER" property="pid"/>
+        <association property="contents" javaType="com.scd.erp.user.review.Content">
+            <id column="tid" jdbcType="INTEGER" property="tid"/>
+            <result column="content" jdbcType="VARCHAR" property="content"/>
+            <result column="notes" jdbcType="VARCHAR" property="notes"/>
+            <result column="conclusion" jdbcType="VARCHAR" property="conclusion"/>
+            <result column="remarks" jdbcType="VARCHAR" property="remarks"/>
+            <result column="sign" jdbcType="VARCHAR" property="sign"/>
+            <result column="rid" jdbcType="INTEGER" property="rid"/>
+            <collection property="contentFile" ofType="com.scd.erp.user.review.ContentFile">
+                <id column="rfid" jdbcType="INTEGER" property="rfid"/>
+                <result column="filename" jdbcType="VARCHAR" property="filename"/>
+                <result column="url" jdbcType="VARCHAR" property="url"/>
+            </collection>
+        </association>
+        <collection property="item" ofType="com.scd.erp.user.review.Items">
+            <id column="iid" jdbcType="INTEGER" property="iid"/>
+            <result column="items" jdbcType="VARCHAR" property="items"/>
+        </collection>
+        <collection property="person" ofType="com.scd.erp.Vo.Person.Person">
+            <id column="personID" jdbcType="INTEGER" property="personid"/>
+            <result column="personName" jdbcType="VARCHAR" property="personname"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectRecordMg" resultMap="ResultMap" parameterType="java.lang.Integer">
+        SELECT
+            *
+        FROM
+            erp_project_review_record e
+            LEFT JOIN erp_project_review_record b ON e.rid = b.rid
+            LEFT JOIN erp_project_record_item c ON e.rid = c.rid
+            LEFT JOIN erp_project_review_items d ON c.iid = d.iid
+            LEFT JOIN erp_project_review_content a ON a.rid = e.rid
+            LEFT JOIN erp_projet_file_content j ON j.tid = a.tid
+            LEFT JOIN erp_project_content_file f ON f.rfid = j.rfid
+            LEFT JOIN erp_person_review_record g ON e.rid = g.rid
+            LEFT JOIN erp_person_msg h ON h.personID = g.personID
+        WHERE
+        <if test="pid!=null and pid!=''">
+            e.pid = #{pid,jdbcType=INTEGER}
+        </if >
+        <if test="rid!=null and rid!=''">
+            e.rid = #{rid,jdbcType=INTEGER}
+        </if >
+
+    </select>
+</mapper>

@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "com.scd.erp.config.ProcessEngineConfig",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.default-from",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.email",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.logger",
+      "type": "org.slf4j.Logger",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.mail-server-password",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.server-username",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.scd.erp.config.ProcessEngineConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.GroupMapper">
+  <resultMap id="BaseResultMap" type="com.scd.erp.Vo.plm.Material.Group">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="groupID" jdbcType="INTEGER" property="groupid" />
+    <result column="groupNum" jdbcType="VARCHAR" property="groupnum" />
+    <result column="groupName" jdbcType="VARCHAR" property="groupname" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    groupID, groupNum, groupName
+  </sql>
+</mapper>

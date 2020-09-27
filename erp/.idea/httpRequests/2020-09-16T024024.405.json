@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-09-16T06:40:24.592+0000",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "message": "Request method 'GET' not supported",
+  "path": "/plm_file/find/doc/byconditions"
+}

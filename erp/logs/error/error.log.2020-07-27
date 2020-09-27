@@ -1,0 +1,18 @@
+2020-07-27 16:21:36  [ main:3762 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginUtile in com.scd.erp.controller.plm.LinkController required a bean of type 'com.scd.erp.utils.extraUtil.LoginUtile' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.scd.erp.utils.extraUtil.LoginUtile' in your configuration.
+

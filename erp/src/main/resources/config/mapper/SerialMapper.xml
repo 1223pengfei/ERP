@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.SerialMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Product.Serial">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="serialID" jdbcType="INTEGER" property="serialid"/>
+        <result column="serialNumber" jdbcType="VARCHAR" property="serialnumber"/>
+        <result column="remarkID" jdbcType="INTEGER" property="remarkid"/>
+    </resultMap>
+
+</mapper>

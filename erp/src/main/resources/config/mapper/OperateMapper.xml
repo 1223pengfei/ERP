@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.OperateMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Doc.Operate">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="operateID" jdbcType="INTEGER" property="operateid"/>
+        <result column="fileID" jdbcType="INTEGER" property="fileid"/>
+        <result column="userID" jdbcType="INTEGER" property="userid"/>
+        <result column="operaType" jdbcType="CHAR" property="operatype"/>
+        <result column="operaTime" jdbcType="TIMESTAMP" property="operatime"/>
+        <result column="operaRemark" jdbcType="VARCHAR" property="operaremark"/>
+    </resultMap>
+
+</mapper>

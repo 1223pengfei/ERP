@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scd.erp.mapper.BelongMapper">
+    <resultMap id="BaseResultMap" type="com.scd.erp.Vo.Doc.Belong">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="belongID" jdbcType="INTEGER" property="belongid"/>
+        <result column="fileID" jdbcType="INTEGER" property="fileid"/>
+        <result column="updataUserID" jdbcType="INTEGER" property="updatauserid"/>
+        <result column="departmentID" jdbcType="INTEGER" property="departmentid"/>
+        <result column="isbelongUser" jdbcType="BIT" property="isbelonguser"/>
+        <result column="nowBelongUserID" jdbcType="INTEGER" property="nowbelonguserid"/>
+        <result column="lastTime" jdbcType="TIMESTAMP" property="lasttime"/>
+    </resultMap>
+
+</mapper>
